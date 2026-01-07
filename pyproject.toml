@@ -1,5 +1,5 @@
 [project]
-name = "company-profile"
+name = "ergo-overwatch-company-profile"
 version = "0.1.0"
 description = "Ergo Overwatch - Company Profile Viewer POC"
 readme = "README.md"
