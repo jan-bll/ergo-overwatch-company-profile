@@ -1,7 +1,11 @@
 [project]
 name = "company-profile"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ergo Overwatch - Company Profile Viewer POC"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "streamlit>=1.29.0",
+    "plotly>=5.18.0",
+    "pandas>=2.0.0",
+]
