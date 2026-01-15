@@ -1,0 +1,475 @@
+{
+    "supply_chain_initiatives": [
+        {
+            "target_regions": [
+                "India",
+                "Vietnam"
+            ],
+            "status": "in_progress",
+            "purpose": "Reduce reliance on China, expand manufacturing footprint, mitigate geopolitical risks, and diversify production locations for products like iPhone.",
+            "initiative": "Diversification of manufacturing to India and Vietnam"
+        },
+        {
+            "target_regions": [
+                "Global"
+            ],
+            "status": "in_progress",
+            "purpose": "Achieve 100% renewable energy for Apple production by 2030 among suppliers.",
+            "initiative": "Supplier Clean Energy Program"
+        },
+        {
+            "target_regions": [
+                "U.S."
+            ],
+            "status": "in_progress",
+            "purpose": "Support and strengthen domestic semiconductor manufacturing capabilities.",
+            "initiative": "Investments in U.S. chipmaking"
+        },
+        {
+            "target_regions": [
+                "Global"
+            ],
+            "status": "in_progress",
+            "purpose": "Secure component supply and manufacturing capacity from suppliers.",
+            "initiative": "Supplier prepayments and equipment investments"
+        }
+    ],
+    "company_owned_facilities": [
+        {
+            "region_served": "Americas",
+            "products": "Corporate functions, R&D",
+            "roles": [],
+            "source": "10-K, Apple infrastructure pages",
+            "city": "Cupertino",
+            "country": "U.S."
+        },
+        {
+            "region_served": "Americas",
+            "products": "Data services",
+            "roles": [],
+            "source": "10-K, Apple infrastructure pages",
+            "city": "Maiden",
+            "country": "U.S."
+        },
+        {
+            "region_served": "Americas",
+            "products": "Logistics, distribution",
+            "roles": [],
+            "source": "10-K, Apple infrastructure pages",
+            "city": "",
+            "country": "U.S."
+        }
+    ],
+    "supplier_concentration": {
+        "top_country_percent": null,
+        "concentration_notes": "Apple's manufacturing is concentrated in China mainland, Taiwan, South Korea, Japan, Vietnam, and India. A significant portion of this manufacturing is performed by a small number of outsourcing partners, often in single locations, indicating a concentration risk.",
+        "top_country": "China mainland",
+        "top_3_countries": [
+            "China mainland",
+            "Taiwan",
+            "South Korea"
+        ]
+    },
+    "critical_suppliers": [
+        {
+            "component_category": "CPU",
+            "headquarters_country": "Taiwan",
+            "dependency_level": "critical",
+            "provides": "Apple SoCs (A-series, M-series)",
+            "supplier_name": "TSMC",
+            "manufacturing_locations": [
+                "Taiwan",
+                "U.S."
+            ],
+            "single_source": true,
+            "notes": "Sole-source for Apple's advanced SoC manufacturing at leading nodes."
+        },
+        {
+            "component_category": "display",
+            "headquarters_country": "South Korea",
+            "dependency_level": "high",
+            "provides": "Discrete displays, memory",
+            "supplier_name": "Samsung",
+            "manufacturing_locations": [
+                "South Korea",
+                "Vietnam",
+                "China"
+            ],
+            "single_source": false,
+            "notes": "Historically supplied displays and memory."
+        },
+        {
+            "component_category": "memory",
+            "headquarters_country": "South Korea",
+            "dependency_level": "high",
+            "provides": "Memory",
+            "supplier_name": "SK Hynix",
+            "manufacturing_locations": [
+                "South Korea",
+                "China",
+                "Taiwan",
+                "Japan"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "memory",
+            "headquarters_country": "U.S.",
+            "dependency_level": "high",
+            "provides": "Memory",
+            "supplier_name": "Micron",
+            "manufacturing_locations": [
+                "South Korea",
+                "China",
+                "Taiwan",
+                "Japan"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "U.S.",
+            "dependency_level": "critical",
+            "provides": "RF, connectivity chips (Wi-Fi/Bluetooth)",
+            "supplier_name": "Broadcom",
+            "manufacturing_locations": [
+                "Taiwan",
+                "China",
+                "Philippines",
+                "Malaysia"
+            ],
+            "single_source": true,
+            "notes": "Historically supplied RF front-end and Wi-Fi/Bluetooth combos where Apple has limited vendor diversity."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "U.S.",
+            "dependency_level": "high",
+            "provides": "RF, connectivity chips",
+            "supplier_name": "Qualcomm",
+            "manufacturing_locations": [
+                "Taiwan",
+                "China",
+                "Philippines",
+                "Malaysia"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Japan",
+            "dependency_level": "critical",
+            "provides": "Camera sensors",
+            "supplier_name": "Sony",
+            "manufacturing_locations": [
+                "Japan"
+            ],
+            "single_source": true,
+            "notes": "Primary for high-end camera sensors for iPhone in many years (single or dominant supplier for some sensors)."
+        },
+        {
+            "component_category": "display",
+            "headquarters_country": "China",
+            "dependency_level": "medium",
+            "provides": "Displays",
+            "supplier_name": "BOE",
+            "manufacturing_locations": [
+                "China"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "display",
+            "headquarters_country": "Japan",
+            "dependency_level": "medium",
+            "provides": "Displays",
+            "supplier_name": "Sharp",
+            "manufacturing_locations": [
+                "Japan"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "storage",
+            "headquarters_country": "U.S.",
+            "dependency_level": "high",
+            "provides": "Storage/flash",
+            "supplier_name": "Western Digital",
+            "manufacturing_locations": [
+                "Japan",
+                "China",
+                "Malaysia",
+                "Thailand"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "storage",
+            "headquarters_country": "Japan",
+            "dependency_level": "high",
+            "provides": "Storage/flash",
+            "supplier_name": "Kioxia",
+            "manufacturing_locations": [
+                "Japan",
+                "China",
+                "Malaysia",
+                "Thailand"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Japan",
+            "dependency_level": "medium",
+            "provides": "Passives and batteries components",
+            "supplier_name": "TDK",
+            "manufacturing_locations": [
+                "Japan",
+                "China",
+                "Vietnam"
+            ],
+            "single_source": false,
+            "notes": ""
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Japan",
+            "dependency_level": "medium",
+            "provides": "Passives and batteries components",
+            "supplier_name": "Murata",
+            "manufacturing_locations": [
+                "Japan",
+                "China",
+                "Vietnam"
+            ],
+            "single_source": false,
+            "notes": ""
+        }
+    ],
+    "contract_manufacturers": [
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "critical",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "India"
+            ],
+            "products_manufactured": [
+                "iPhone",
+                "other Apple products"
+            ],
+            "manufacturer_name": "Foxconn (Hon Hai)",
+            "notes": "Major outsourcing partner, with primary production in China, Vietnam, and India. Expanding capacity in India and Vietnam."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "high",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "India"
+            ],
+            "products_manufactured": [
+                "iPhone",
+                "other Apple products"
+            ],
+            "manufacturer_name": "Pegatron",
+            "notes": "Major outsourcing partner, expanding production in India."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "high",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "India"
+            ],
+            "products_manufactured": [
+                "iPhone",
+                "other Apple products"
+            ],
+            "manufacturer_name": "Wistron",
+            "notes": "Major outsourcing partner, expanding production in India."
+        },
+        {
+            "headquarters_country": "China",
+            "dependency_level": "high",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam"
+            ],
+            "products_manufactured": [
+                "iPhone",
+                "other Apple products"
+            ],
+            "manufacturer_name": "Luxshare",
+            "notes": "Major outsourcing partner, expanding production in Vietnam."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China"
+            ],
+            "products_manufactured": [
+                "other Apple products"
+            ],
+            "manufacturer_name": "Compal",
+            "notes": ""
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China"
+            ],
+            "products_manufactured": [
+                "other Apple products"
+            ],
+            "manufacturer_name": "Quanta",
+            "notes": ""
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "medium",
+            "functions": [
+                "components"
+            ],
+            "relationship_type": "EMS",
+            "production_countries": [
+                "China"
+            ],
+            "products_manufactured": [
+                "casings",
+                "components"
+            ],
+            "manufacturer_name": "Catcher",
+            "notes": "Known for metal casings."
+        },
+        {
+            "headquarters_country": "China",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "sub-assembly"
+            ],
+            "relationship_type": "ODM",
+            "production_countries": [
+                "China"
+            ],
+            "products_manufactured": [
+                "other Apple products"
+            ],
+            "manufacturer_name": "Wingtech",
+            "notes": ""
+        },
+        {
+            "headquarters_country": "U.S.",
+            "dependency_level": "medium",
+            "functions": [
+                "components",
+                "assembly"
+            ],
+            "relationship_type": "EMS",
+            "production_countries": [
+                "China",
+                "Mexico"
+            ],
+            "products_manufactured": [
+                "components",
+                "enclosures"
+            ],
+            "manufacturer_name": "Jabil",
+            "notes": ""
+        }
+    ],
+    "supply_corridors": [
+        {
+            "corridor": "Taiwan \u2192 Global",
+            "flow_description": "TSMC chips flow from Taiwan to assembly sites in China, Vietnam, and India, and then to Americas/Europe for distribution.",
+            "purpose": [
+                "component_sourcing",
+                "final_assembly",
+                "distribution"
+            ]
+        },
+        {
+            "corridor": "China \u2192 Global",
+            "flow_description": "Final assembled products flow from China to the US, EMEA, and APAC regions.",
+            "purpose": [
+                "final_assembly",
+                "distribution"
+            ]
+        },
+        {
+            "corridor": "Korea/Japan \u2192 China/Taiwan \u2192 Global",
+            "flow_description": "Memory and displays flow from Korea and Japan to assembly sites in China and Taiwan, and then globally.",
+            "purpose": [
+                "component_sourcing",
+                "assembly"
+            ]
+        },
+        {
+            "corridor": "Southeast Asia \u2192 China/Mexico/India",
+            "flow_description": "Subassembly and parts flow from Southeast Asia (Vietnam, Thailand, Philippines) to final assembly locations in China, Mexico, and India.",
+            "purpose": [
+                "component_sourcing",
+                "final_assembly",
+                "regional_finishing"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2024-09-28",
+            "type": "10-K",
+            "name": "Apple Inc. Form 10-K (2024)"
+        },
+        {
+            "date": "2024-04",
+            "type": "company_statement",
+            "name": "Apple Supplier List (FY2023)"
+        },
+        {
+            "date": "2025",
+            "type": "10-K",
+            "name": "Apple Inc. Form 10-K (2025)"
+        }
+    ]
+}

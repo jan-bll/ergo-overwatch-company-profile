@@ -1,0 +1,146 @@
+{
+    "company_overview": {
+        "headquarters": {
+            "city": "Cupertino",
+            "country": "United States"
+        },
+        "value_chain_position": "branded OEM",
+        "employees": 164000.0,
+        "founded": 1976.0,
+        "business_description": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services.",
+        "ticker": "AAPL",
+        "business_model": "vertically_integrated",
+        "name": "Apple Inc."
+    },
+    "sources": [
+        {
+            "date": "2024-11-01",
+            "type": "10-K",
+            "name": "Apple Inc. Form 10-K for the Fiscal Year Ended September 28, 2024"
+        },
+        {
+            "date": "2024-11-01",
+            "type": "10-K",
+            "name": "Apple Inc. Form 10-K PDF"
+        },
+        {
+            "date": "2024-10-30",
+            "type": "earnings_call",
+            "name": "Apple reports fourth quarter results"
+        }
+    ],
+    "revenue_by_region": [
+        {
+            "region": "Americas",
+            "key_countries": [
+                "U.S."
+            ],
+            "revenue_usd_millions": 167045.0,
+            "percent_of_total": 0.0,
+            "yoy_growth_percent": 0.0
+        },
+        {
+            "region": "EMEA",
+            "key_countries": [
+                "Various EU countries"
+            ],
+            "revenue_usd_millions": 101328.0,
+            "percent_of_total": 0.0,
+            "yoy_growth_percent": 0.0
+        },
+        {
+            "region": "APJ",
+            "key_countries": [
+                "China",
+                "Hong Kong",
+                "Taiwan"
+            ],
+            "revenue_usd_millions": 66952.0,
+            "percent_of_total": 0.0,
+            "yoy_growth_percent": 0.0
+        },
+        {
+            "region": "APJ",
+            "key_countries": [
+                "Japan"
+            ],
+            "revenue_usd_millions": 25052.0,
+            "percent_of_total": 0.0,
+            "yoy_growth_percent": 0.0
+        },
+        {
+            "region": "APJ",
+            "key_countries": [
+                "Other Asia Pacific countries"
+            ],
+            "revenue_usd_millions": 30658.0,
+            "percent_of_total": 0.0,
+            "yoy_growth_percent": 0.0
+        }
+    ],
+    "financial_baseline": {
+        "debt_to_equity": null,
+        "market_cap_usd_millions": null,
+        "revenue_usd_millions": 391035.0,
+        "total_debt_usd_millions": 0.0,
+        "operating_margin": 0.0,
+        "cash_position_usd_millions": 140752.0,
+        "net_margin": 0.0,
+        "current_ratio": null,
+        "balance_sheet_strength": "strong",
+        "gross_margin": 0.462,
+        "fiscal_year": 2024.0
+    },
+    "business_segments": [
+        {
+            "description": "Description not available in the provided text.",
+            "operating_income_usd_millions": 67656.0,
+            "revenue_usd_millions": 167045.0,
+            "operating_margin_percent": 0.0,
+            "yoy_growth_percent": 0.0,
+            "revenue_percent": 0.0,
+            "fiscal_year": "2024",
+            "name": "Americas"
+        },
+        {
+            "description": "Description not available in the provided text.",
+            "operating_income_usd_millions": 41790.0,
+            "revenue_usd_millions": 101328.0,
+            "operating_margin_percent": 0.0,
+            "yoy_growth_percent": 0.0,
+            "revenue_percent": 0.0,
+            "fiscal_year": "2024",
+            "name": "Europe"
+        },
+        {
+            "description": "Description not available in the provided text.",
+            "operating_income_usd_millions": 27082.0,
+            "revenue_usd_millions": 66952.0,
+            "operating_margin_percent": 0.0,
+            "yoy_growth_percent": 0.0,
+            "revenue_percent": 0.0,
+            "fiscal_year": "2024",
+            "name": "Greater China"
+        },
+        {
+            "description": "Description not available in the provided text.",
+            "operating_income_usd_millions": 12454.0,
+            "revenue_usd_millions": 25052.0,
+            "operating_margin_percent": 0.0,
+            "yoy_growth_percent": 0.0,
+            "revenue_percent": 0.0,
+            "fiscal_year": "2024",
+            "name": "Japan"
+        },
+        {
+            "description": "Description not available in the provided text.",
+            "operating_income_usd_millions": 13062.0,
+            "revenue_usd_millions": 30658.0,
+            "operating_margin_percent": 0.0,
+            "yoy_growth_percent": 0.0,
+            "revenue_percent": 0.0,
+            "fiscal_year": "2024",
+            "name": "Rest of Asia Pacific"
+        }
+    ]
+}

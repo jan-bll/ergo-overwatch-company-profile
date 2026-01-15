@@ -1,0 +1,1090 @@
+{
+    "meta": {
+        "company_name": "Apple Inc.",
+        "ticker": "AAPL",
+        "extraction_date": "2026-01-15",
+        "baseline_fiscal_year": 2024.0,
+        "data_freshness_note": "Compiled from 4 data sources",
+        "confidence_overall": 1.0,
+        "primary_sources": [
+            "Apple Inc. 2025 Form 10-K",
+            "Federal Register AC/S IFR",
+            "Federal Register corrections & clarifications",
+            "Federal Register FDPR additions and refinements",
+            "BIS press release clarifying scope",
+            "Federal Register Entity List additions",
+            "Federal Register Entity List additions/revisions",
+            "Reuters",
+            "Reuters",
+            "Apple Q1 2025 earnings call transcript"
+        ]
+    },
+    "company_overview": {
+        "headquarters": {
+            "city": "Cupertino",
+            "country": "United States"
+        },
+        "value_chain_position": "branded OEM",
+        "employees": 164000.0,
+        "founded": 1976.0,
+        "business_description": "The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services.",
+        "ticker": "AAPL",
+        "business_model": "vertically_integrated",
+        "name": "Apple Inc."
+    },
+    "financial": {
+        "business_segments": [
+            {
+                "description": "Description not available in the provided text.",
+                "operating_income_usd_millions": 67656.0,
+                "revenue_usd_millions": 167045.0,
+                "operating_margin_percent": 0.0,
+                "yoy_growth_percent": 0.0,
+                "revenue_percent": 0.0,
+                "fiscal_year": "2024",
+                "name": "Americas"
+            },
+            {
+                "description": "Description not available in the provided text.",
+                "operating_income_usd_millions": 41790.0,
+                "revenue_usd_millions": 101328.0,
+                "operating_margin_percent": 0.0,
+                "yoy_growth_percent": 0.0,
+                "revenue_percent": 0.0,
+                "fiscal_year": "2024",
+                "name": "Europe"
+            },
+            {
+                "description": "Description not available in the provided text.",
+                "operating_income_usd_millions": 27082.0,
+                "revenue_usd_millions": 66952.0,
+                "operating_margin_percent": 0.0,
+                "yoy_growth_percent": 0.0,
+                "revenue_percent": 0.0,
+                "fiscal_year": "2024",
+                "name": "Greater China"
+            },
+            {
+                "description": "Description not available in the provided text.",
+                "operating_income_usd_millions": 12454.0,
+                "revenue_usd_millions": 25052.0,
+                "operating_margin_percent": 0.0,
+                "yoy_growth_percent": 0.0,
+                "revenue_percent": 0.0,
+                "fiscal_year": "2024",
+                "name": "Japan"
+            },
+            {
+                "description": "Description not available in the provided text.",
+                "operating_income_usd_millions": 13062.0,
+                "revenue_usd_millions": 30658.0,
+                "operating_margin_percent": 0.0,
+                "yoy_growth_percent": 0.0,
+                "revenue_percent": 0.0,
+                "fiscal_year": "2024",
+                "name": "Rest of Asia Pacific"
+            }
+        ],
+        "revenue_by_region": [
+            {
+                "region": "Americas",
+                "key_countries": [
+                    "U.S."
+                ],
+                "revenue_usd_millions": 167045.0,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": 0.0
+            },
+            {
+                "region": "EMEA",
+                "key_countries": [
+                    "Various EU countries"
+                ],
+                "revenue_usd_millions": 101328.0,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": 0.0
+            },
+            {
+                "region": "APJ",
+                "key_countries": [
+                    "China",
+                    "Hong Kong",
+                    "Taiwan"
+                ],
+                "revenue_usd_millions": 66952.0,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": 0.0
+            },
+            {
+                "region": "APJ",
+                "key_countries": [
+                    "Japan"
+                ],
+                "revenue_usd_millions": 25052.0,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": 0.0
+            },
+            {
+                "region": "APJ",
+                "key_countries": [
+                    "Other Asia Pacific countries"
+                ],
+                "revenue_usd_millions": 30658.0,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": 0.0
+            }
+        ],
+        "financial_baseline": {
+            "debt_to_equity": null,
+            "market_cap_usd_millions": null,
+            "revenue_usd_millions": 391035.0,
+            "total_debt_usd_millions": 0.0,
+            "operating_margin": 0.0,
+            "cash_position_usd_millions": 140752.0,
+            "net_margin": 0.0,
+            "current_ratio": null,
+            "balance_sheet_strength": "strong",
+            "gross_margin": 0.462,
+            "fiscal_year": 2024.0
+        },
+        "sources": [
+            {
+                "date": "2025-09-27",
+                "type": "10-K",
+                "name": "Apple Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Federal Register AC/S IFR"
+            },
+            {
+                "date": "2024-04-04",
+                "type": "news",
+                "name": "Federal Register corrections & clarifications"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "Federal Register FDPR additions and refinements"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "BIS press release clarifying scope"
+            },
+            {
+                "date": "2025-03-28",
+                "type": "news",
+                "name": "Federal Register Entity List additions"
+            },
+            {
+                "date": "2025-09-16",
+                "type": "news",
+                "name": "Federal Register Entity List additions/revisions"
+            },
+            {
+                "date": "2024-10-30",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-04-25",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-01-30",
+                "type": "earnings_call",
+                "name": "Apple Q1 2025 earnings call transcript"
+            },
+            {
+                "date": "2023",
+                "type": "news",
+                "name": "EUR-Lex"
+            }
+        ]
+    },
+    "supply_chain": {
+        "company_owned_facilities": [
+            {
+                "region_served": "Americas",
+                "products": "Corporate functions, R&D",
+                "roles": [],
+                "source": "10-K, Apple infrastructure pages",
+                "city": "Cupertino",
+                "country": "U.S."
+            },
+            {
+                "region_served": "Americas",
+                "products": "Data services",
+                "roles": [],
+                "source": "10-K, Apple infrastructure pages",
+                "city": "Maiden",
+                "country": "U.S."
+            },
+            {
+                "region_served": "Americas",
+                "products": "Logistics, distribution",
+                "roles": [],
+                "source": "10-K, Apple infrastructure pages",
+                "city": "",
+                "country": "U.S."
+            }
+        ],
+        "contract_manufacturers": [
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "critical",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "India"
+                ],
+                "products_manufactured": [
+                    "iPhone",
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Foxconn (Hon Hai)",
+                "notes": "Major outsourcing partner, with primary production in China, Vietnam, and India. Expanding capacity in India and Vietnam."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "India"
+                ],
+                "products_manufactured": [
+                    "iPhone",
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Pegatron",
+                "notes": "Major outsourcing partner, expanding production in India."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "India"
+                ],
+                "products_manufactured": [
+                    "iPhone",
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Wistron",
+                "notes": "Major outsourcing partner, expanding production in India."
+            },
+            {
+                "headquarters_country": "China",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam"
+                ],
+                "products_manufactured": [
+                    "iPhone",
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Luxshare",
+                "notes": "Major outsourcing partner, expanding production in Vietnam."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China"
+                ],
+                "products_manufactured": [
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Compal",
+                "notes": ""
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China"
+                ],
+                "products_manufactured": [
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Quanta",
+                "notes": ""
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "components"
+                ],
+                "relationship_type": "EMS",
+                "production_countries": [
+                    "China"
+                ],
+                "products_manufactured": [
+                    "casings",
+                    "components"
+                ],
+                "manufacturer_name": "Catcher",
+                "notes": "Known for metal casings."
+            },
+            {
+                "headquarters_country": "China",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "sub-assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "China"
+                ],
+                "products_manufactured": [
+                    "other Apple products"
+                ],
+                "manufacturer_name": "Wingtech",
+                "notes": ""
+            },
+            {
+                "headquarters_country": "U.S.",
+                "dependency_level": "medium",
+                "functions": [
+                    "components",
+                    "assembly"
+                ],
+                "relationship_type": "EMS",
+                "production_countries": [
+                    "China",
+                    "Mexico"
+                ],
+                "products_manufactured": [
+                    "components",
+                    "enclosures"
+                ],
+                "manufacturer_name": "Jabil",
+                "notes": ""
+            }
+        ],
+        "critical_suppliers": [
+            {
+                "component_category": "CPU",
+                "headquarters_country": "Taiwan",
+                "dependency_level": "critical",
+                "provides": "Apple SoCs (A-series, M-series)",
+                "supplier_name": "TSMC",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "U.S."
+                ],
+                "single_source": true,
+                "notes": "Sole-source for Apple's advanced SoC manufacturing at leading nodes."
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "Discrete displays, memory",
+                "supplier_name": "Samsung",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "Vietnam",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Historically supplied displays and memory."
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "Memory",
+                "supplier_name": "SK Hynix",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "China",
+                    "Taiwan",
+                    "Japan"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "U.S.",
+                "dependency_level": "high",
+                "provides": "Memory",
+                "supplier_name": "Micron",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "China",
+                    "Taiwan",
+                    "Japan"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "U.S.",
+                "dependency_level": "critical",
+                "provides": "RF, connectivity chips (Wi-Fi/Bluetooth)",
+                "supplier_name": "Broadcom",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Philippines",
+                    "Malaysia"
+                ],
+                "single_source": true,
+                "notes": "Historically supplied RF front-end and Wi-Fi/Bluetooth combos where Apple has limited vendor diversity."
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "U.S.",
+                "dependency_level": "high",
+                "provides": "RF, connectivity chips",
+                "supplier_name": "Qualcomm",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Philippines",
+                    "Malaysia"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "Japan",
+                "dependency_level": "critical",
+                "provides": "Camera sensors",
+                "supplier_name": "Sony",
+                "manufacturing_locations": [
+                    "Japan"
+                ],
+                "single_source": true,
+                "notes": "Primary for high-end camera sensors for iPhone in many years (single or dominant supplier for some sensors)."
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "China",
+                "dependency_level": "medium",
+                "provides": "Displays",
+                "supplier_name": "BOE",
+                "manufacturing_locations": [
+                    "China"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "Japan",
+                "dependency_level": "medium",
+                "provides": "Displays",
+                "supplier_name": "Sharp",
+                "manufacturing_locations": [
+                    "Japan"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "U.S.",
+                "dependency_level": "high",
+                "provides": "Storage/flash",
+                "supplier_name": "Western Digital",
+                "manufacturing_locations": [
+                    "Japan",
+                    "China",
+                    "Malaysia",
+                    "Thailand"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "Japan",
+                "dependency_level": "high",
+                "provides": "Storage/flash",
+                "supplier_name": "Kioxia",
+                "manufacturing_locations": [
+                    "Japan",
+                    "China",
+                    "Malaysia",
+                    "Thailand"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "Japan",
+                "dependency_level": "medium",
+                "provides": "Passives and batteries components",
+                "supplier_name": "TDK",
+                "manufacturing_locations": [
+                    "Japan",
+                    "China",
+                    "Vietnam"
+                ],
+                "single_source": false,
+                "notes": ""
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "Japan",
+                "dependency_level": "medium",
+                "provides": "Passives and batteries components",
+                "supplier_name": "Murata",
+                "manufacturing_locations": [
+                    "Japan",
+                    "China",
+                    "Vietnam"
+                ],
+                "single_source": false,
+                "notes": ""
+            }
+        ],
+        "supplier_concentration": {
+            "top_country_percent": null,
+            "concentration_notes": "Apple's manufacturing is concentrated in China mainland, Taiwan, South Korea, Japan, Vietnam, and India. A significant portion of this manufacturing is performed by a small number of outsourcing partners, often in single locations, indicating a concentration risk.",
+            "top_country": "China mainland",
+            "top_3_countries": [
+                "China mainland",
+                "Taiwan",
+                "South Korea"
+            ]
+        },
+        "supply_corridors": [
+            {
+                "corridor": "Taiwan \u2192 Global",
+                "flow_description": "TSMC chips flow from Taiwan to assembly sites in China, Vietnam, and India, and then to Americas/Europe for distribution.",
+                "purpose": [
+                    "component_sourcing",
+                    "final_assembly",
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "China \u2192 Global",
+                "flow_description": "Final assembled products flow from China to the US, EMEA, and APAC regions.",
+                "purpose": [
+                    "final_assembly",
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "Korea/Japan \u2192 China/Taiwan \u2192 Global",
+                "flow_description": "Memory and displays flow from Korea and Japan to assembly sites in China and Taiwan, and then globally.",
+                "purpose": [
+                    "component_sourcing",
+                    "assembly"
+                ]
+            },
+            {
+                "corridor": "Southeast Asia \u2192 China/Mexico/India",
+                "flow_description": "Subassembly and parts flow from Southeast Asia (Vietnam, Thailand, Philippines) to final assembly locations in China, Mexico, and India.",
+                "purpose": [
+                    "component_sourcing",
+                    "final_assembly",
+                    "regional_finishing"
+                ]
+            }
+        ],
+        "supply_chain_initiatives": [
+            {
+                "target_regions": [
+                    "India",
+                    "Vietnam"
+                ],
+                "status": "in_progress",
+                "purpose": "Reduce reliance on China, expand manufacturing footprint, mitigate geopolitical risks, and diversify production locations for products like iPhone.",
+                "initiative": "Diversification of manufacturing to India and Vietnam"
+            },
+            {
+                "target_regions": [
+                    "Global"
+                ],
+                "status": "in_progress",
+                "purpose": "Achieve 100% renewable energy for Apple production by 2030 among suppliers.",
+                "initiative": "Supplier Clean Energy Program"
+            },
+            {
+                "target_regions": [
+                    "U.S."
+                ],
+                "status": "in_progress",
+                "purpose": "Support and strengthen domestic semiconductor manufacturing capabilities.",
+                "initiative": "Investments in U.S. chipmaking"
+            },
+            {
+                "target_regions": [
+                    "Global"
+                ],
+                "status": "in_progress",
+                "purpose": "Secure component supply and manufacturing capacity from suppliers.",
+                "initiative": "Supplier prepayments and equipment investments"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-09-27",
+                "type": "10-K",
+                "name": "Apple Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Federal Register AC/S IFR"
+            },
+            {
+                "date": "2024-04-04",
+                "type": "news",
+                "name": "Federal Register corrections & clarifications"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "Federal Register FDPR additions and refinements"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "BIS press release clarifying scope"
+            },
+            {
+                "date": "2025-03-28",
+                "type": "news",
+                "name": "Federal Register Entity List additions"
+            },
+            {
+                "date": "2025-09-16",
+                "type": "news",
+                "name": "Federal Register Entity List additions/revisions"
+            },
+            {
+                "date": "2024-10-30",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-04-25",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-01-30",
+                "type": "earnings_call",
+                "name": "Apple Q1 2025 earnings call transcript"
+            },
+            {
+                "date": "2023",
+                "type": "news",
+                "name": "EUR-Lex"
+            }
+        ]
+    },
+    "customer_profile": {
+        "segment_mix": {
+            "notes": "Apple\u2019s filings describe its customers as primarily consumer, small and mid\u2011sized business, education, enterprise and government. Apple discloses net sales by product category (iPhone, Mac, iPad, Wearables, Services). I estimated B2C as dominant given large iPhone and Services revenue and Apple\u2019s emphasis on consumer installed base. B2B includes enterprise and SMB commercial purchases of Macs, iPads and Services (device fleets, MDM, Apple Business Essentials, enterprise app deployments). B2G is small relative to total revenue and captured within \u2018enterprise and government\u2019 customer mentions in filings.",
+            "b2g_percent": 3.0,
+            "b2b_percent": 22.0,
+            "b2c_percent": 75.0
+        },
+        "customer_concentration": {
+            "concentration_level": "low",
+            "any_customer_over_10_percent": false,
+            "top_customer_percent": 5.0,
+            "disclosure_notes": "Apple\u2019s Form 10\u2011K and investor materials do not disclose any individual customer that accounts for 10% or more of net sales in recent years. The 2025 Form 10\u2011K notes one customer represented 12% of trade receivables (not net sales); Apple discloses channel/reseller mix (40% direct, 60% indirect) and identifies the U.S. and China as countries >10% of net sales. Apple historically states there is no single customer representing >10% of net sales in older 10\u2011Ks.",
+            "top_10_customers_percent": 30.0
+        },
+        "top_customers": [
+            {
+                "notes": "Apple states in FY2025 net sales through direct and indirect channels were 40% and 60% of total net sales; third\u2011party cellular network carriers accounted for 34% of trade receivables as of Sept 27, 2025. Apple does not report any single carrier as >10% of net sales.",
+                "industry": "Telecommunications / Retail distribution",
+                "type": "distributor",
+                "percent_of_revenue": 60.0,
+                "name": "Third\u2011party cellular network carriers & other resellers (collective)"
+            },
+            {
+                "notes": "Complement to indirect channels; includes Apple Stores and online sales. FY2025 direct sales reported as ~40% of net sales.",
+                "industry": "Consumer electronics / Retail",
+                "type": "other",
+                "percent_of_revenue": 40.0,
+                "name": "Direct consumer sales (Apple retail + online)"
+            },
+            {
+                "notes": "Services net sales were $109.158B in FY2025 (26.2% of total net sales); services revenue spans consumers, developers and enterprise/government use cases.",
+                "industry": "Digital services / Financial services / Media",
+                "type": "other",
+                "percent_of_revenue": 26.2,
+                "name": "Services customers (App Store, iCloud, AppleCare, Apple Pay/Financial services)"
+            }
+        ],
+        "industry_exposure": [
+            {
+                "industry": "Consumer / Consumer Electronics (Smartphones, PCs, Wearables)",
+                "trend": "stable",
+                "percent_of_revenue": 70.0,
+                "notes": "Majority of revenue (iPhone + Mac + iPad + Wearables) is consumer\u2011facing. FY2025 product revenues: iPhone $209.586B (50.4% of net sales), plus other device categories."
+            },
+            {
+                "industry": "Digital Services & Financial Services (App Store, iCloud, AppleCare, Apple Pay, Apple Card)",
+                "trend": "growing",
+                "percent_of_revenue": 26.2,
+                "notes": "Services net sales $109.158B in FY2025 (26.2% of net sales). Apple\u2019s Services spans consumer payments/finance and app marketplace for developers."
+            },
+            {
+                "industry": "Enterprise IT / Business (device fleets, enterprise services, MDM)",
+                "trend": "growing",
+                "percent_of_revenue": 8.0,
+                "notes": "Apple cites customers in small & mid\u2011sized business and enterprise; enterprise revenue not separately disclosed \u2014 estimate derived from typical fleet sales and Services adoption in enterprise."
+            },
+            {
+                "industry": "Education",
+                "trend": "stable",
+                "percent_of_revenue": null,
+                "notes": "steady demand (iPad/Mac in education)"
+            }
+        ],
+        "customer_characteristics": {
+            "geographic_notes": "Revenue is concentrated in the U.S. and China (FY2025: U.S. $151,790M; China $64,377M); Apple\u2019s management organizes reporting by Americas, Europe, Greater China, Japan and Rest of Asia\u2011Pacific. Apple sells globally through direct and indirect channels.",
+            "typical_contract_length": "Products: largely transactional (one\u2011time device sales); Services: recurring subscriptions with deferred revenue (Apple discloses deferred revenue balances and expected realization timing \u2014 e.g., FY2025 deferred revenue $13.7B with ~66% realized in <1 year). For enterprise/government MDM/managed services and device management, contract lengths vary (multi\u2011year agreements can exist for device deployment/volume purchase programs).",
+            "recurring_vs_transactional": "Mixed. Majority of revenue remains transactional product sales (iPhone, Mac, iPad, Wearables), while Services is a significant and growing recurring revenue stream (~26% of FY2025 net sales). Apple\u2019s deferred revenue schedule indicates material recurring service elements."
+        },
+        "sources": [
+            {
+                "date": "2025-09-27",
+                "type": "10-K",
+                "name": "Apple Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Federal Register AC/S IFR"
+            },
+            {
+                "date": "2024-04-04",
+                "type": "news",
+                "name": "Federal Register corrections & clarifications"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "Federal Register FDPR additions and refinements"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "BIS press release clarifying scope"
+            },
+            {
+                "date": "2025-03-28",
+                "type": "news",
+                "name": "Federal Register Entity List additions"
+            },
+            {
+                "date": "2025-09-16",
+                "type": "news",
+                "name": "Federal Register Entity List additions/revisions"
+            },
+            {
+                "date": "2024-10-30",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-04-25",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-01-30",
+                "type": "earnings_call",
+                "name": "Apple Q1 2025 earnings call transcript"
+            },
+            {
+                "date": "2023",
+                "type": "news",
+                "name": "EUR-Lex"
+            }
+        ]
+    },
+    "regulatory_footprint": {
+        "policy_constraints": [
+            {
+                "policy_description": "U.S. BIS expanded export controls on advanced computing items and semiconductor manufacturing equipment, including foreign-produced direct product rule (FDPR) components and new end-use controls restricting exports to the People\u2019s Republic of China (PRC) for advanced computing and SME.",
+                "effective_date": "2023-10-25",
+                "issuing_authority": "U.S. Department of Commerce, Bureau of Industry and Security (BIS)",
+                "source_ref": "https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+                "policy_type": "export control / EAR amendments (FDPR and end-use based controls)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "advanced computing integrated circuits (AI datacenter chips)",
+                    "supercomputers",
+                    "semiconductor manufacturing equipment (SME)",
+                    "related parts/components"
+                ],
+                "affected_regions": [
+                    "PRC / China",
+                    "Country Groups D:1",
+                    "D:4",
+                    "D:5"
+                ]
+            },
+            {
+                "policy_description": "BIS published corrections and clarifications to the October 2023 rules (fixes, clarifications to scope and license conditions).",
+                "effective_date": "2024-04-04",
+                "issuing_authority": "U.S. Department of Commerce, BIS",
+                "source_ref": "https://www.federalregister.gov/documents/2024/04/04/2024-07004/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+                "policy_type": "corrections/clarifications to prior export-control IFRs",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "advanced computing",
+                    "supercomputing",
+                    "SME"
+                ],
+                "affected_regions": [
+                    "PRC / China"
+                ]
+            },
+            {
+                "policy_description": "BIS and related Federal Register actions added and revised Entity List entries (examples: additions noted in 2025 Federal Register notices).",
+                "effective_date": "2025-03-28",
+                "issuing_authority": "U.S. Department of Commerce, BIS",
+                "source_ref": "https://www.federalregister.gov/documents/2025/03/28/2025-05427/additions-to-the-entity-list",
+                "policy_type": "Entity List (export license requirements to specific named entities)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "items subject to EAR"
+                ],
+                "affected_regions": [
+                    "specific entities (often PRC-based entities)"
+                ]
+            },
+            {
+                "policy_description": "BIS press release and guidance clarifying scope of sector-based controls and pre-export notification requirements for computers incorporating controlled integrated circuits; BIS guidance emphasized preexport notification and licensing for parts/components for SEM destined for PRC SME.",
+                "effective_date": "2024-12-05",
+                "issuing_authority": "U.S. Department of Commerce, BIS",
+                "source_ref": "https://www.bis.doc.gov/press-release/commerce-releases-clarifications-export-control-rules-restrict-prcs-access-advanced-computing",
+                "policy_type": "agency guidance / clarifying press release",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "computers with controlled ICs",
+                    "parts/components for semiconductor manufacturing"
+                ],
+                "affected_regions": [
+                    "PRC / China"
+                ]
+            },
+            {
+                "policy_description": "Tariffs and trade measures referenced in Apple filings: Apple's 10-K (2025) discloses new U.S. tariffs announced in Q2 2025 including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and EU and notes an initiation of a Section 232 investigation by DoC into semiconductors and semiconductor manufacturing equipment.",
+                "effective_date": "2025-04-01",
+                "issuing_authority": "U.S. Government / Department of Commerce (Section 232) and U.S. tariff authorities",
+                "source_ref": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+                "policy_type": "tariffs / trade investigations (Section 232)",
+                "status": "proposed",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "semiconductors",
+                    "semiconductor manufacturing equipment",
+                    "other tariffed goods"
+                ],
+                "affected_regions": [
+                    "China",
+                    "India",
+                    "Japan",
+                    "South Korea",
+                    "Taiwan",
+                    "Vietnam",
+                    "EU"
+                ]
+            }
+        ],
+        "regional_demand_signals": [
+            {
+                "amount_usd": null,
+                "timeframe": "2024-10-30 to 2025-04-25",
+                "description": "Government PLI (production-linked incentive) programs and other incentives for electronics/mobile manufacturing in India have been cited as drivers for increased assembly/manufacturing, with Apple expanding contract manufacturer activity and supplier presence.",
+                "observed_date": "2024-10-30",
+                "region": "India",
+                "signal_type": "manufacturing incentive / industrial policy / supply-chain onshoring and export orientation",
+                "initiator": "Government of India",
+                "public_amount_disclosed": false
+            },
+            {
+                "amount_usd": null,
+                "timeframe": "2023",
+                "description": "Government AI and sovereign infrastructure initiatives, such as the EU AI Act, indicate regional demand for digital infrastructure. Specific budget line items were not found in the collected documents.",
+                "observed_date": "2023-12-01",
+                "region": "EU / UK / other",
+                "signal_type": "government AI / sovereign infrastructure initiatives",
+                "initiator": "EU",
+                "public_amount_disclosed": false
+            }
+        ],
+        "competitor_factual_moves": [],
+        "factual_actions": [
+            {
+                "public_statement": true,
+                "date_announced": "2025-09-27",
+                "regions_affected": [
+                    "Global",
+                    "Greater China",
+                    "India",
+                    "Mexico",
+                    "U.S.",
+                    "Europe"
+                ],
+                "description": "Apple's 2025 Form 10-K discloses new U.S. Tariffs announced in Q2 2025, including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and EU, and notes an initiation of a Section 232 investigation by the Department of Commerce into semiconductors and semiconductor manufacturing equipment.",
+                "action_type": "Disclosure / risk-factor reporting"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2025-01-30",
+                "regions_affected": [
+                    "India",
+                    "global supply chain"
+                ],
+                "description": "CEO Tim Cook stated during the Q1 2025 earnings call that Apple's manufacturing in India serves both the domestic market and export.",
+                "action_type": "Public statement on manufacturing footprint and exports"
+            },
+            {
+                "public_statement": false,
+                "date_announced": "2024-10-30",
+                "regions_affected": [
+                    "India"
+                ],
+                "description": "Reuters reported on October 30, 2024, that Apple was expanding iPhone assembly in India and increasing supplier activity.",
+                "action_type": "Reported company supply-chain/manufacturing moves (sourcing/assembly shifts)"
+            },
+            {
+                "public_statement": false,
+                "date_announced": "2025-04-25",
+                "regions_affected": [
+                    "India",
+                    "U.S."
+                ],
+                "description": "Reuters reported on April 25, 2025, that Apple reportedly aims to source all U.S. iPhones from India.",
+                "action_type": "Reported company supply-chain/manufacturing moves (sourcing/assembly shifts)"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2024-09-28",
+                "regions_affected": [
+                    "India",
+                    "Mexico"
+                ],
+                "description": "Apple's 10-K filings list subsidiaries such as Apple Operations Mexico S.A. de C.V. and Apple India Private Limited, demonstrating operational presence in these regions.",
+                "action_type": "Disclosure of operational presence"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-09-27",
+                "type": "10-K",
+                "name": "Apple Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Federal Register AC/S IFR"
+            },
+            {
+                "date": "2024-04-04",
+                "type": "news",
+                "name": "Federal Register corrections & clarifications"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "Federal Register FDPR additions and refinements"
+            },
+            {
+                "date": "2024-12-05",
+                "type": "news",
+                "name": "BIS press release clarifying scope"
+            },
+            {
+                "date": "2025-03-28",
+                "type": "news",
+                "name": "Federal Register Entity List additions"
+            },
+            {
+                "date": "2025-09-16",
+                "type": "news",
+                "name": "Federal Register Entity List additions/revisions"
+            },
+            {
+                "date": "2024-10-30",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-04-25",
+                "type": "news",
+                "name": "Reuters"
+            },
+            {
+                "date": "2025-01-30",
+                "type": "earnings_call",
+                "name": "Apple Q1 2025 earnings call transcript"
+            },
+            {
+                "date": "2023",
+                "type": "news",
+                "name": "EUR-Lex"
+            }
+        ]
+    },
+    "data_quality": {
+        "source_summary": {
+            "tier_1_count": 1,
+            "tier_2_count": 0,
+            "tier_3_count": 1,
+            "tier_4_count": 9
+        },
+        "data_gaps": [],
+        "stale_data_warnings": []
+    }
+}

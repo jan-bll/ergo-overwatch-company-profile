@@ -1,0 +1,120 @@
+{
+    "customer_concentration": {
+        "concentration_level": "low",
+        "any_customer_over_10_percent": false,
+        "top_customer_percent": 9.9,
+        "disclosure_notes": "No single end customer accounted for more than 10% of total sales for the year ended December 31, 2024. Company serves 4.5M+ customers across diverse industries; no explicit Top 10 concentration disclosed.",
+        "top_10_customers_percent": 20.0
+    },
+    "sources": [
+        {
+            "date": "2025-02-20",
+            "type": "10-K",
+            "name": "Form 10-K for FY 2024 (Accession 0000277135-25-000010)"
+        },
+        {
+            "date": "2025-02-20",
+            "type": "10-K",
+            "name": "2024 GWW Annual Report"
+        },
+        {
+            "date": "2025-09-05",
+            "type": "investor_presentation",
+            "name": "Investor Presentation \u2013 Q3 2025"
+        },
+        {
+            "date": "2025-01-31",
+            "type": "news",
+            "name": "Grainger Reports Results for Q4 and Full Year 2024"
+        }
+    ],
+    "top_customers": [
+        {
+            "notes": "Aggregate of public sector customers across levels of government and education, per FY2024 customer industry table.",
+            "industry": "Government/Public Sector",
+            "type": "government",
+            "percent_of_revenue": 16.0,
+            "name": "Government customers (federal, state, local, education)"
+        },
+        {
+            "notes": "Represents total revenue to manufacturing customers per FY2024 industry table; not a single customer.",
+            "industry": "Manufacturing",
+            "type": "enterprise",
+            "percent_of_revenue": 31.0,
+            "name": "Manufacturing enterprise customers (aggregate)"
+        }
+    ],
+    "segment_mix": {
+        "notes": "Government/public sector accounted for 16% of FY2024 total-company revenue per 10\u2011K. Business is principally B2B across both segments; Endless Assortment growth was driven by core B2B customers. Consumer exposure is not broken out and is estimated at 2% to avoid a zero placeholder.",
+        "b2g_percent": 16.0,
+        "b2b_percent": 82.0,
+        "b2c_percent": 2.0
+    },
+    "customer_characteristics": {
+        "geographic_notes": "FY2024 revenue by destination \u2013 United States $13,947\u202fm; Japan $1,893\u202fm; Canada $661\u202fm; Other foreign $667\u202fm. Endless Assortment includes Zoro (U.S.) and MonotaRO (Japan); High\u2011Touch Solutions N.A. operates primarily in the U.S., Canada and Mexico.",
+        "typical_contract_length": "Not disclosed; filings indicate that many customers are under multi\u2011year contracts or group\u2011purchasing agreements, but specific durations vary and are not specified.",
+        "recurring_vs_transactional": "Overall recurring\u2011leaning: High\u2011Touch Solutions derives > two\u2011thirds of its revenue from contracts (recurring replenishment). Endless Assortment revenue is largely non\u2011contractual (transactional). Company\u2011wide product sales represent a single performance obligation per order."
+    },
+    "industry_exposure": [
+        {
+            "industry": "Manufacturing",
+            "trend": "growing",
+            "percent_of_revenue": 31.0,
+            "notes": "Slight increase from 30% in FY2023."
+        },
+        {
+            "industry": "Government (Public Sector)",
+            "trend": "stable",
+            "percent_of_revenue": 16.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Wholesale",
+            "trend": "stable",
+            "percent_of_revenue": 9.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Commercial Services",
+            "trend": "stable",
+            "percent_of_revenue": 8.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Contractors",
+            "trend": "stable",
+            "percent_of_revenue": 6.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Healthcare",
+            "trend": "stable",
+            "percent_of_revenue": 6.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Retail",
+            "trend": "stable",
+            "percent_of_revenue": 4.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Transportation",
+            "trend": "stable",
+            "percent_of_revenue": 4.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Utilities",
+            "trend": "stable",
+            "percent_of_revenue": 3.0,
+            "notes": "Flat versus FY2023."
+        },
+        {
+            "industry": "Warehousing",
+            "trend": "declining",
+            "percent_of_revenue": 2.0,
+            "notes": "Down from 3% in FY2023."
+        }
+    ]
+}

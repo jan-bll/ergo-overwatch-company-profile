@@ -1,0 +1,90 @@
+{
+    "company_overview": {
+        "headquarters": {
+            "city": "Lake Forest",
+            "country": "United States"
+        },
+        "value_chain_position": "B2B MRO distributor (broad-line), omnichannel (high\u2011touch and e\u2011commerce)",
+        "employees": 26000.0,
+        "founded": 1927.0,
+        "business_description": "W.W. Grainger, Inc. is a broad line distributor of maintenance, repair and operating (MRO) products and services with operations primarily in North America, Japan and the United Kingdom, serving customers via two reportable segments: High\u2011Touch Solutions North America and Endless Assortment.",
+        "ticker": "GWW",
+        "business_model": "configure_to_order",
+        "name": "W.W. Grainger, Inc."
+    },
+    "sources": [
+        {
+            "date": "2025-02-20",
+            "type": "10-K",
+            "name": "Form 10-K FY2024"
+        },
+        {
+            "date": "2024",
+            "type": "annual_report",
+            "name": "2024 Annual Report"
+        }
+    ],
+    "revenue_by_region": [
+        {
+            "region": "Americas",
+            "key_countries": [
+                "United States",
+                "Canada"
+            ],
+            "revenue_usd_millions": 14608.0,
+            "percent_of_total": 85.1,
+            "yoy_growth_percent": null
+        },
+        {
+            "region": "APJ",
+            "key_countries": [
+                "Japan"
+            ],
+            "revenue_usd_millions": 1893.0,
+            "percent_of_total": 11.0,
+            "yoy_growth_percent": null
+        },
+        {
+            "region": "Other",
+            "key_countries": [],
+            "revenue_usd_millions": 667.0,
+            "percent_of_total": 3.9,
+            "yoy_growth_percent": null
+        }
+    ],
+    "financial_baseline": {
+        "debt_to_equity": null,
+        "market_cap_usd_millions": 40147.033,
+        "revenue_usd_millions": 17168.0,
+        "total_debt_usd_millions": 2803.0,
+        "operating_margin": 0.154,
+        "cash_position_usd_millions": 1036.0,
+        "net_margin": 0.111,
+        "current_ratio": 2.9,
+        "balance_sheet_strength": "strong",
+        "gross_margin": 0.394,
+        "fiscal_year": 2024.0
+    },
+    "business_segments": [
+        {
+            "description": "Provides value\u2011added MRO solutions for complex buying needs; primarily Grainger\u2011branded businesses in the United States, Canada, Mexico and Puerto Rico.",
+            "operating_income_usd_millions": 2385.0,
+            "revenue_usd_millions": 13720.0,
+            "operating_margin_percent": null,
+            "yoy_growth_percent": 3.4,
+            "revenue_percent": 79.9,
+            "fiscal_year": "2024",
+            "name": "High-Touch Solutions N.A."
+        },
+        {
+            "description": "Online \u201cone\u2011stop\u201d platforms Zoro (U.S.) and MonotaRO (Japan) offering millions of products.",
+            "operating_income_usd_millions": 260.0,
+            "revenue_usd_millions": 3134.0,
+            "operating_margin_percent": null,
+            "yoy_growth_percent": 7.5,
+            "revenue_percent": 18.2,
+            "fiscal_year": "2024",
+            "name": "Endless Assortment"
+        }
+    ]
+}

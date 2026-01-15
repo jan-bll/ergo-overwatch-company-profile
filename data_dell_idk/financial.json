@@ -1,0 +1,80 @@
+{
+    "company_overview": {
+        "headquarters": {
+            "city": "Round Rock",
+            "country": "United States"
+        },
+        "value_chain_position": "branded OEM, systems integrator",
+        "employees": 0.0,
+        "founded": 0.0,
+        "business_description": "a leading global end-to-end technology provider that designs, develops, manufactures, markets, sells, and supports a wide range of comprehensive and integrated solutions, products, and services.",
+        "ticker": "DELL",
+        "business_model": "vertically_integrated",
+        "name": "Dell Technologies Inc."
+    },
+    "sources": [
+        {
+            "date": "2025-01-31",
+            "type": "10-K",
+            "name": "Dell Technologies Form 10-K"
+        },
+        {
+            "date": "2024-02-02",
+            "type": "10-K",
+            "name": "Dell Technologies Form 10-K"
+        }
+    ],
+    "revenue_by_region": [
+        {
+            "region": "Americas",
+            "key_countries": [
+                "United States"
+            ],
+            "revenue_usd_millions": 43986.0,
+            "percent_of_total": 49.74,
+            "yoy_growth_percent": null
+        },
+        {
+            "region": "Other",
+            "key_countries": [],
+            "revenue_usd_millions": 44439.0,
+            "percent_of_total": 50.26,
+            "yoy_growth_percent": null
+        }
+    ],
+    "financial_baseline": {
+        "debt_to_equity": null,
+        "market_cap_usd_millions": null,
+        "revenue_usd_millions": 95567.0,
+        "total_debt_usd_millions": 24800.0,
+        "operating_margin": 0.065,
+        "cash_position_usd_millions": 3819.0,
+        "net_margin": 0.048,
+        "current_ratio": null,
+        "balance_sheet_strength": "adequate",
+        "gross_margin": 0.222,
+        "fiscal_year": 2025.0
+    },
+    "business_segments": [
+        {
+            "description": "Provides servers, networking, and storage solutions.",
+            "operating_income_usd_millions": 5579.0,
+            "revenue_usd_millions": 43593.0,
+            "operating_margin_percent": 12.8,
+            "yoy_growth_percent": 28.65,
+            "revenue_percent": 45.61,
+            "fiscal_year": "Fiscal 2025",
+            "name": "Infrastructure Solutions Group"
+        },
+        {
+            "description": "Offers commercial and consumer client products.",
+            "operating_income_usd_millions": 2972.0,
+            "revenue_usd_millions": 48393.0,
+            "operating_margin_percent": 6.1,
+            "yoy_growth_percent": -1.07,
+            "revenue_percent": 50.64,
+            "fiscal_year": "Fiscal 2025",
+            "name": "Client Solutions Group"
+        }
+    ]
+}

@@ -1,0 +1,910 @@
+{
+    "meta": {
+        "company_name": "Dell Technologies Inc.",
+        "ticker": "null",
+        "extraction_date": "2026-01-15",
+        "baseline_fiscal_year": 2024.0,
+        "data_freshness_note": "Compiled from 4 data sources",
+        "confidence_overall": 0.5,
+        "primary_sources": [
+            "Dell Technologies Inc. 2025 Form 10-K",
+            "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC",
+            "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and",
+            "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show",
+            "Power, Policy & AI: The Rules of the Race in 2026"
+        ]
+    },
+    "company_overview": {
+        "headquarters": {
+            "city": "Round Rock",
+            "country": "United States"
+        },
+        "value_chain_position": "null",
+        "employees": 108000.0,
+        "founded": 0.0,
+        "business_description": "null",
+        "ticker": "null",
+        "business_model": "vertically_integrated",
+        "name": "Dell Technologies Inc."
+    },
+    "financial": {
+        "business_segments": [
+            {
+                "description": "null",
+                "operating_income_usd_millions": 4286.0,
+                "revenue_usd_millions": 33885.0,
+                "operating_margin_percent": 12.6,
+                "yoy_growth_percent": null,
+                "revenue_percent": 38.32,
+                "fiscal_year": "Fiscal 2024",
+                "name": "Infrastructure Solutions Group"
+            },
+            {
+                "description": "null",
+                "operating_income_usd_millions": 3712.0,
+                "revenue_usd_millions": 48916.0,
+                "operating_margin_percent": 7.6,
+                "yoy_growth_percent": null,
+                "revenue_percent": 55.32,
+                "fiscal_year": "Fiscal 2024",
+                "name": "Client Solutions Group"
+            }
+        ],
+        "revenue_by_region": [],
+        "financial_baseline": {
+            "debt_to_equity": null,
+            "market_cap_usd_millions": null,
+            "revenue_usd_millions": 88425.0,
+            "total_debt_usd_millions": 25994.0,
+            "operating_margin": 0.059,
+            "cash_position_usd_millions": 7366.0,
+            "net_margin": 0.036,
+            "current_ratio": null,
+            "balance_sheet_strength": "weak",
+            "gross_margin": 0.236,
+            "fiscal_year": 2024.0
+        },
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2024-12-02",
+                "type": "news",
+                "name": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and"
+            },
+            {
+                "date": "2024-04-23",
+                "type": "news",
+                "name": "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show"
+            },
+            {
+                "date": "2025-12-10",
+                "type": "news",
+                "name": "Power, Policy & AI: The Rules of the Race in 2026"
+            }
+        ]
+    },
+    "supply_chain": {
+        "company_owned_facilities": [
+            {
+                "region_served": "Americas",
+                "products": "DSS, PowerProtect Data Domain/IDPA, PowerScale/PowerStore products",
+                "roles": [
+                    "assembly",
+                    "config"
+                ],
+                "source": "Dell Public Supplier List / 10-K",
+                "city": "Apex",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "Connectrix, PowerFlex, PowerMax, VxBlock",
+                "roles": [
+                    "assembly",
+                    "testing"
+                ],
+                "source": "Dell Public Supplier List / 10-K",
+                "city": "Franklin",
+                "country": "United States"
+            },
+            {
+                "region_served": "APJ",
+                "products": "desktop/server assembly and distribution for multiple PC and server lines",
+                "roles": [
+                    "assembly",
+                    "L12"
+                ],
+                "source": "Dell Public Supplier List",
+                "city": "Xiamen",
+                "country": "China"
+            },
+            {
+                "region_served": "APJ",
+                "products": "other",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell 10-K",
+                "city": "null",
+                "country": "Malaysia"
+            },
+            {
+                "region_served": "Americas",
+                "products": "other",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell 10-K",
+                "city": "null",
+                "country": "Brazil"
+            },
+            {
+                "region_served": "APJ",
+                "products": "other",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell 10-K",
+                "city": "null",
+                "country": "India"
+            },
+            {
+                "region_served": "EMEA",
+                "products": "other",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell 10-K",
+                "city": "null",
+                "country": "Poland"
+            },
+            {
+                "region_served": "EMEA",
+                "products": "other",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell 10-K",
+                "city": "null",
+                "country": "Ireland"
+            }
+        ],
+        "contract_manufacturers": [
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly",
+                    "PCB",
+                    "sub-assembly",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Mexico",
+                    "Vietnam",
+                    "India"
+                ],
+                "products_manufactured": [
+                    "PCs (XPS/Inspiron)",
+                    "servers (PowerEdge)",
+                    "storage"
+                ],
+                "manufacturer_name": "Foxconn",
+                "notes": "Major CM partner; multiple Dell product lines."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam"
+                ],
+                "products_manufactured": [
+                    "Inspiron Notebooks",
+                    "Latitude Notebooks",
+                    "Precision Notebooks",
+                    "Vostro Notebooks",
+                    "XPS Notebooks",
+                    "Alienware Notebooks"
+                ],
+                "manufacturer_name": "Compal",
+                "notes": "High for notebook lines."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly",
+                    "PCB",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "Taiwan",
+                    "China",
+                    "Vietnam",
+                    "Mexico"
+                ],
+                "products_manufactured": [
+                    "notebook and desktop assembly",
+                    "servers",
+                    "PCBA"
+                ],
+                "manufacturer_name": "Wistron",
+                "notes": "Multiple product families."
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "Taiwan"
+                ],
+                "products_manufactured": [
+                    "Rugged/Pro Rugged lines (notebook assembly)"
+                ],
+                "manufacturer_name": "Pegatron",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Inventec",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Quanta",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Luxshare",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Celestica",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Jabil",
+                "notes": "N/A"
+            },
+            {
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly",
+                    "components",
+                    "other"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "China",
+                    "Vietnam",
+                    "Thailand",
+                    "Mexico",
+                    "Malaysia",
+                    "Poland",
+                    "Brazil"
+                ],
+                "products_manufactured": [
+                    "parts/components",
+                    "final assembly"
+                ],
+                "manufacturer_name": "Flex",
+                "notes": "N/A"
+            }
+        ],
+        "critical_suppliers": [
+            {
+                "component_category": "CPU",
+                "headquarters_country": "US",
+                "dependency_level": "high",
+                "provides": "x86 server and client CPUs",
+                "supplier_name": "Intel",
+                "manufacturing_locations": [
+                    "U.S.",
+                    "Ireland",
+                    "Israel",
+                    "Malaysia",
+                    "China",
+                    "Taiwan"
+                ],
+                "single_source": false,
+                "notes": "Dell cites Intel as a supplier in its public supplier list."
+            },
+            {
+                "component_category": "CPU",
+                "headquarters_country": "US",
+                "dependency_level": "high",
+                "provides": "CPUs/EPYC server processors",
+                "supplier_name": "AMD",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "U.S.",
+                    "Japan"
+                ],
+                "single_source": false,
+                "notes": "Fabless design, manufactured by TSMC."
+            },
+            {
+                "component_category": "GPU",
+                "headquarters_country": "US",
+                "dependency_level": "critical",
+                "provides": "datacenter AI GPUs (e.g., A100/H100 families)",
+                "supplier_name": "NVIDIA",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "U.S.",
+                    "Japan",
+                    "South Korea"
+                ],
+                "single_source": true,
+                "notes": "Fabless, produced by TSMC and Samsung. Dell's 10-K explicitly notes elevated backlog for AI-optimized servers tied to GPU supply constraints."
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "DRAM and NAND",
+                "supplier_name": "Samsung Electronics",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "China",
+                    "United States"
+                ],
+                "single_source": false,
+                "notes": "Major DRAM and NAND manufacturer."
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "DRAM/NAND",
+                "supplier_name": "SK Hynix",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "US",
+                "dependency_level": "high",
+                "provides": "DRAM/NAND",
+                "supplier_name": "Micron",
+                "manufacturing_locations": [
+                    "U.S.",
+                    "Japan",
+                    "Taiwan",
+                    "Singapore"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "US",
+                "dependency_level": "high",
+                "provides": "Storage (HDD / SSD)",
+                "supplier_name": "Western Digital",
+                "manufacturing_locations": [
+                    "Japan",
+                    "Thailand",
+                    "China",
+                    "Malaysia",
+                    "U.S.",
+                    "UK"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "Japan",
+                "dependency_level": "high",
+                "provides": "Storage (HDD / SSD)",
+                "supplier_name": "Kioxia",
+                "manufacturing_locations": [
+                    "Japan",
+                    "Thailand",
+                    "China",
+                    "Malaysia",
+                    "U.S.",
+                    "UK"
+                ],
+                "single_source": false,
+                "notes": "Toshiba spinouts/JVs."
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "US",
+                "dependency_level": "high",
+                "provides": "Storage (HDD / SSD)",
+                "supplier_name": "Seagate",
+                "manufacturing_locations": [
+                    "Japan",
+                    "Thailand",
+                    "China",
+                    "Malaysia",
+                    "U.S.",
+                    "UK"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "provides": "power supplies",
+                "supplier_name": "Delta Electronics",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Vietnam",
+                    "Mexico"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "provides": "fans",
+                "supplier_name": "Nidec",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Vietnam",
+                    "Mexico"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "null",
+                "dependency_level": "medium",
+                "provides": "displays",
+                "supplier_name": "Innolux",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Vietnam",
+                    "Mexico"
+                ],
+                "single_source": false,
+                "notes": "N/A"
+            }
+        ],
+        "supplier_concentration": {
+            "top_country_percent": null,
+            "concentration_notes": "Dell acknowledges a significant share of its components and outsourced manufacturing are supplied by vendors outside the United States, with substantial outsourced manufacturing in Asia. The 10-K warns that a significant concentration of outsourced manufacturing is performed by only a few contract manufacturers, often in single locations. The Public Supplier List shows many major suppliers and assembly sites in China, Taiwan, Vietnam, Mexico, and Malaysia, indicating Asia (China/Taiwan/Vietnam) as the top region for supplier sites by count and spend.",
+            "top_country": "China",
+            "top_3_countries": [
+                "China",
+                "Taiwan",
+                "Vietnam"
+            ]
+        },
+        "supply_corridors": [
+            {
+                "corridor": "Taiwan \u2192 Americas",
+                "flow_description": "advanced logic (GPUs/CPUs from TSMC/TSMC-contracted fabs) shipped to US/Mexico assembly or directly to OEM customers",
+                "purpose": [
+                    "component_sourcing"
+                ]
+            },
+            {
+                "corridor": "Asia (China/Taiwan/Korea) \u2192 Mexico \u2192 US",
+                "flow_description": "component flow (PCB, displays, assemblies) supporting final assembly in Mexico for regional markets",
+                "purpose": [
+                    "regional_finishing"
+                ]
+            },
+            {
+                "corridor": "China \u2192 EMEA",
+                "flow_description": "components and finished products shipped from Asian contract manufacturers to EMEA distribution centers",
+                "purpose": [
+                    "distribution"
+                ]
+            }
+        ],
+        "supply_chain_initiatives": [
+            {
+                "target_regions": [
+                    "global"
+                ],
+                "status": "in_progress",
+                "purpose": "increase visibility, identify single-site and geographic concentration blind spots, and preemptively protect critical supply nodes",
+                "initiative": "Dell Global Operations (GO) Supply Chain Resilience program"
+            },
+            {
+                "target_regions": [
+                    "global"
+                ],
+                "status": "in_progress",
+                "purpose": "reduce reliance on single sources, secure capacity, and mitigate risks",
+                "initiative": "Multi-sourcing and qualifying alternative suppliers"
+            },
+            {
+                "target_regions": [
+                    "global"
+                ],
+                "status": "completed",
+                "purpose": "transparency and supplier mapping",
+                "initiative": "Public Supplier List transparency"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2024-12-02",
+                "type": "news",
+                "name": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and"
+            },
+            {
+                "date": "2024-04-23",
+                "type": "news",
+                "name": "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show"
+            },
+            {
+                "date": "2025-12-10",
+                "type": "news",
+                "name": "Power, Policy & AI: The Rules of the Race in 2026"
+            }
+        ]
+    },
+    "customer_profile": {
+        "segment_mix": {
+            "notes": "Consumer percent is calculated from FY2024 reporting; B2G is an estimate because Dell does not publish a government-only percent; B2B is the residual and includes enterprise, hyperscalers, SMB, education, healthcare, and government where not separately reported.",
+            "b2g_percent": 10.0,
+            "b2b_percent": 79.7,
+            "b2c_percent": 10.3
+        },
+        "customer_concentration": {
+            "concentration_level": "low",
+            "any_customer_over_10_percent": false,
+            "top_customer_percent": null,
+            "disclosure_notes": "Form 10-K: 'No single customer accounted for more than 10% of the Company\u2019s consolidated net revenue' for fiscal years ended Jan 31, 2025; Feb 2, 2024; Feb 3, 2023. Top-10 customers percent not disclosed.",
+            "top_10_customers_percent": null
+        },
+        "top_customers": [],
+        "industry_exposure": [
+            {
+                "industry": "Government / Public Sector",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "Company maintains dedicated federal/state/local programs; not quantified (best-estimate 8\u201312% of revenue as noted above)."
+            },
+            {
+                "industry": "Healthcare",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "ongoing target vertical; Dell points to tailored offerings and sales programs for healthcare customers (no % disclosed)."
+            },
+            {
+                "industry": "Education",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "called out as a public institution vertical; no % disclosed."
+            },
+            {
+                "industry": "Hyperscalers / Cloud & AI",
+                "trend": "growing",
+                "percent_of_revenue": null,
+                "notes": "called out in FY26 Q3 press release and slides describing large AI server orders and multi-billion-dollar orders; trend: increasing importance (AI server orders cited as record $12.3B in Q3 FY26 press release). These customers are an important and growing part of ISG revenue, particularly servers & networking."
+            },
+            {
+                "industry": "Financial services",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+            },
+            {
+                "industry": "Retail",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+            },
+            {
+                "industry": "Manufacturing",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+            },
+            {
+                "industry": "Telecom",
+                "trend": "unknown",
+                "percent_of_revenue": null,
+                "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+            }
+        ],
+        "customer_characteristics": {
+            "geographic_notes": "~50% US / ~50% foreign (FY2024 numbers: US $43,986M; foreign $44,439M)",
+            "typical_contract_length": "Business leases 2\u20134 years; fixed-term loans 3\u20135 years; revolving loans ~12 months; As\u2011a\u2011Service/subscriptions typically multiyear.",
+            "recurring_vs_transactional": "Mixed; recurring revenue defined as maintenance, subscriptions, as-a-Service and operating leases; Dell is investing to grow recurring revenue via APEX and consumption models; no single percentage disclosed."
+        },
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2024-12-02",
+                "type": "news",
+                "name": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and"
+            },
+            {
+                "date": "2024-04-23",
+                "type": "news",
+                "name": "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show"
+            },
+            {
+                "date": "2025-12-10",
+                "type": "news",
+                "name": "Power, Policy & AI: The Rules of the Race in 2026"
+            }
+        ]
+    },
+    "regulatory_footprint": {
+        "policy_constraints": [
+            {
+                "policy_description": "Updated controls to identify controlled chips using criteria including total performance and performance density, implemented via Federal Register.",
+                "effective_date": "2023-10-25",
+                "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Department of Commerce",
+                "source_ref": "federal_register_20231025",
+                "policy_type": "Export Control",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "Advanced Computing Items",
+                    "Supercomputer Components",
+                    "Semiconductors"
+                ],
+                "affected_regions": [
+                    "China"
+                ]
+            },
+            {
+                "policy_description": "Strengthened restrictions on advanced computing semiconductors, enhancing foundry due diligence and preventing diversion to the PRC. Builds on previous controls from Oct 7, 2022, and Oct 17, 2023.",
+                "effective_date": "2024-12-02",
+                "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Department of Commerce",
+                "source_ref": "bis_press_release_20241202",
+                "policy_type": "Export Control",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "Advanced Computing Semiconductors",
+                    "High-end Chips"
+                ],
+                "affected_regions": [
+                    "China"
+                ]
+            }
+        ],
+        "regional_demand_signals": [],
+        "competitor_factual_moves": [
+            {
+                "date_announced": "2024-04-23",
+                "regions_affected": [
+                    "China"
+                ],
+                "description": "China acquired recently banned Nvidia chips in Supermicro servers via tenders, as reported by Reuters.",
+                "move_type": "Acquisition of Restricted Technology",
+                "competitor": "Supermicro"
+            }
+        ],
+        "factual_actions": [
+            {
+                "public_statement": true,
+                "date_announced": "2025-01-31",
+                "regions_affected": [
+                    "Global"
+                ],
+                "description": "Disclosed risk factors related to export controls, trade protection measures, and potential impacts on manufacturing costs, product prices, demand, procurement, and cross-border movement of goods. Also noted elevated backlog for AI-optimized servers due to GPU shortages.",
+                "action_type": "Risk Disclosure"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2025-01-31",
+                "regions_affected": [
+                    "USA",
+                    "Malaysia",
+                    "China",
+                    "Brazil",
+                    "India",
+                    "Poland",
+                    "Ireland"
+                ],
+                "description": "Disclosed manufacturing facilities located in USA, Malaysia, China, Brazil, India, Poland, and Ireland.",
+                "action_type": "Supply Chain Disclosure"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2025-12-10",
+                "regions_affected": [
+                    "Global"
+                ],
+                "description": "Published a blog post discussing policy and AI.",
+                "action_type": "Public Communication"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. 2025 Form 10-K"
+            },
+            {
+                "date": "2024-12-02",
+                "type": "news",
+                "name": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC"
+            },
+            {
+                "date": "2023-10-25",
+                "type": "news",
+                "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and"
+            },
+            {
+                "date": "2024-04-23",
+                "type": "news",
+                "name": "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show"
+            },
+            {
+                "date": "2025-12-10",
+                "type": "news",
+                "name": "Power, Policy & AI: The Rules of the Race in 2026"
+            }
+        ]
+    },
+    "data_quality": {
+        "source_summary": {
+            "tier_1_count": 1,
+            "tier_2_count": 0,
+            "tier_3_count": 0,
+            "tier_4_count": 4
+        },
+        "data_gaps": [],
+        "stale_data_warnings": []
+    }
+}

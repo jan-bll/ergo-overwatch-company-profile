@@ -1,0 +1,76 @@
+{
+    "customer_concentration": {
+        "concentration_level": "low",
+        "any_customer_over_10_percent": false,
+        "top_customer_percent": 5.0,
+        "disclosure_notes": "Apple\u2019s Form 10\u2011K and investor materials do not disclose any individual customer that accounts for 10% or more of net sales in recent years. The 2025 Form 10\u2011K notes one customer represented 12% of trade receivables (not net sales); Apple discloses channel/reseller mix (40% direct, 60% indirect) and identifies the U.S. and China as countries >10% of net sales. Apple historically states there is no single customer representing >10% of net sales in older 10\u2011Ks.",
+        "top_10_customers_percent": 30.0
+    },
+    "top_customers": [
+        {
+            "notes": "Apple states in FY2025 net sales through direct and indirect channels were 40% and 60% of total net sales; third\u2011party cellular network carriers accounted for 34% of trade receivables as of Sept 27, 2025. Apple does not report any single carrier as >10% of net sales.",
+            "industry": "Telecommunications / Retail distribution",
+            "type": "distributor",
+            "percent_of_revenue": 60.0,
+            "name": "Third\u2011party cellular network carriers & other resellers (collective)"
+        },
+        {
+            "notes": "Complement to indirect channels; includes Apple Stores and online sales. FY2025 direct sales reported as ~40% of net sales.",
+            "industry": "Consumer electronics / Retail",
+            "type": "other",
+            "percent_of_revenue": 40.0,
+            "name": "Direct consumer sales (Apple retail + online)"
+        },
+        {
+            "notes": "Services net sales were $109.158B in FY2025 (26.2% of total net sales); services revenue spans consumers, developers and enterprise/government use cases.",
+            "industry": "Digital services / Financial services / Media",
+            "type": "other",
+            "percent_of_revenue": 26.2,
+            "name": "Services customers (App Store, iCloud, AppleCare, Apple Pay/Financial services)"
+        }
+    ],
+    "segment_mix": {
+        "notes": "Apple\u2019s filings describe its customers as primarily consumer, small and mid\u2011sized business, education, enterprise and government. Apple discloses net sales by product category (iPhone, Mac, iPad, Wearables, Services). I estimated B2C as dominant given large iPhone and Services revenue and Apple\u2019s emphasis on consumer installed base. B2B includes enterprise and SMB commercial purchases of Macs, iPads and Services (device fleets, MDM, Apple Business Essentials, enterprise app deployments). B2G is small relative to total revenue and captured within \u2018enterprise and government\u2019 customer mentions in filings.",
+        "b2g_percent": 3.0,
+        "b2b_percent": 22.0,
+        "b2c_percent": 75.0
+    },
+    "customer_characteristics": {
+        "geographic_notes": "Revenue is concentrated in the U.S. and China (FY2025: U.S. $151,790M; China $64,377M); Apple\u2019s management organizes reporting by Americas, Europe, Greater China, Japan and Rest of Asia\u2011Pacific. Apple sells globally through direct and indirect channels.",
+        "typical_contract_length": "Products: largely transactional (one\u2011time device sales); Services: recurring subscriptions with deferred revenue (Apple discloses deferred revenue balances and expected realization timing \u2014 e.g., FY2025 deferred revenue $13.7B with ~66% realized in <1 year). For enterprise/government MDM/managed services and device management, contract lengths vary (multi\u2011year agreements can exist for device deployment/volume purchase programs).",
+        "recurring_vs_transactional": "Mixed. Majority of revenue remains transactional product sales (iPhone, Mac, iPad, Wearables), while Services is a significant and growing recurring revenue stream (~26% of FY2025 net sales). Apple\u2019s deferred revenue schedule indicates material recurring service elements."
+    },
+    "industry_exposure": [
+        {
+            "industry": "Consumer / Consumer Electronics (Smartphones, PCs, Wearables)",
+            "trend": "stable",
+            "percent_of_revenue": 70.0,
+            "notes": "Majority of revenue (iPhone + Mac + iPad + Wearables) is consumer\u2011facing. FY2025 product revenues: iPhone $209.586B (50.4% of net sales), plus other device categories."
+        },
+        {
+            "industry": "Digital Services & Financial Services (App Store, iCloud, AppleCare, Apple Pay, Apple Card)",
+            "trend": "growing",
+            "percent_of_revenue": 26.2,
+            "notes": "Services net sales $109.158B in FY2025 (26.2% of net sales). Apple\u2019s Services spans consumer payments/finance and app marketplace for developers."
+        },
+        {
+            "industry": "Enterprise IT / Business (device fleets, enterprise services, MDM)",
+            "trend": "growing",
+            "percent_of_revenue": 8.0,
+            "notes": "Apple cites customers in small & mid\u2011sized business and enterprise; enterprise revenue not separately disclosed \u2014 estimate derived from typical fleet sales and Services adoption in enterprise."
+        },
+        {
+            "industry": "Education",
+            "trend": "stable",
+            "percent_of_revenue": null,
+            "notes": "steady demand (iPad/Mac in education)"
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-09-27",
+            "type": "10-K",
+            "name": "Apple Inc. Form 10-K"
+        }
+    ]
+}

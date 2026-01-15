@@ -1,0 +1,90 @@
+{
+    "customer_concentration": {
+        "concentration_level": "low",
+        "any_customer_over_10_percent": false,
+        "top_customer_percent": null,
+        "disclosure_notes": "No single customer accounted for more than 10% of the Company\u2019s consolidated net revenue during the fiscal years ended January 31, 2025, February 2, 2024, and February 3, 2023.",
+        "top_10_customers_percent": null
+    },
+    "sources": [
+        {
+            "date": "2025-01-31",
+            "type": "10-K",
+            "name": "SEC Form 10-K (Dell Technologies Inc.)"
+        },
+        {
+            "date": "2025-02-27",
+            "type": "investor_presentation",
+            "name": "FY25 Earnings materials / Exhibit 99.1"
+        },
+        {
+            "date": "2025-02-27",
+            "type": "news",
+            "name": "Dell Technologies Delivers Fourth Quarter and Full-Year Fiscal 2025 Financial Results"
+        },
+        {
+            "date": "2025-01-31",
+            "type": "investor_presentation",
+            "name": "Dell Form 10-K PDF / Investor presentation content"
+        }
+    ],
+    "top_customers": [
+        {
+            "notes": "backlog cited ~$9B in slides; <10% of FY25 revenue",
+            "industry": "cloud AI / hyperscaler",
+            "type": "hyperscaler",
+            "percent_of_revenue": null,
+            "name": "xAI"
+        },
+        {
+            "notes": "",
+            "industry": "hyperscaler/cloud",
+            "type": "hyperscaler",
+            "percent_of_revenue": null,
+            "name": "unnamed \"largest cloud service providers\""
+        }
+    ],
+    "segment_mix": {
+        "notes": "CSG consumer and commercial revenue lines are disclosed; government/public-sector not separately reported by Dell and is estimated below. Calculations use FY25 total revenue $95.6B (Exhibit 99.1).",
+        "b2g_percent": 5.0,
+        "b2b_percent": 87.1,
+        "b2c_percent": 7.9
+    },
+    "customer_characteristics": {
+        "geographic_notes": "Approximately 60% of CSG revenue is generated in the Americas per the 10\u2011K; Dell sells globally across Americas, EMEA, and APJ and describes a global installed customer base including the world\u2019s largest corporations down to SMBs and consumers.",
+        "typical_contract_length": "DFS leases 2\u20134 years; fixed\u2011term loans generally 3\u20135 years; revolving loans repaid ~12 months on average.",
+        "recurring_vs_transactional": "Dell defines recurring revenue to include maintenance, subscriptions, as\u2011a\u2011Service and operating leases. The company is pursuing growth in recurring revenue via Dell APEX and other consumption models. Historically, hardware product revenue is more transactional, while services, maintenance, financing and APEX subscriptions are recurring."
+    },
+    "industry_exposure": [
+        {
+            "industry": "Healthcare",
+            "trend": "growing",
+            "percent_of_revenue": null,
+            "notes": "cited as a target vertical in 10\u2011K go\u2011to\u2011market description."
+        },
+        {
+            "industry": "Education",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "10\u2011K references education accounts."
+        },
+        {
+            "industry": "Government/Public Sector",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "10\u2011K groups government with enterprise accounts."
+        },
+        {
+            "industry": "Financial Services",
+            "trend": "growing",
+            "percent_of_revenue": null,
+            "notes": "modernization and security"
+        },
+        {
+            "industry": "Hyperscalers / Cloud Service Providers",
+            "trend": "growing",
+            "percent_of_revenue": null,
+            "notes": "not disclosed but ISG growth and the cited ~$9B AI server backlog indicate material exposure in ISG."
+        }
+    ]
+}

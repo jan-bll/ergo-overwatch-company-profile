@@ -1,0 +1,357 @@
+{
+    "supply_chain_initiatives": [
+        {
+            "target_regions": [
+                "Tulsa, Oklahoma, USA"
+            ],
+            "status": "in_progress",
+            "purpose": "Expand and modernize base maintenance, add wide\u2011body capable hangar and upgrade infrastructure to insource more work and improve reliability",
+            "initiative": "$550M modernization of Tech Ops \u2013 Tulsa"
+        },
+        {
+            "target_regions": [
+                "Tulsa, Oklahoma, USA"
+            ],
+            "status": "in_progress",
+            "purpose": "Grow and improve Tulsa base and engine repair/overhaul capacity; hire additional maintenance staff",
+            "initiative": "$22M Oklahoma grant for Tulsa enhancements + engine shop investment"
+        },
+        {
+            "target_regions": [
+                "Charlotte NC",
+                "Pittsburgh PA",
+                "Tulsa OK"
+            ],
+            "status": "in_progress",
+            "purpose": "Increase in\u2011house heavy maintenance capacity and preserve long\u2011term capability",
+            "initiative": "Add heavy check lines + ~500 new maintenance jobs (CLT, PIT, TUL)"
+        },
+        {
+            "target_regions": [
+                "United States",
+                "European Union/United States (Airbus)",
+                "Brazil"
+            ],
+            "status": "in_progress",
+            "purpose": "Maintain a balanced multi\u2011OEM orderbook to support capacity flexibility and reduce concentration risk",
+            "initiative": "Fleet diversification and renewal orders (Airbus/Boeing/Embraer)"
+        },
+        {
+            "target_regions": [
+                "U.S. mainline & dual\u2011class regional fleets"
+            ],
+            "status": "in_progress",
+            "purpose": "Standardize connectivity across fleet and secure long\u2011term vendor partnerships",
+            "initiative": "Complimentary high\u2011speed Wi\u2011Fi (Viasat/Intelsat) rollout"
+        }
+    ],
+    "company_owned_facilities": [
+        {
+            "region_served": "Americas",
+            "products": "Aircraft heavy maintenance, engine overhaul, component work",
+            "roles": [],
+            "source": "AA Newsroom 2024",
+            "city": "Tulsa",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Operations control, dispatch, flight planning, load planning",
+            "roles": [],
+            "source": "AA Newsroom IOC 2026",
+            "city": "Fort Worth",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Corporate headquarters, training, technical operations",
+            "roles": [],
+            "source": "AA Corporate page 2026",
+            "city": "Fort Worth",
+            "country": "United States"
+        }
+    ],
+    "supplier_concentration": {
+        "top_country_percent": null,
+        "concentration_notes": "The supply base is concentrated among a few aircraft and engine OEMs (Airbus, Boeing, Embraer; CFM/GE). American discloses dependence on a limited number of suppliers and that some aircraft/engines/parts are sourced outside the U.S. Precise supplier geography percentages are not disclosed.",
+        "top_country": "United States",
+        "top_3_countries": [
+            "United States",
+            "European Union (Airbus in EU)/Germany",
+            "Brazil"
+        ]
+    },
+    "supply_corridors": [
+        {
+            "corridor": "Mobile, Alabama (Airbus US) \u2192 U.S. hubs",
+            "flow_description": "Airframes assembled at Airbus\u2019s Mobile, Alabama plant are delivered to American\u2019s U.S. operating bases, reducing trans\u2011Atlantic logistics exposure.",
+            "purpose": [
+                "assembly"
+            ]
+        },
+        {
+            "corridor": "Boeing U.S. production \u2192 U.S. hubs",
+            "flow_description": "Boeing\u2011manufactured 737 and 787 aircraft are shipped from U.S. factories to American\u2019s base maintenance locations across the United States.",
+            "purpose": [
+                "assembly"
+            ]
+        },
+        {
+            "corridor": "EU \u2192 U.S.",
+            "flow_description": "Components and sub\u2011assemblies for Airbus aircraft and CFM engines produced in Europe are shipped to U.S. assembly lines and maintenance facilities.",
+            "purpose": [
+                "component_sourcing"
+            ]
+        },
+        {
+            "corridor": "Brazil \u2192 U.S.",
+            "flow_description": "Embraer delivers E175 regional jets and spare parts from Brazil to American\u2019s regional subsidiaries in the United States.",
+            "purpose": [
+                "distribution"
+            ]
+        }
+    ],
+    "contract_manufacturers": [
+        {
+            "headquarters_country": "Netherlands",
+            "dependency_level": "high",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "United States (Mobile, Alabama)",
+                "France",
+                "Germany"
+            ],
+            "products_manufactured": [
+                "A321neo",
+                "A321XLR"
+            ],
+            "manufacturer_name": "Airbus SE",
+            "notes": "AA ordered 85 additional A321neo on 2024-03-04; Airbus notes U.S. production in Mobile, AL."
+        },
+        {
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "United States"
+            ],
+            "products_manufactured": [
+                "737 MAX 8",
+                "737 MAX 10",
+                "787-8",
+                "787-9"
+            ],
+            "manufacturer_name": "The Boeing Company",
+            "notes": "AA ordered 85 737 MAX 10 and converted 30 MAX 8 to MAX 10 on 2024-03-04."
+        },
+        {
+            "headquarters_country": "Brazil",
+            "dependency_level": "high",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "E175"
+            ],
+            "manufacturer_name": "Embraer S.A.",
+            "notes": "AA ordered 90 E175 on 2024-03-04 for wholly owned regionals."
+        },
+        {
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "functions": [
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "United States"
+            ],
+            "products_manufactured": [],
+            "manufacturer_name": "Envoy Air Inc.",
+            "notes": "Wholly owned regional carrier per AAG disclosure."
+        },
+        {
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "functions": [
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "United States"
+            ],
+            "products_manufactured": [],
+            "manufacturer_name": "PSA Airlines, Inc.",
+            "notes": "Wholly owned regional carrier."
+        },
+        {
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "functions": [
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "United States"
+            ],
+            "products_manufactured": [],
+            "manufacturer_name": "Piedmont Airlines, Inc.",
+            "notes": "Wholly owned regional carrier."
+        }
+    ],
+    "critical_suppliers": [
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "provides": "LEAP-1B engines for Boeing 737 MAX fleet",
+            "supplier_name": "CFM International (GE Aerospace/Safran JV)",
+            "manufacturing_locations": [
+                "United States",
+                "France"
+            ],
+            "single_source": true,
+            "notes": "LEAP-1B is sole engine for 737 MAX; AA expanded 737 MAX orders in 2024."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "provides": "GEnx-1B engines for Boeing 787 Dreamliners",
+            "supplier_name": "GE Aerospace",
+            "manufacturing_locations": [
+                "United States"
+            ],
+            "single_source": true,
+            "notes": "AA selected GEnx-1B in 2018 and signed 20-year TrueChoice Overhaul agreement."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Netherlands",
+            "dependency_level": "high",
+            "provides": "A321neo/XLR aircraft and OEM parts/support",
+            "supplier_name": "Airbus SE",
+            "manufacturing_locations": [
+                "United States (Mobile, AL)",
+                "France",
+                "Germany"
+            ],
+            "single_source": false,
+            "notes": "85 additional A321neo ordered 2024-03-04; production in Mobile, AL."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "provides": "737 MAX and 787 aircraft and OEM parts",
+            "supplier_name": "The Boeing Company",
+            "manufacturing_locations": [
+                "United States"
+            ],
+            "single_source": false,
+            "notes": "85 additional 737 MAX 10 announced 2024-03-04."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Brazil",
+            "dependency_level": "high",
+            "provides": "E175 regional aircraft and OEM parts",
+            "supplier_name": "Embraer S.A.",
+            "manufacturing_locations": [
+                "Brazil"
+            ],
+            "single_source": false,
+            "notes": "90 E175 ordered 2024-03-04."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "Canada",
+            "dependency_level": "medium",
+            "provides": "CRJ regional aircraft parts support",
+            "supplier_name": "Bombardier Inc.",
+            "manufacturing_locations": [
+                "Canada"
+            ],
+            "single_source": false,
+            "notes": "AAG risk factor mentions cessation of Bombardier regional production."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "high",
+            "provides": "SabreSonic Passenger Service System (PSS)",
+            "supplier_name": "Sabre Corporation",
+            "manufacturing_locations": [
+                "United States"
+            ],
+            "single_source": true,
+            "notes": "Long-term hosted reservation system renewed Dec 10 2024."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "High-speed Ka-band satellite Wi-Fi",
+            "supplier_name": "Viasat, Inc.",
+            "manufacturing_locations": [
+                "United States"
+            ],
+            "single_source": false,
+            "notes": "Wi-Fi on >900 mainline aircraft; ad-sponsored rollout 2024-2026."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "Satellite Wi-Fi for regional aircraft",
+            "supplier_name": "Intelsat",
+            "manufacturing_locations": [
+                "United States"
+            ],
+            "single_source": false,
+            "notes": "Dual-sourced with Viasat; installations announced Mar 20 2024."
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025",
+            "type": "10-K",
+            "name": "American Airlines Group Inc. \u2013 2024 Annual Report on Form 10-K"
+        },
+        {
+            "date": "2024-03-04",
+            "type": "news",
+            "name": "American Airlines orders 85 Boeing 737 MAX jets"
+        },
+        {
+            "date": "2024-03-04",
+            "type": "news",
+            "name": "American places orders for Airbus, Boeing and Embraer aircraft"
+        },
+        {
+            "date": "2024",
+            "type": "news",
+            "name": "Engine\u2011uity reigns at American\u2019s Tulsa maintenance base"
+        },
+        {
+            "date": "2026-01",
+            "type": "news",
+            "name": "Inside the nerve center of American\u2019s operation (IOC)"
+        },
+        {
+            "date": "2026-01",
+            "type": "news",
+            "name": "Corporate structure \u2013 Headquarters address"
+        }
+    ]
+}

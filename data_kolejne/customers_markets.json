@@ -1,0 +1,98 @@
+{
+    "customer_concentration": {
+        "concentration_level": "low",
+        "any_customer_over_10_percent": false,
+        "top_customer_percent": null,
+        "disclosure_notes": "Form 10-K: 'No single customer accounted for more than 10% of the Company\u2019s consolidated net revenue' for fiscal years ended Jan 31, 2025; Feb 2, 2024; Feb 3, 2023. Top-10 customers percent not disclosed.",
+        "top_10_customers_percent": null
+    },
+    "top_customers": [],
+    "segment_mix": {
+        "notes": "Consumer percent is calculated from FY2024 reporting; B2G is an estimate because Dell does not publish a government-only percent; B2B is the residual and includes enterprise, hyperscalers, SMB, education, healthcare, and government where not separately reported.",
+        "b2g_percent": 10.0,
+        "b2b_percent": 79.7,
+        "b2c_percent": 10.3
+    },
+    "customer_characteristics": {
+        "geographic_notes": "~50% US / ~50% foreign (FY2024 numbers: US $43,986M; foreign $44,439M)",
+        "typical_contract_length": "Business leases 2\u20134 years; fixed-term loans 3\u20135 years; revolving loans ~12 months; As\u2011a\u2011Service/subscriptions typically multiyear.",
+        "recurring_vs_transactional": "Mixed; recurring revenue defined as maintenance, subscriptions, as-a-Service and operating leases; Dell is investing to grow recurring revenue via APEX and consumption models; no single percentage disclosed."
+    },
+    "industry_exposure": [
+        {
+            "industry": "Government / Public Sector",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "Company maintains dedicated federal/state/local programs; not quantified (best-estimate 8\u201312% of revenue as noted above)."
+        },
+        {
+            "industry": "Healthcare",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "ongoing target vertical; Dell points to tailored offerings and sales programs for healthcare customers (no % disclosed)."
+        },
+        {
+            "industry": "Education",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "called out as a public institution vertical; no % disclosed."
+        },
+        {
+            "industry": "Hyperscalers / Cloud & AI",
+            "trend": "growing",
+            "percent_of_revenue": null,
+            "notes": "called out in FY26 Q3 press release and slides describing large AI server orders and multi-billion-dollar orders; trend: increasing importance (AI server orders cited as record $12.3B in Q3 FY26 press release). These customers are an important and growing part of ISG revenue, particularly servers & networking."
+        },
+        {
+            "industry": "Financial services",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+        },
+        {
+            "industry": "Retail",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+        },
+        {
+            "industry": "Manufacturing",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+        },
+        {
+            "industry": "Telecom",
+            "trend": "unknown",
+            "percent_of_revenue": null,
+            "notes": "mentioned generically as served markets in go-to-market text but not quantified."
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-01-31",
+            "type": "10-K",
+            "name": "Form 10-K (filed 2025-01-31)"
+        },
+        {
+            "date": "2024-02-02",
+            "type": "investor_presentation",
+            "name": "Dell Investor Filing PDF (10-K content)"
+        },
+        {
+            "date": "2025-10-31",
+            "type": "earnings_call",
+            "name": "Exhibit 99.1 Earnings Slides Q3 FY26"
+        },
+        {
+            "date": "2025-11",
+            "type": "news",
+            "name": "Dell Technologies Q3 FY26 Press Release"
+        },
+        {
+            "date": "2025-09-08",
+            "type": "10-K",
+            "name": "Form 10-Q (filed 2025-09-08)"
+        }
+    ]
+}

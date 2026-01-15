@@ -1,0 +1,303 @@
+{
+    "supply_chain_initiatives": [
+        {
+            "target_regions": [
+                "Texas",
+                "Gulf Coast",
+                "South Central U.S."
+            ],
+            "status": "announced",
+            "purpose": "Add 1.2M\u202fsf; double stocked items in Houston market; expand next\u2011day coverage",
+            "initiative": "Houston Texas Distribution Center (Hockley, TX)"
+        },
+        {
+            "target_regions": [
+                "Pacific Northwest",
+                "West U.S."
+            ],
+            "status": "announced",
+            "purpose": "Increase West/Pacific Northwest capacity and coverage",
+            "initiative": "Gresham, Oregon DC (535k\u202fsf)"
+        },
+        {
+            "target_regions": [
+                "Southeast U.S."
+            ],
+            "status": "announced",
+            "purpose": "Expand bulk SKU storage and throughput",
+            "initiative": "Pineville, NC bulk warehouse (525k\u202fsf)"
+        },
+        {
+            "target_regions": [
+                "U.S. nationwide"
+            ],
+            "status": "in_progress",
+            "purpose": "Enhance network operations, assortment capacity, next\u2011day delivery",
+            "initiative": "Network footprint expansion (3.5M\u202fsf; >35% increase)"
+        },
+        {
+            "target_regions": [
+                "West U.S.",
+                "Texas"
+            ],
+            "status": "completed",
+            "purpose": "Enable construction of new DCs (Oregon ~535k\u202fsf; Texas ~1.2M\u202fsf)",
+            "initiative": "Land purchases for DCs in Oregon and Texas"
+        },
+        {
+            "target_regions": [
+                "North America",
+                "Japan"
+            ],
+            "status": "announced",
+            "purpose": "Sharpen geographic focus on North America and Japan",
+            "initiative": "U.K. exit (Cromwell divestiture; Zoro U.K. closure)"
+        },
+        {
+            "target_regions": [
+                "North America"
+            ],
+            "status": "in_progress",
+            "purpose": "Ship next\u2011day complete orders; improve service and productivity",
+            "initiative": "DC automation and KeepStock inventory programs"
+        }
+    ],
+    "company_owned_facilities": [
+        {
+            "region_served": "Americas",
+            "products": "Broad-line MRO inventory",
+            "roles": [],
+            "source": "2013-07-18 PR; 2024-12-27 CoStar",
+            "city": "Minooka",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "300,000+ in-stock MRO items",
+            "roles": [],
+            "source": "2017-11-30 PR",
+            "city": "Bordentown Township",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Broad-line MRO; bulk",
+            "roles": [],
+            "source": "2024-10-02 PR",
+            "city": "Dallas\u2013Fort Worth (metro)",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": ">250,000 in-stock MRO items (plan up to 300,000)",
+            "roles": [],
+            "source": "2024-02-01 PR; 2024-10-02 PR",
+            "city": "Hockley (Houston metro)",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Broad-line MRO",
+            "roles": [],
+            "source": "2024-02-01 PR",
+            "city": "Gresham",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Bulk MRO inventory",
+            "roles": [],
+            "source": "2024-02-01 PR",
+            "city": "Pineville",
+            "country": "United States"
+        }
+    ],
+    "supplier_concentration": {
+        "top_country_percent": null,
+        "concentration_notes": "More than 5,000 primary suppliers worldwide; no single supplier accounts for >5% of purchases. Sourcing from Asia and other regions raises risk due to distance/geopolitics. Private\u2011label sourcing historically dominated by China and Taiwan (~80%). Approximately 50% of U.S. cost of goods tied to imports including China, but exact country share is not disclosed.",
+        "top_country": "China",
+        "top_3_countries": [
+            "China",
+            "Taiwan",
+            "United States"
+        ]
+    },
+    "critical_suppliers": [
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "Respirators, hearing/eye protection, tapes/abrasives and industrial supplies",
+            "supplier_name": "3M",
+            "manufacturing_locations": [
+                "United States",
+                "China",
+                "Mexico"
+            ],
+            "single_source": false,
+            "notes": "Core safety/PPE supplier widely featured across Grainger assortment."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "PPE and safety equipment",
+            "supplier_name": "Honeywell",
+            "manufacturing_locations": [
+                "United States",
+                "Mexico",
+                "China"
+            ],
+            "single_source": false,
+            "notes": "Longstanding national\u2011brand supplier to Grainger in PPE and safety."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "Power tools and accessories",
+            "supplier_name": "DEWALT",
+            "manufacturing_locations": [
+                "Turkey",
+                "United States",
+                "China"
+            ],
+            "single_source": false,
+            "notes": "National brand sold by Grainger; recall data shows products sold via industrial supply channels including Grainger."
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "provides": "Standby/portable generators, transfer switches and parts",
+            "supplier_name": "Generac Power Systems",
+            "manufacturing_locations": [
+                "United States",
+                "China"
+            ],
+            "single_source": false,
+            "notes": "National brand frequently available via Grainger."
+        }
+    ],
+    "contract_manufacturers": [
+        {
+            "headquarters_country": "United States",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "ODM",
+            "production_countries": [
+                "United States"
+            ],
+            "products_manufactured": [
+                "Dayton 240/208V model 3UG82D electric baseboard heaters"
+            ],
+            "manufacturer_name": "Marley Engineered Products LLC",
+            "notes": "Manufacturer named in CPSC recall of Dayton\u2011branded heaters sold at Grainger."
+        },
+        {
+            "headquarters_country": "China",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "ODM",
+            "production_countries": [
+                "China"
+            ],
+            "products_manufactured": [
+                "Dayton\u2011branded dehumidifiers"
+            ],
+            "manufacturer_name": "Midea",
+            "notes": "CPSC recall covers multiple brands made by Midea, including Dayton; indicates ODM relationship for private label."
+        }
+    ],
+    "supply_corridors": [
+        {
+            "corridor": "Asia \u2192 U.S. DCs/branches \u2192 U.S. customers",
+            "flow_description": "Ocean/air imports from Asia to U.S. ports, intermodal transport to Grainger DCs, automated picking and last\u2011mile parcel/LTL delivery.",
+            "purpose": [
+                "distribution"
+            ]
+        },
+        {
+            "corridor": "Asia \u2192 Canada & Mexico DCs/branches \u2192 regional customers",
+            "flow_description": "Similar import flow as U.S. corridor supporting Grainger's North American network.",
+            "purpose": [
+                "distribution"
+            ]
+        },
+        {
+            "corridor": "Japan DCs \u2192 Japan customers",
+            "flow_description": "Four Japan DCs fulfill endless\u2011assortment orders locally, with occasional third\u2011party drop\u2011ship.",
+            "purpose": [
+                "distribution"
+            ]
+        },
+        {
+            "corridor": "U.S. DC network \u2192 Zoro/High\u2011Touch customers",
+            "flow_description": "Internal DCs serve Zoro and High\u2011Touch solutions, enabling next\u2011day complete shipments and drop\u2011ship options.",
+            "purpose": [
+                "distribution"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-02-14",
+            "type": "10-K",
+            "name": "W.W. Grainger, Inc. Form 10\u2011K for year ended 2024"
+        },
+        {
+            "date": "2024",
+            "type": "10-K",
+            "name": "Grainger 2023 Annual Report / 10\u2011K"
+        },
+        {
+            "date": "2024-02-01",
+            "type": "company_statement",
+            "name": "Grainger Announces Plans for New Distribution Center Near Houston"
+        },
+        {
+            "date": "2024-10-02",
+            "type": "company_statement",
+            "name": "Construction begins on massive Grainger distribution center"
+        },
+        {
+            "date": "2017-11-30",
+            "type": "company_statement",
+            "name": "Grainger Celebrates the Grand Opening of its Northeast Distribution Center in New Jersey"
+        },
+        {
+            "date": "2013-07-18",
+            "type": "company_statement",
+            "name": "Grainger Celebrates the Grand Opening of its New Illinois\u2011Based Distribution Center"
+        },
+        {
+            "date": "2024-12-27",
+            "type": "news",
+            "name": "Grainger pays $78 million for vacant warehouse near Chicago"
+        },
+        {
+            "date": "2026-01",
+            "type": "company_statement",
+            "name": "Grainger Supplier Overview"
+        },
+        {
+            "date": "2026-01",
+            "type": "company_statement",
+            "name": "Grainger brand/category page showing 3M as a supplier example"
+        },
+        {
+            "date": "2025-10-17",
+            "type": "company_statement",
+            "name": "Grainger announces agreement to divest Cromwell"
+        },
+        {
+            "date": "2025-10-17",
+            "type": "news",
+            "name": "Modern Distribution Management coverage of U.K. exit"
+        }
+    ]
+}

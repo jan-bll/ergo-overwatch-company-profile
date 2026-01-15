@@ -1,0 +1,809 @@
+{
+    "meta": {
+        "company_name": "W.W. Grainger, Inc.",
+        "ticker": "GWW",
+        "extraction_date": "2026-01-15",
+        "baseline_fiscal_year": 2024.0,
+        "data_freshness_note": "Compiled from 4 data sources",
+        "confidence_overall": 0.9,
+        "primary_sources": [
+            "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)",
+            "Construction begins on massive Grainger distribution center (Hockley, TX)",
+            "W.W. Grainger 2024 Annual Report (Form 10-K)",
+            "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)",
+            "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)",
+            "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)",
+            "Supermicro expands US manufacturing capacity with third Silicon Valley campus",
+            "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)",
+            "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+        ]
+    },
+    "company_overview": {
+        "headquarters": {
+            "city": "Lake Forest",
+            "country": "United States"
+        },
+        "value_chain_position": "B2B MRO distributor (broad-line), omnichannel (high\u2011touch and e\u2011commerce)",
+        "employees": 26000.0,
+        "founded": 1927.0,
+        "business_description": "W.W. Grainger, Inc. is a broad line distributor of maintenance, repair and operating (MRO) products and services with operations primarily in North America, Japan and the United Kingdom, serving customers via two reportable segments: High\u2011Touch Solutions North America and Endless Assortment.",
+        "ticker": "GWW",
+        "business_model": "configure_to_order",
+        "name": "W.W. Grainger, Inc."
+    },
+    "financial": {
+        "business_segments": [
+            {
+                "description": "Provides value\u2011added MRO solutions for complex buying needs; primarily Grainger\u2011branded businesses in the United States, Canada, Mexico and Puerto Rico.",
+                "operating_income_usd_millions": 2385.0,
+                "revenue_usd_millions": 13720.0,
+                "operating_margin_percent": null,
+                "yoy_growth_percent": 3.4,
+                "revenue_percent": 79.9,
+                "fiscal_year": "2024",
+                "name": "High-Touch Solutions N.A."
+            },
+            {
+                "description": "Online \u201cone\u2011stop\u201d platforms Zoro (U.S.) and MonotaRO (Japan) offering millions of products.",
+                "operating_income_usd_millions": 260.0,
+                "revenue_usd_millions": 3134.0,
+                "operating_margin_percent": null,
+                "yoy_growth_percent": 7.5,
+                "revenue_percent": 18.2,
+                "fiscal_year": "2024",
+                "name": "Endless Assortment"
+            }
+        ],
+        "revenue_by_region": [
+            {
+                "region": "Americas",
+                "key_countries": [
+                    "United States",
+                    "Canada"
+                ],
+                "revenue_usd_millions": 14608.0,
+                "percent_of_total": 85.1,
+                "yoy_growth_percent": null
+            },
+            {
+                "region": "APJ",
+                "key_countries": [
+                    "Japan"
+                ],
+                "revenue_usd_millions": 1893.0,
+                "percent_of_total": 11.0,
+                "yoy_growth_percent": null
+            },
+            {
+                "region": "Other",
+                "key_countries": [],
+                "revenue_usd_millions": 667.0,
+                "percent_of_total": 3.9,
+                "yoy_growth_percent": null
+            }
+        ],
+        "financial_baseline": {
+            "debt_to_equity": null,
+            "market_cap_usd_millions": 40147.033,
+            "revenue_usd_millions": 17168.0,
+            "total_debt_usd_millions": 2803.0,
+            "operating_margin": 0.154,
+            "cash_position_usd_millions": 1036.0,
+            "net_margin": 0.111,
+            "current_ratio": 2.9,
+            "balance_sheet_strength": "strong",
+            "gross_margin": 0.394,
+            "fiscal_year": 2024.0
+        },
+        "sources": [
+            {
+                "date": "2024-02-01",
+                "type": "news",
+                "name": "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)"
+            },
+            {
+                "date": "2024-10-02",
+                "type": "news",
+                "name": "Construction begins on massive Grainger distribution center (Hockley, TX)"
+            },
+            {
+                "date": "2024-02-01",
+                "type": "10-K",
+                "name": "W.W. Grainger 2024 Annual Report (Form 10-K)"
+            },
+            {
+                "date": "2025-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)"
+            },
+            {
+                "date": "2024-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)"
+            },
+            {
+                "date": "2023-11-09",
+                "type": "news",
+                "name": "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)"
+            },
+            {
+                "date": "2025-02-28",
+                "type": "news",
+                "name": "Supermicro expands US manufacturing capacity with third Silicon Valley campus"
+            },
+            {
+                "date": "2024-06-04",
+                "type": "news",
+                "name": "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)"
+            },
+            {
+                "date": "2024-05-01",
+                "type": "investor_presentation",
+                "name": "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+            }
+        ]
+    },
+    "supply_chain": {
+        "company_owned_facilities": [
+            {
+                "region_served": "Americas",
+                "products": "Broad-line MRO inventory",
+                "roles": [],
+                "source": "2013-07-18 PR; 2024-12-27 CoStar",
+                "city": "Minooka",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "300,000+ in-stock MRO items",
+                "roles": [],
+                "source": "2017-11-30 PR",
+                "city": "Bordentown Township",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "Broad-line MRO; bulk",
+                "roles": [],
+                "source": "2024-10-02 PR",
+                "city": "Dallas\u2013Fort Worth (metro)",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": ">250,000 in-stock MRO items (plan up to 300,000)",
+                "roles": [],
+                "source": "2024-02-01 PR; 2024-10-02 PR",
+                "city": "Hockley (Houston metro)",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "Broad-line MRO",
+                "roles": [],
+                "source": "2024-02-01 PR",
+                "city": "Gresham",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "Bulk MRO inventory",
+                "roles": [],
+                "source": "2024-02-01 PR",
+                "city": "Pineville",
+                "country": "United States"
+            }
+        ],
+        "contract_manufacturers": [
+            {
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "United States"
+                ],
+                "products_manufactured": [
+                    "Dayton 240/208V model 3UG82D electric baseboard heaters"
+                ],
+                "manufacturer_name": "Marley Engineered Products LLC",
+                "notes": "Manufacturer named in CPSC recall of Dayton\u2011branded heaters sold at Grainger."
+            },
+            {
+                "headquarters_country": "China",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "China"
+                ],
+                "products_manufactured": [
+                    "Dayton\u2011branded dehumidifiers"
+                ],
+                "manufacturer_name": "Midea",
+                "notes": "CPSC recall covers multiple brands made by Midea, including Dayton; indicates ODM relationship for private label."
+            }
+        ],
+        "critical_suppliers": [
+            {
+                "component_category": "other",
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "provides": "Respirators, hearing/eye protection, tapes/abrasives and industrial supplies",
+                "supplier_name": "3M",
+                "manufacturing_locations": [
+                    "United States",
+                    "China",
+                    "Mexico"
+                ],
+                "single_source": false,
+                "notes": "Core safety/PPE supplier widely featured across Grainger assortment."
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "provides": "PPE and safety equipment",
+                "supplier_name": "Honeywell",
+                "manufacturing_locations": [
+                    "United States",
+                    "Mexico",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Longstanding national\u2011brand supplier to Grainger in PPE and safety."
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "provides": "Power tools and accessories",
+                "supplier_name": "DEWALT",
+                "manufacturing_locations": [
+                    "Turkey",
+                    "United States",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "National brand sold by Grainger; recall data shows products sold via industrial supply channels including Grainger."
+            },
+            {
+                "component_category": "other",
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "provides": "Standby/portable generators, transfer switches and parts",
+                "supplier_name": "Generac Power Systems",
+                "manufacturing_locations": [
+                    "United States",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "National brand frequently available via Grainger."
+            }
+        ],
+        "supplier_concentration": {
+            "top_country_percent": null,
+            "concentration_notes": "More than 5,000 primary suppliers worldwide; no single supplier accounts for >5% of purchases. Sourcing from Asia and other regions raises risk due to distance/geopolitics. Private\u2011label sourcing historically dominated by China and Taiwan (~80%). Approximately 50% of U.S. cost of goods tied to imports including China, but exact country share is not disclosed.",
+            "top_country": "China",
+            "top_3_countries": [
+                "China",
+                "Taiwan",
+                "United States"
+            ]
+        },
+        "supply_corridors": [
+            {
+                "corridor": "Asia \u2192 U.S. DCs/branches \u2192 U.S. customers",
+                "flow_description": "Ocean/air imports from Asia to U.S. ports, intermodal transport to Grainger DCs, automated picking and last\u2011mile parcel/LTL delivery.",
+                "purpose": [
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "Asia \u2192 Canada & Mexico DCs/branches \u2192 regional customers",
+                "flow_description": "Similar import flow as U.S. corridor supporting Grainger's North American network.",
+                "purpose": [
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "Japan DCs \u2192 Japan customers",
+                "flow_description": "Four Japan DCs fulfill endless\u2011assortment orders locally, with occasional third\u2011party drop\u2011ship.",
+                "purpose": [
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "U.S. DC network \u2192 Zoro/High\u2011Touch customers",
+                "flow_description": "Internal DCs serve Zoro and High\u2011Touch solutions, enabling next\u2011day complete shipments and drop\u2011ship options.",
+                "purpose": [
+                    "distribution"
+                ]
+            }
+        ],
+        "supply_chain_initiatives": [
+            {
+                "target_regions": [
+                    "Texas",
+                    "Gulf Coast",
+                    "South Central U.S."
+                ],
+                "status": "announced",
+                "purpose": "Add 1.2M\u202fsf; double stocked items in Houston market; expand next\u2011day coverage",
+                "initiative": "Houston Texas Distribution Center (Hockley, TX)"
+            },
+            {
+                "target_regions": [
+                    "Pacific Northwest",
+                    "West U.S."
+                ],
+                "status": "announced",
+                "purpose": "Increase West/Pacific Northwest capacity and coverage",
+                "initiative": "Gresham, Oregon DC (535k\u202fsf)"
+            },
+            {
+                "target_regions": [
+                    "Southeast U.S."
+                ],
+                "status": "announced",
+                "purpose": "Expand bulk SKU storage and throughput",
+                "initiative": "Pineville, NC bulk warehouse (525k\u202fsf)"
+            },
+            {
+                "target_regions": [
+                    "U.S. nationwide"
+                ],
+                "status": "in_progress",
+                "purpose": "Enhance network operations, assortment capacity, next\u2011day delivery",
+                "initiative": "Network footprint expansion (3.5M\u202fsf; >35% increase)"
+            },
+            {
+                "target_regions": [
+                    "West U.S.",
+                    "Texas"
+                ],
+                "status": "completed",
+                "purpose": "Enable construction of new DCs (Oregon ~535k\u202fsf; Texas ~1.2M\u202fsf)",
+                "initiative": "Land purchases for DCs in Oregon and Texas"
+            },
+            {
+                "target_regions": [
+                    "North America",
+                    "Japan"
+                ],
+                "status": "announced",
+                "purpose": "Sharpen geographic focus on North America and Japan",
+                "initiative": "U.K. exit (Cromwell divestiture; Zoro U.K. closure)"
+            },
+            {
+                "target_regions": [
+                    "North America"
+                ],
+                "status": "in_progress",
+                "purpose": "Ship next\u2011day complete orders; improve service and productivity",
+                "initiative": "DC automation and KeepStock inventory programs"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2024-02-01",
+                "type": "news",
+                "name": "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)"
+            },
+            {
+                "date": "2024-10-02",
+                "type": "news",
+                "name": "Construction begins on massive Grainger distribution center (Hockley, TX)"
+            },
+            {
+                "date": "2024-02-01",
+                "type": "10-K",
+                "name": "W.W. Grainger 2024 Annual Report (Form 10-K)"
+            },
+            {
+                "date": "2025-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)"
+            },
+            {
+                "date": "2024-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)"
+            },
+            {
+                "date": "2023-11-09",
+                "type": "news",
+                "name": "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)"
+            },
+            {
+                "date": "2025-02-28",
+                "type": "news",
+                "name": "Supermicro expands US manufacturing capacity with third Silicon Valley campus"
+            },
+            {
+                "date": "2024-06-04",
+                "type": "news",
+                "name": "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)"
+            },
+            {
+                "date": "2024-05-01",
+                "type": "investor_presentation",
+                "name": "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+            }
+        ]
+    },
+    "customer_profile": {
+        "segment_mix": {
+            "notes": "Government/public sector accounted for 16% of FY2024 total-company revenue per 10\u2011K. Business is principally B2B across both segments; Endless Assortment growth was driven by core B2B customers. Consumer exposure is not broken out and is estimated at 2% to avoid a zero placeholder.",
+            "b2g_percent": 16.0,
+            "b2b_percent": 82.0,
+            "b2c_percent": 2.0
+        },
+        "customer_concentration": {
+            "concentration_level": "low",
+            "any_customer_over_10_percent": false,
+            "top_customer_percent": 9.9,
+            "disclosure_notes": "No single end customer accounted for more than 10% of total sales for the year ended December 31, 2024. Company serves 4.5M+ customers across diverse industries; no explicit Top 10 concentration disclosed.",
+            "top_10_customers_percent": 20.0
+        },
+        "top_customers": [
+            {
+                "notes": "Aggregate of public sector customers across levels of government and education, per FY2024 customer industry table.",
+                "industry": "Government/Public Sector",
+                "type": "government",
+                "percent_of_revenue": 16.0,
+                "name": "Government customers (federal, state, local, education)"
+            },
+            {
+                "notes": "Represents total revenue to manufacturing customers per FY2024 industry table; not a single customer.",
+                "industry": "Manufacturing",
+                "type": "enterprise",
+                "percent_of_revenue": 31.0,
+                "name": "Manufacturing enterprise customers (aggregate)"
+            }
+        ],
+        "industry_exposure": [
+            {
+                "industry": "Manufacturing",
+                "trend": "growing",
+                "percent_of_revenue": 31.0,
+                "notes": "Slight increase from 30% in FY2023."
+            },
+            {
+                "industry": "Government (Public Sector)",
+                "trend": "stable",
+                "percent_of_revenue": 16.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Wholesale",
+                "trend": "stable",
+                "percent_of_revenue": 9.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Commercial Services",
+                "trend": "stable",
+                "percent_of_revenue": 8.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Contractors",
+                "trend": "stable",
+                "percent_of_revenue": 6.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Healthcare",
+                "trend": "stable",
+                "percent_of_revenue": 6.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Retail",
+                "trend": "stable",
+                "percent_of_revenue": 4.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Transportation",
+                "trend": "stable",
+                "percent_of_revenue": 4.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Utilities",
+                "trend": "stable",
+                "percent_of_revenue": 3.0,
+                "notes": "Flat versus FY2023."
+            },
+            {
+                "industry": "Warehousing",
+                "trend": "declining",
+                "percent_of_revenue": 2.0,
+                "notes": "Down from 3% in FY2023."
+            }
+        ],
+        "customer_characteristics": {
+            "geographic_notes": "FY2024 revenue by destination \u2013 United States $13,947\u202fm; Japan $1,893\u202fm; Canada $661\u202fm; Other foreign $667\u202fm. Endless Assortment includes Zoro (U.S.) and MonotaRO (Japan); High\u2011Touch Solutions N.A. operates primarily in the U.S., Canada and Mexico.",
+            "typical_contract_length": "Not disclosed; filings indicate that many customers are under multi\u2011year contracts or group\u2011purchasing agreements, but specific durations vary and are not specified.",
+            "recurring_vs_transactional": "Overall recurring\u2011leaning: High\u2011Touch Solutions derives > two\u2011thirds of its revenue from contracts (recurring replenishment). Endless Assortment revenue is largely non\u2011contractual (transactional). Company\u2011wide product sales represent a single performance obligation per order."
+        },
+        "sources": [
+            {
+                "date": "2024-02-01",
+                "type": "news",
+                "name": "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)"
+            },
+            {
+                "date": "2024-10-02",
+                "type": "news",
+                "name": "Construction begins on massive Grainger distribution center (Hockley, TX)"
+            },
+            {
+                "date": "2024-02-01",
+                "type": "10-K",
+                "name": "W.W. Grainger 2024 Annual Report (Form 10-K)"
+            },
+            {
+                "date": "2025-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)"
+            },
+            {
+                "date": "2024-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)"
+            },
+            {
+                "date": "2023-11-09",
+                "type": "news",
+                "name": "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)"
+            },
+            {
+                "date": "2025-02-28",
+                "type": "news",
+                "name": "Supermicro expands US manufacturing capacity with third Silicon Valley campus"
+            },
+            {
+                "date": "2024-06-04",
+                "type": "news",
+                "name": "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)"
+            },
+            {
+                "date": "2024-05-01",
+                "type": "investor_presentation",
+                "name": "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+            }
+        ]
+    },
+    "regulatory_footprint": {
+        "policy_constraints": [
+            {
+                "policy_description": "U.S. Section 301 four-year review modifications imposing increased/additional duties on select China-origin products across strategic sectors.",
+                "effective_date": "2024-09-27",
+                "issuing_authority": "Office of the United States Trade Representative (USTR)",
+                "source_ref": "USTR_FR_2024-09-18",
+                "policy_type": "Tariff action (Section 301)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "steel/aluminum products",
+                    "EVs/batteries",
+                    "solar cells/modules",
+                    "ship-to-shore cranes",
+                    "critical minerals"
+                ],
+                "affected_regions": [
+                    "China"
+                ]
+            },
+            {
+                "policy_description": "Additional Section 301 tariff increases on tungsten products (25%) and polysilicon/solar wafers (50%).",
+                "effective_date": "2025-01-01",
+                "issuing_authority": "USTR",
+                "source_ref": "USTR_PR_2024-12-11",
+                "policy_type": "Tariff action (Section 301)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "tungsten (HTS 8101.94.00, 8101.99.10, 8101.99.80)",
+                    "polysilicon (HTS 2804.61.00)",
+                    "solar wafers (HTS 3818.00.00)"
+                ],
+                "affected_regions": [
+                    "China"
+                ]
+            },
+            {
+                "policy_description": "BIS Interim Final Rule updating advanced computing and semiconductor end-use controls (ECCN 3A090/4A090) expanding scope to counter diversion.",
+                "effective_date": "2023-11-17",
+                "issuing_authority": "U.S. Department of Commerce, Bureau of Industry and Security (BIS)",
+                "source_ref": "BIS_FR_2023-10-25_AC",
+                "policy_type": "Export control (EAR)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "Advanced computing ICs",
+                    "computers containing such ICs",
+                    "certain semiconductor/end-use items"
+                ],
+                "affected_regions": [
+                    "China",
+                    "Macau",
+                    "other Restricted/Prohibited Countries"
+                ]
+            },
+            {
+                "policy_description": "Section 232 tariffs on steel and aluminum with increased rates and scope clarifications.",
+                "effective_date": "2025-06-04",
+                "issuing_authority": "The White House (Presidential Proclamations) and U.S. Customs and Border Protection (CBP)",
+                "source_ref": "WH_2025-06-03",
+                "policy_type": "Tariff action (Section 232)",
+                "status": "active",
+                "jurisdiction": "United States",
+                "affected_product_categories": [
+                    "steel and aluminum articles and derivatives"
+                ],
+                "affected_regions": [
+                    "Global"
+                ]
+            }
+        ],
+        "regional_demand_signals": [
+            {
+                "amount_usd": 785000000.0,
+                "timeframe": "FY 2025-2026 award cycle",
+                "description": "USDOT awards under the Rural Surface Transportation Grant Program (part of MPDG) to fund 24 rural projects",
+                "observed_date": "2025-01-10",
+                "region": "United States",
+                "signal_type": "Federal infrastructure grant awards (IIJA/BIL)",
+                "initiator": "U.S. Department of Transportation (USDOT)",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 332000000.0,
+                "timeframe": "FY 2025 AIG tranche",
+                "description": "FAA Airport Infrastructure Grants for 171 grants across 32 states to modernize airports",
+                "observed_date": "2025-01-08",
+                "region": "United States",
+                "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+                "initiator": "Federal Aviation Administration (FAA)",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 566400000.0,
+                "timeframe": "2024 awards",
+                "description": "FAA awards 296 grants in 47 states to modernize airports (AIG)",
+                "observed_date": "2024-08-13",
+                "region": "United States",
+                "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+                "initiator": "FAA",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 427000000.0,
+                "timeframe": "2024 awards",
+                "description": "FAA awards to 245 airport-related infrastructure grants",
+                "observed_date": "2024-07-30",
+                "region": "United States",
+                "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+                "initiator": "FAA",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 3600000000.0,
+                "timeframe": "FY 2025 allocations announced (part of SRF)",
+                "description": "EPA announces $3.6B BIL funding for water infrastructure (combined with $2.6B earlier in month = $6.2B for FY 2025)",
+                "observed_date": "2024-10-23",
+                "region": "United States",
+                "signal_type": "Federal infrastructure funding allocations (EPA SRF under IIJA/BIL)",
+                "initiator": "U.S. Environmental Protection Agency (EPA)",
+                "public_amount_disclosed": true
+            }
+        ],
+        "competitor_factual_moves": [
+            {
+                "date_announced": "2024-04-16",
+                "regions_affected": [
+                    "India"
+                ],
+                "description": "HPE announced \u201cMade in India\u201d servers with partner VVDN and plans to manufacture approximately $1 billion worth of high\u2011volume servers in the first five years; servers are being deployed at scale for Indian customers.",
+                "move_type": "manufacturing_localization",
+                "competitor": "Hewlett Packard Enterprise (HPE)"
+            },
+            {
+                "date_announced": "2023-11-01",
+                "regions_affected": [
+                    "United Kingdom"
+                ],
+                "description": "UK Government confirmed AI Research Resource investment increased to \u00a3300 million; Bristol\u2019s Isambard\u2011AI supercomputer built by HPE with 5,000 Nvidia chips.",
+                "move_type": "contract_award/infrastructure_build",
+                "competitor": "Hewlett Packard Enterprise (HPE)"
+            },
+            {
+                "date_announced": "2022-06-14",
+                "regions_affected": [
+                    "Hungary"
+                ],
+                "description": "Lenovo officially opened its first in\u2011house European manufacturing facility in Ullo, Hungary, producing server infrastructure, storage systems, and high\u2011end workstations for EMEA.",
+                "move_type": "manufacturing_expansion",
+                "competitor": "Lenovo"
+            }
+        ],
+        "factual_actions": [
+            {
+                "public_statement": true,
+                "date_announced": "2024",
+                "regions_affected": [
+                    "United States",
+                    "Canada",
+                    "Mexico"
+                ],
+                "description": "Grainger requires suppliers and sub\u2011suppliers to comply with its Supplier Code of Ethics covering human rights, environment, sanctions, trade, bribery, corruption, and privacy as a condition of doing business.",
+                "action_type": "supplier_standards/trade_compliance"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2024-02-01",
+                "type": "news",
+                "name": "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)"
+            },
+            {
+                "date": "2024-10-02",
+                "type": "news",
+                "name": "Construction begins on massive Grainger distribution center (Hockley, TX)"
+            },
+            {
+                "date": "2024-02-01",
+                "type": "10-K",
+                "name": "W.W. Grainger 2024 Annual Report (Form 10-K)"
+            },
+            {
+                "date": "2025-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)"
+            },
+            {
+                "date": "2024-01-01",
+                "type": "investor_presentation",
+                "name": "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)"
+            },
+            {
+                "date": "2023-11-09",
+                "type": "news",
+                "name": "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)"
+            },
+            {
+                "date": "2025-02-28",
+                "type": "news",
+                "name": "Supermicro expands US manufacturing capacity with third Silicon Valley campus"
+            },
+            {
+                "date": "2024-06-04",
+                "type": "news",
+                "name": "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)"
+            },
+            {
+                "date": "2024-05-01",
+                "type": "investor_presentation",
+                "name": "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+            }
+        ]
+    },
+    "data_quality": {
+        "source_summary": {
+            "tier_1_count": 1,
+            "tier_2_count": 3,
+            "tier_3_count": 0,
+            "tier_4_count": 5
+        },
+        "data_gaps": [],
+        "stale_data_warnings": []
+    }
+}

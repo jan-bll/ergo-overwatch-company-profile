@@ -1,0 +1,63 @@
+{
+    "company_overview": {
+        "headquarters": {
+            "city": "Round Rock",
+            "country": "United States"
+        },
+        "value_chain_position": "null",
+        "employees": 108000.0,
+        "founded": 0.0,
+        "business_description": "null",
+        "ticker": "null",
+        "business_model": "vertically_integrated",
+        "name": "Dell Technologies Inc."
+    },
+    "sources": [
+        {
+            "date": "2025-01-31",
+            "type": "10-K",
+            "name": "Dell Technologies Inc., Form 10-K for Fiscal Year Ended January 31, 2025"
+        },
+        {
+            "date": "2024-02-02",
+            "type": "annual_report",
+            "name": "Dell Technologies Inc., Annual Report / Form 10-K PDF"
+        }
+    ],
+    "revenue_by_region": [],
+    "financial_baseline": {
+        "debt_to_equity": null,
+        "market_cap_usd_millions": null,
+        "revenue_usd_millions": 88425.0,
+        "total_debt_usd_millions": 25994.0,
+        "operating_margin": 0.059,
+        "cash_position_usd_millions": 7366.0,
+        "net_margin": 0.036,
+        "current_ratio": null,
+        "balance_sheet_strength": "weak",
+        "gross_margin": 0.236,
+        "fiscal_year": 2024.0
+    },
+    "business_segments": [
+        {
+            "description": "null",
+            "operating_income_usd_millions": 4286.0,
+            "revenue_usd_millions": 33885.0,
+            "operating_margin_percent": 12.6,
+            "yoy_growth_percent": null,
+            "revenue_percent": 38.32,
+            "fiscal_year": "Fiscal 2024",
+            "name": "Infrastructure Solutions Group"
+        },
+        {
+            "description": "null",
+            "operating_income_usd_millions": 3712.0,
+            "revenue_usd_millions": 48916.0,
+            "operating_margin_percent": 7.6,
+            "yoy_growth_percent": null,
+            "revenue_percent": 55.32,
+            "fiscal_year": "Fiscal 2024",
+            "name": "Client Solutions Group"
+        }
+    ]
+}

@@ -1,0 +1,295 @@
+{
+    "competitor_factual_moves": [
+        {
+            "date_announced": "2024-12-18",
+            "regions_affected": [
+                "United States\u2013China (Los Angeles\u2013Beijing)"
+            ],
+            "description": "DOT approved United to launch three weekly LAX\u2013PEK flights; conditions included inauguration by 2025-05-11.",
+            "move_type": "route authorization/expansion under DOT-managed U.S.\u2013China frequencies",
+            "competitor": "United Airlines"
+        },
+        {
+            "date_announced": "2023-08",
+            "regions_affected": [
+                "United States\u2013China (San Francisco\u2013Shanghai/Beijing)"
+            ],
+            "description": "United announced resumption/increase of daily SFO\u2013PVG from 2023-10-01 and daily SFO\u2013PEK starting November 2023, in context of DOT frequency adjustments.",
+            "move_type": "route resumption/increase",
+            "competitor": "United Airlines"
+        },
+        {
+            "date_announced": "2023-08-16",
+            "regions_affected": [
+                "United States\u2013China (Seattle\u2013Shanghai; Detroit\u2013Shanghai)"
+            ],
+            "description": "Delta announced resumption to daily SEA\u2013PVG and 3x weekly DTW\u2013PVG starting 2023-10-29.",
+            "move_type": "route resumption/increase",
+            "competitor": "Delta Air Lines"
+        }
+    ],
+    "factual_actions": [
+        {
+            "public_statement": true,
+            "date_announced": "2023-05-03",
+            "regions_affected": [
+                "United States\u2013China (Texas\u2013Shanghai)"
+            ],
+            "description": "USDOT noted American began operating two additional roundtrip weekly flights to Shanghai from Texas in March 2023 following easing of PRC restrictions.",
+            "action_type": "route increase"
+        }
+    ],
+    "regional_demand_signals": [
+        {
+            "amount_usd": null,
+            "timeframe": "2025\u20132026 deployments",
+            "description": "First 7 AI Factories selected; \u20131.5 billion initial investment combining EU and national funds; deployments across multiple Member States.",
+            "observed_date": "2024-12-10",
+            "region": "European Union",
+            "signal_type": "AI compute infrastructure (AI Factories)",
+            "initiator": "EuroHPC JU / European Commission",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": null,
+            "timeframe": "2021\u20132027",
+            "description": "Overall investments in supercomputing infrastructures and AI Factories in the EU to reach \u201310 billion over 2021\u20132027.",
+            "observed_date": "2024-11-22",
+            "region": "European Union",
+            "signal_type": "AI/supercomputing investment (programme level)",
+            "initiator": "European Commission / EuroHPC JU",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": null,
+            "timeframe": "Running from summer 2024 (Isambard\u2013AI); Dawn operational by end\u20132023 per announcement",
+            "description": "\u009c300m AIRR to build two AI supercomputers; additional \u009c500m AI compute over two years; HPE selected supplier for Isambard\u2013AI; Dawn delivered with Dell/Intel/StackHPC.",
+            "observed_date": "2023-11-01",
+            "region": "United Kingdom",
+            "signal_type": "AI compute infrastructure (AIRR \u2013 Isambard\u2013AI & Dawn)",
+            "initiator": "UK Government (DSIT); UKRI; University of Bristol; University of Cambridge; industry partners",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": null,
+            "timeframe": "Pilot in 2024 with further calls in spring 2024; ongoing",
+            "description": "NAIRR pilot launched to provide access to advanced computing, datasets, models, software, training and user support to U.S. researchers and educators; initial allocations and subsequent calls in 2024.",
+            "observed_date": "2024",
+            "region": "United States",
+            "signal_type": "National AI research compute/data access (NAIRR pilot)",
+            "initiator": "U.S. National Science Foundation (NSF) with federal and private partners",
+            "public_amount_disclosed": false
+        }
+    ],
+    "policy_constraints": [
+        {
+            "policy_description": "BIS advanced computing and semiconductor manufacturing export controls, including controls on advanced computing ICs, related computers, and certain semiconductor manufacturing items; revises October 7, 2022 controls.",
+            "effective_date": "2023-11-17",
+            "issuing_authority": "U.S. Department of Commerce, Bureau of Industry and Security (BIS)",
+            "source_ref": "SRC-BIS-AC-2023",
+            "policy_type": "Export control (EAR)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Advanced computing ICs",
+                "Computers containing such ICs",
+                "Semiconductor manufacturing items"
+            ],
+            "affected_regions": [
+                "People's Republic of China"
+            ]
+        },
+        {
+            "policy_description": "FAA NOTAM KICZ A0004/22 prohibits U.S. civil flight operations in all FIRs managed by Ukraine; FAA removed obsolete SFAR No. 113 but NOTAM restrictions remain.",
+            "effective_date": "2022-02-24",
+            "issuing_authority": "Federal Aviation Administration (FAA)",
+            "source_ref": "SRC-FAA-UKR-2023",
+            "policy_type": "Aviation operational restriction / Airspace prohibition",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "U.S. civil flight operations"
+            ],
+            "affected_regions": [
+                "Ukraine FIRs: Lviv (UKLV), Kyiv (UKBV), Dnipro (UKDV), Simferopol (UKFV), Odesa (UKOV), Kyiv UIR (UKBU)"
+            ]
+        },
+        {
+            "policy_description": "U.S. orders blocking Russian aircraft from entering/using all U.S. domestic airspace.",
+            "effective_date": "2022-03-02",
+            "issuing_authority": "U.S. Department of Transportation / FAA",
+            "source_ref": "SRC-DOT-RUS-2022",
+            "policy_type": "Airspace ban / Aviation order",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Operations of aircraft owned/operated/controlled by persons connected with Russia"
+            ],
+            "affected_regions": [
+                "U.S. airspace"
+            ]
+        },
+        {
+            "policy_description": "EU ban requiring Member States to deny landing, takeoff, or overflight to Russian air carriers, Russian-registered aircraft, and non\u2011Russian registered aircraft owned/chartered/controlled by Russian persons.",
+            "effective_date": "2022-02-28",
+            "issuing_authority": "Council of the European Union (CFSP 2022/335)",
+            "source_ref": "SRC-EU-2022-335",
+            "policy_type": "Sanctions / Airspace prohibition",
+            "status": "active",
+            "jurisdiction": "European Union",
+            "affected_product_categories": [
+                "Civil aviation operations (landing/takeoff/overflight)"
+            ],
+            "affected_regions": [
+                "EU territory/airspace"
+            ]
+        },
+        {
+            "policy_description": "UK Air Navigation (Restriction of Flying) (Russian Aircraft) Regulations 2022 \u2013 prohibition on Russian aircraft flying in UK airspace; strengthened ban and trade sanctions announced 2022-03-09.",
+            "effective_date": "2022-02-25",
+            "issuing_authority": "UK Department for Transport",
+            "source_ref": "SRC-UK-AN-183",
+            "policy_type": "Aviation sanctions / Restricted flying regulations",
+            "status": "amended",
+            "jurisdiction": "United Kingdom",
+            "affected_product_categories": [
+                "Russian-owned/chartered/operated or registered aircraft; flights to/from Russian aerodromes (per amendment)"
+            ],
+            "affected_regions": [
+                "UK airspace"
+            ]
+        },
+        {
+            "policy_description": "U.S.-EU cooperative framework suspending tariffs related to the Large Civil Aircraft dispute for five years.",
+            "effective_date": "2021-06-15",
+            "issuing_authority": "Office of the U.S. Trade Representative (USTR) / European Commission",
+            "source_ref": "SRC-USTR-2021-LCA",
+            "policy_type": "Tariff suspension",
+            "status": "active",
+            "jurisdiction": "United States; European Union",
+            "affected_product_categories": [
+                "Large civil aircraft and related products"
+            ],
+            "affected_regions": [
+                "U.S.-EU trade"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2023-10-25",
+            "type": "news",
+            "name": "Federal Register 88 FR 73458 (BIS AC/S IFR)"
+        },
+        {
+            "date": "2024-04-04",
+            "type": "news",
+            "name": "Federal Register BIS corrections/clarifications to AC/S & SME IFRs"
+        },
+        {
+            "date": "2023\u20132024",
+            "type": "news",
+            "name": "BIS press/information on AC/semiconductor controls (PRC)"
+        },
+        {
+            "date": "2023-10-26",
+            "type": "news",
+            "name": "FAA \u2013 Removal of obsolete SFAR; NOTAMs remain in effect (Ukraine FIRs)"
+        },
+        {
+            "date": "2022-03-01",
+            "type": "news",
+            "name": "DOT press release \u2013 U.S. will block Russian aircraft from U.S. airspace"
+        },
+        {
+            "date": "2022-03-02",
+            "type": "news",
+            "name": "FAA newsroom \u2013 U.S. will block Russian aircraft from U.S. airspace"
+        },
+        {
+            "date": "2022-02-28",
+            "type": "news",
+            "name": "Council Decision (CFSP) 2022/335"
+        },
+        {
+            "date": "2022-02-28",
+            "type": "news",
+            "name": "OJ L 57 (Regulation 2022/334; Decision 2022/335)"
+        },
+        {
+            "date": "2022-02-24/25",
+            "type": "news",
+            "name": "UK SI 2022/183 (Air Navigation \u2013 Russian Aircraft)"
+        },
+        {
+            "date": "2022-03-09",
+            "type": "news",
+            "name": "GOV.UK \u2013 UK strengthens ban on Russia aircraft"
+        },
+        {
+            "date": "2025-11-28",
+            "type": "news",
+            "name": "GOV.UK \u2013 Russia sanctions guidance (transport/aircraft)"
+        },
+        {
+            "date": "2021-06-15",
+            "type": "news",
+            "name": "USTR \u2013 Joint U.S.-EU Cooperative Framework for Large Civil Aircraft"
+        },
+        {
+            "date": "2024-12-10",
+            "type": "news",
+            "name": "European Commission \u2013 AI Factories press (seven consortia)"
+        },
+        {
+            "date": "2026",
+            "type": "news",
+            "name": "European Commission \u2013 AI Factories policy page"
+        },
+        {
+            "date": "2024-11-22",
+            "type": "news",
+            "name": "DIGITAL Europe Programme fact page"
+        },
+        {
+            "date": "2023-11-01",
+            "type": "news",
+            "name": "UKRI \u2013 \u009c300m to launch first phase of AIRR"
+        },
+        {
+            "date": "2023-11-01",
+            "type": "news",
+            "name": "GOV.UK \u2013 Technology Secretary \u009c300m AIRR announcement"
+        },
+        {
+            "date": "2023-11-23",
+            "type": "news",
+            "name": "GOV.UK \u2013 Autumn Statement compute \u009c500m"
+        },
+        {
+            "date": "2023-11-01",
+            "type": "news",
+            "name": "HPE press release \u2013 Isambard\u2013AI supplier selection"
+        },
+        {
+            "date": "2023-10-07",
+            "type": "news",
+            "name": "AA SalesLink \u2013 Israel Security Incident Travel Notice"
+        },
+        {
+            "date": "2023-10-13",
+            "type": "news",
+            "name": "AA SalesLink \u2013 Israel Political Unrest: Temporary Suspension of Service"
+        },
+        {
+            "date": "2025",
+            "type": "10-K",
+            "name": "SEC \u2013 AAL 2024 Form 10\u2013K (HTML)"
+        },
+        {
+            "date": "2025",
+            "type": "10-K",
+            "name": "SEC \u2013 AAL 2024 Form 10\u2013K (PDF)"
+        }
+    ]
+}

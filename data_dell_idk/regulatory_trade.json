@@ -1,0 +1,199 @@
+{
+    "policy_constraints": [
+        {
+            "policy_description": "Implementation of additional export controls on advanced computing integrated circuits (ICs), computer commodities containing such ICs, and certain semiconductor manufacturing items, along with controls on certain U.S. person activities. This rule also added a new red flag for semiconductor fabrication facilities' compliance with the advanced computing FDP rule.",
+            "effective_date": "2022-10-07",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Commerce Department",
+            "source_ref": "1",
+            "policy_type": "Export Control",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Advanced Computing ICs",
+                "Computer Commodities with Advanced ICs",
+                "Semiconductor Manufacturing Items"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "Publication of interim final rules (SME IFR and AC/S IFR) to implement additional export controls on semiconductor manufacturing items and advanced computing items, with updates and corrections. These rules reinforce controls to restrict China's ability to purchase and manufacture advanced chips critical for military advantage.",
+            "effective_date": "2023-10-25",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Commerce Department",
+            "source_ref": "2",
+            "policy_type": "Export Control",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Semiconductor Manufacturing Items",
+                "Advanced Computing Items",
+                "Advanced Computing Chips"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "Corrections and additional clarifications for the interim final rules on Export Controls on Semiconductor Manufacturing Items (SME IFR) and Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections (AC/S IFR).",
+            "effective_date": "2024-04-04",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Commerce Department",
+            "source_ref": "2",
+            "policy_type": "Export Control (Clarification)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Semiconductor Manufacturing Items",
+                "Advanced Computing Items"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "Addition of 80 entities to the Entity List for activities contrary to U.S. national security and foreign policy, specifically to restrict the Chinese Communist Party's (CCP) ability to acquire and develop high-performance and exascale computing capabilities, as well as quantum technologies, for military applications.",
+            "effective_date": "2021-12-15",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Commerce Department",
+            "source_ref": "4",
+            "policy_type": "Export Control (Entity List)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "High-performance computing",
+                "Exascale computing capabilities",
+                "Quantum technologies"
+            ],
+            "affected_regions": [
+                "China",
+                "United Arab Emirates",
+                "South Africa",
+                "Iran",
+                "Taiwan"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2023-10-25",
+            "type": "news",
+            "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Entity List Modification"
+        },
+        {
+            "date": "2024-04-04",
+            "type": "news",
+            "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections"
+        },
+        {
+            "date": "2023-10-17",
+            "type": "news",
+            "name": "Commerce Releases Clarifications to Export Control Rules to Restrict PRC's Access to Advanced Computing"
+        },
+        {
+            "date": "2021-12-15",
+            "type": "news",
+            "name": "Commerce Further Restricts China's Artificial Intelligence, Advanced Computing Capabilities"
+        },
+        {
+            "date": "2023-03-28",
+            "type": "10-K",
+            "name": "Dell Technologies Inc. 2023 Form 10-K"
+        },
+        {
+            "date": "2023-10-17",
+            "type": "news",
+            "name": "Power, Policy & AI: The Rules of the Race in 2026"
+        },
+        {
+            "date": "2023-01-01",
+            "type": "news",
+            "name": "Building a Leading Sovereign AI Nation (Asia/Pacific Whitepaper)"
+        },
+        {
+            "date": "2024-03-05",
+            "type": "news",
+            "name": "Dell Technologies Announces KSA Expansion Operations"
+        },
+        {
+            "date": "2024-12-31",
+            "type": "10-K",
+            "name": "Hewlett Packard Enterprise Company 2024 Form 10-K"
+        }
+    ],
+    "factual_actions": [
+        {
+            "public_statement": true,
+            "date_announced": "2023-03-28",
+            "regions_affected": [
+                "United States",
+                "Malaysia",
+                "China",
+                "Brazil",
+                "India",
+                "Poland",
+                "Ireland"
+            ],
+            "description": "Dell owns manufacturing facilities in multiple countries.",
+            "action_type": "Manufacturing footprint"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2023-03-28",
+            "regions_affected": [
+                "Global"
+            ],
+            "description": "Dell monitors and seeks to mitigate risks from trade protection measures and disputes by adjusting its manufacturing, supply chain, and distribution networks.",
+            "action_type": "Supply chain diversification/adjustment"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2024-03-05",
+            "regions_affected": [
+                "Kingdom of Saudi Arabia"
+            ],
+            "description": "Dell Technologies announced plans to open a new merge and logistics fulfillment center in the Kingdom of Saudi Arabia.",
+            "action_type": "Logistics expansion"
+        }
+    ],
+    "competitor_factual_moves": [
+        {
+            "date_announced": "2024-12-31",
+            "regions_affected": [
+                "United States",
+                "Puerto Rico",
+                "Costa Rica",
+                "Czech Republic",
+                "Malaysia",
+                "Mexico",
+                "China",
+                "Taiwan",
+                "South Korea",
+                "Singapore"
+            ],
+            "description": "HPE's manufacturing of product components, final assembly, and other critical operations are concentrated in various geographic locations.",
+            "move_type": "Manufacturing footprint",
+            "competitor": "HPE"
+        }
+    ],
+    "regional_demand_signals": [
+        {
+            "amount_usd": null,
+            "timeframe": "2026",
+            "description": "Countries worldwide will make AI sovereignty a national imperative, focusing on homegrown AI strategies, data localization, nurturing domestic innovation, and reducing reliance on foreign technology.",
+            "observed_date": "2023-10-17",
+            "region": "Global",
+            "signal_type": "Government-led AI strategy",
+            "initiator": "Countries worldwide",
+            "public_amount_disclosed": false
+        },
+        {
+            "amount_usd": null,
+            "timeframe": "null",
+            "description": "Governments' approaches to Sovereign AI are shaped by economic benefits specific to a country's aspirations within the digital economy. Dell is engaging with governments on this.",
+            "observed_date": "2023-01-01",
+            "region": "Asia/Pacific",
+            "signal_type": "Government-led AI strategy",
+            "initiator": "Governments in Asia/Pacific",
+            "public_amount_disclosed": false
+        }
+    ]
+}

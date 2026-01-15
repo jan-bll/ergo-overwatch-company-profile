@@ -1,0 +1,102 @@
+{
+    "company_overview": {
+        "headquarters": {
+            "city": "Fort Worth",
+            "country": "United States"
+        },
+        "value_chain_position": "Airline operator / service provider (air transportation services)",
+        "employees": 133300.0,
+        "founded": 2013.0,
+        "business_description": "American Airlines Group Inc. is managed as a single operating segment that provides scheduled air transportation for passengers and cargo, and includes its loyalty program; a leading global airline offering thousands of flights per day to more than 350 destinations in over 60 countries.",
+        "ticker": "AAL",
+        "business_model": "vertically_integrated",
+        "name": "American Airlines Group Inc."
+    },
+    "sources": [
+        {
+            "date": "2025-02-19",
+            "type": "10-K",
+            "name": "American Airlines Group Inc. Form 10-K 2024"
+        }
+    ],
+    "revenue_by_region": [
+        {
+            "region": "Americas",
+            "key_countries": [
+                "United States",
+                "Canada",
+                "Puerto Rico",
+                "U.S. Virgin Islands"
+            ],
+            "revenue_usd_millions": 35336.0,
+            "percent_of_total": 65.2,
+            "yoy_growth_percent": 2.1
+        },
+        {
+            "region": "EMEA",
+            "key_countries": [],
+            "revenue_usd_millions": 6560.0,
+            "percent_of_total": 12.1,
+            "yoy_growth_percent": -2.4
+        },
+        {
+            "region": "APJ",
+            "key_countries": [],
+            "revenue_usd_millions": 6445.0,
+            "percent_of_total": 11.9,
+            "yoy_growth_percent": 3.9
+        },
+        {
+            "region": "Other",
+            "key_countries": [],
+            "revenue_usd_millions": 1245.0,
+            "percent_of_total": 2.3,
+            "yoy_growth_percent": 25.0
+        }
+    ],
+    "financial_baseline": {
+        "debt_to_equity": null,
+        "market_cap_usd_millions": null,
+        "revenue_usd_millions": 54211.0,
+        "total_debt_usd_millions": 30476.0,
+        "operating_margin": 0.048,
+        "cash_position_usd_millions": 10273.0,
+        "net_margin": 0.0,
+        "current_ratio": null,
+        "balance_sheet_strength": "strong",
+        "gross_margin": 0.0,
+        "fiscal_year": 2024.0
+    },
+    "business_segments": [
+        {
+            "description": "Passenger revenue from transportation on American and regional flights, including loyalty revenue recognized in passenger revenue for mileage credit redemptions.",
+            "operating_income_usd_millions": null,
+            "revenue_usd_millions": 49586.0,
+            "operating_margin_percent": null,
+            "yoy_growth_percent": 2.2,
+            "revenue_percent": 91.5,
+            "fiscal_year": "2024",
+            "name": "Passenger"
+        },
+        {
+            "description": "Revenue recognized when American provides cargo transportation.",
+            "operating_income_usd_millions": null,
+            "revenue_usd_millions": 804.0,
+            "operating_margin_percent": null,
+            "yoy_growth_percent": -2.9,
+            "revenue_percent": 1.5,
+            "fiscal_year": "2024",
+            "name": "Cargo"
+        },
+        {
+            "description": "Includes loyalty program marketing services (co\u2011branded credit card and other partners) and other items such as airport clubs, commissions, advertising and vacation\u2011related services.",
+            "operating_income_usd_millions": null,
+            "revenue_usd_millions": 3821.0,
+            "operating_margin_percent": null,
+            "yoy_growth_percent": 10.3,
+            "revenue_percent": 7.0,
+            "fiscal_year": "2024",
+            "name": "Other"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "competitor_factual_moves": [
+        {
+            "date_announced": "2024-04-23",
+            "regions_affected": [
+                "China"
+            ],
+            "description": "China acquired recently banned Nvidia chips in Supermicro servers via tenders, as reported by Reuters.",
+            "move_type": "Acquisition of Restricted Technology",
+            "competitor": "Supermicro"
+        }
+    ],
+    "factual_actions": [
+        {
+            "public_statement": true,
+            "date_announced": "2025-01-31",
+            "regions_affected": [
+                "Global"
+            ],
+            "description": "Disclosed risk factors related to export controls, trade protection measures, and potential impacts on manufacturing costs, product prices, demand, procurement, and cross-border movement of goods. Also noted elevated backlog for AI-optimized servers due to GPU shortages.",
+            "action_type": "Risk Disclosure"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2025-01-31",
+            "regions_affected": [
+                "USA",
+                "Malaysia",
+                "China",
+                "Brazil",
+                "India",
+                "Poland",
+                "Ireland"
+            ],
+            "description": "Disclosed manufacturing facilities located in USA, Malaysia, China, Brazil, India, Poland, and Ireland.",
+            "action_type": "Supply Chain Disclosure"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2025-12-10",
+            "regions_affected": [
+                "Global"
+            ],
+            "description": "Published a blog post discussing policy and AI.",
+            "action_type": "Public Communication"
+        }
+    ],
+    "regional_demand_signals": [],
+    "policy_constraints": [
+        {
+            "policy_description": "Updated controls to identify controlled chips using criteria including total performance and performance density, implemented via Federal Register.",
+            "effective_date": "2023-10-25",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Department of Commerce",
+            "source_ref": "federal_register_20231025",
+            "policy_type": "Export Control",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Advanced Computing Items",
+                "Supercomputer Components",
+                "Semiconductors"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "Strengthened restrictions on advanced computing semiconductors, enhancing foundry due diligence and preventing diversion to the PRC. Builds on previous controls from Oct 7, 2022, and Oct 17, 2023.",
+            "effective_date": "2024-12-02",
+            "issuing_authority": "Bureau of Industry and Security (BIS), U.S. Department of Commerce",
+            "source_ref": "bis_press_release_20241202",
+            "policy_type": "Export Control",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Advanced Computing Semiconductors",
+                "High-end Chips"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-01-31",
+            "type": "10-K",
+            "name": "Dell Technologies Inc. 2025 Form 10-K"
+        },
+        {
+            "date": "2024-12-02",
+            "type": "news",
+            "name": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors to Enhance Foundry Due Diligence and Prevent Diversion to PRC"
+        },
+        {
+            "date": "2023-10-25",
+            "type": "news",
+            "name": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and"
+        },
+        {
+            "date": "2024-04-23",
+            "type": "news",
+            "name": "China acquired recently banned Nvidia chips in Super Micro, Dell servers, tenders show"
+        },
+        {
+            "date": "2025-12-10",
+            "type": "news",
+            "name": "Power, Policy & AI: The Rules of the Race in 2026"
+        }
+    ]
+}

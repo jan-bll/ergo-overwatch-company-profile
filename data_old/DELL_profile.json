@@ -1,0 +1,1040 @@
+{
+    "meta": {
+        "company_name": "Dell Technologies Inc.",
+        "ticker": "DELL",
+        "extraction_date": "2026-01-14",
+        "baseline_fiscal_year": 2025.0,
+        "data_freshness_note": "Compiled from 4 data sources",
+        "confidence_overall": 1.0,
+        "primary_sources": [
+            "Dell Technologies Inc. Form 10-K for fiscal year ended January 31, 2025",
+            "Dell Technologies Inc. Form 10-K for fiscal year ended February 2, 2024",
+            "Dell \u2013 Q4 2024 Dell Technologies Inc Earnings Call",
+            "Dell \u2013 2025 Securities Analyst Meeting (transcript)",
+            "Autumn Statement 2023 (HTML) \u2013 AI Compute investment",
+            "Science, Innovation and Technology backed in Chancellor\u2019s 2023 Autumn Statement \u2013 Compute",
+            "The EuroHPC Joint Undertaking amends its Work Programme to incorporate the new AI Factory pillar",
+            "The EuroHPC Joint Undertaking Launches AI Factories Calls to Boost European Leadership in Trustworthy AI",
+            "Selection of the First Seven AI Factories to Drive Europe\u2019s Leadership in AI",
+            "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem (\u20b910,371.92 crore; 10,000+ GPUs)"
+        ]
+    },
+    "company_overview": {
+        "headquarters": {
+            "city": "Round Rock",
+            "country": "United States"
+        },
+        "value_chain_position": "Branded OEM and integrated solutions provider",
+        "employees": 108000.0,
+        "founded": 1984.0,
+        "business_description": "Dell Technologies is a leader in the global technology industry that designs, develops, manufactures, markets, sells, and supports comprehensive and integrated solutions, products, and services, including servers and networking, storage, cloud solutions, desktops, notebooks, services, software, and peripherals.",
+        "ticker": "DELL",
+        "business_model": "vertically_integrated",
+        "name": "Dell Technologies Inc."
+    },
+    "financial": {
+        "business_segments": [
+            {
+                "description": "Solutions for AI, ML, data analytics, and multicloud; servers and networking (including AI\u2011optimized), comprehensive storage (all\u2011flash arrays, scale\u2011out file, object, HCI, software\u2011defined), plus software, peripherals, and consulting/support/deployment services.",
+                "operating_income_usd_millions": 5579.0,
+                "revenue_usd_millions": 43593.0,
+                "operating_margin_percent": 12.8,
+                "yoy_growth_percent": 29.0,
+                "revenue_percent": 45.6,
+                "fiscal_year": "FY2025",
+                "name": "Infrastructure Solutions Group (ISG)"
+            },
+            {
+                "description": "Branded PCs (notebooks, desktops, workstations) and branded peripherals; third\u2011party software/peripherals; services include configuration, support/deployment, extended warranties; commercial and consumer (including gaming) portfolios with on\u2011device AI.",
+                "operating_income_usd_millions": 2972.0,
+                "revenue_usd_millions": 48393.0,
+                "operating_margin_percent": 6.1,
+                "yoy_growth_percent": -1.0,
+                "revenue_percent": 50.7,
+                "fiscal_year": "FY2025",
+                "name": "Client Solutions Group (CSG)"
+            }
+        ],
+        "revenue_by_region": [
+            {
+                "region": "Americas",
+                "key_countries": [],
+                "revenue_usd_millions": null,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": null
+            },
+            {
+                "region": "EMEA",
+                "key_countries": [],
+                "revenue_usd_millions": null,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": null
+            },
+            {
+                "region": "APJ",
+                "key_countries": [],
+                "revenue_usd_millions": null,
+                "percent_of_total": 0.0,
+                "yoy_growth_percent": null
+            }
+        ],
+        "financial_baseline": {
+            "debt_to_equity": -17.71,
+            "market_cap_usd_millions": 29200.0,
+            "revenue_usd_millions": 95567.0,
+            "total_debt_usd_millions": 24567.0,
+            "operating_margin": 0.065,
+            "cash_position_usd_millions": 3633.0,
+            "net_margin": 0.048,
+            "current_ratio": 0.78,
+            "balance_sheet_strength": "weak",
+            "gross_margin": 0.222,
+            "fiscal_year": 2025.0
+        },
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended January 31, 2025"
+            },
+            {
+                "date": "2024-02-02",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended February 2, 2024"
+            },
+            {
+                "date": "2024-02-29",
+                "type": "earnings_call",
+                "name": "Dell \u2013 Q4 2024 Dell Technologies Inc Earnings Call"
+            },
+            {
+                "date": "2025-10-07",
+                "type": "news",
+                "name": "Dell \u2013 2025 Securities Analyst Meeting (transcript)"
+            },
+            {
+                "date": "2023-11-30",
+                "type": "news",
+                "name": "Autumn Statement 2023 (HTML) \u2013 AI Compute investment"
+            },
+            {
+                "date": "2023-11-23",
+                "type": "news",
+                "name": "Science, Innovation and Technology backed in Chancellor\u2019s 2023 Autumn Statement \u2013 Compute"
+            },
+            {
+                "date": "2024-07-26",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking amends its Work Programme to incorporate the new AI Factory pillar"
+            },
+            {
+                "date": "2024-09-10",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking Launches AI Factories Calls to Boost European Leadership in Trustworthy AI"
+            },
+            {
+                "date": "2024-12-10",
+                "type": "news",
+                "name": "Selection of the First Seven AI Factories to Drive Europe\u2019s Leadership in AI"
+            },
+            {
+                "date": "2024-03-07",
+                "type": "news",
+                "name": "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem (\u20b910,371.92 crore; 10,000+ GPUs)"
+            }
+        ]
+    },
+    "supply_chain": {
+        "company_owned_facilities": [
+            {
+                "region_served": "APJ",
+                "products": "PowerEdge servers (PE & XE), Precision workstations, OptiPlex, PowerProtect, PowerScale, PowerVault, Dell/OEM Networking, rack integration (air & DLC), storage platforms (PowerStore, etc.)",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (Published 2025-12)",
+                "city": "Penang (Bukit Mertajam)",
+                "country": "Malaysia"
+            },
+            {
+                "region_served": "EMEA",
+                "products": "Desktops (OptiPlex, Precision, Vostro, XPS, Alienware), PowerEdge servers, PowerScale, PowerVault, PowerStore, VxRail, Telco, hyperconverged, accessories",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "\u0141\u00f3d\u017a",
+                "country": "Poland"
+            },
+            {
+                "region_served": "APJ",
+                "products": "PowerEdge servers; notebooks (Alienware, Inspiron, Latitude, Vostro, XPS); desktops (OptiPlex, Precision, Vostro), accessories",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Sriperumbudur (Tamil Nadu)",
+                "country": "India"
+            },
+            {
+                "region_served": "EMEA",
+                "products": "APEX DSS; Connectrix; ObjectScale/ECS; PowerScale (Isilon); Azure Stack HCI; PowerFlex Rack; PowerMax; PowerProtect (IDPA/Data Domain); PowerStore; RecoverPoint; Unity; VMAX; VxBlock; XtremIO; L11/AI rack integration; VPLEX (upgrades/CS support only)",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Cork (Barnagore)",
+                "country": "Ireland"
+            },
+            {
+                "region_served": "Americas",
+                "products": "PowerEdge servers; desktops (Alienware, Inspiron, OptiPlex, Precision, Vostro, XPS); notebooks (Alienware, Inspiron, Latitude, Precision, Vostro, XPS); storage; workstations; accessories",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Hortol\u00e2ndia (S\u00e3o Paulo)",
+                "country": "Brazil"
+            },
+            {
+                "region_served": "APJ",
+                "products": "Desktops (Alienware, Inspiron, OptiPlex, Precision, Vostro, XPS); PowerEdge servers; multiple storage lines (PowerMax, PowerStore, PowerScale, PowerVault, Unity XT, PowerProtect, etc.); networking; accessories",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Xiamen (Fujian)",
+                "country": "China"
+            },
+            {
+                "region_served": "APJ",
+                "products": "OptiPlex/Vostro desktops, accessories, PowerEdge servers; Dell Pro/Pro Max desktops",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Chengdu (Sichuan)",
+                "country": "China"
+            },
+            {
+                "region_served": "Americas",
+                "products": "Connectrix, MHC, PowerFlex, PowerMax, VMAX, VPLEX, VScale, VxBlock, XtremIO",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Franklin (Massachusetts)",
+                "country": "United States"
+            },
+            {
+                "region_served": "Americas",
+                "products": "APEX DSS, PowerProtect (Data Domain/IDPA), DLM, ObjectScale (ECI/ECS), PowerScale (Isilon), PowerStore, Unity",
+                "roles": [
+                    "assembly"
+                ],
+                "source": "Dell Public Supplier List (2025-12)",
+                "city": "Apex (North Carolina)",
+                "country": "United States"
+            }
+        ],
+        "contract_manufacturers": [
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "China (Kunshan, Chengdu)",
+                    "Taiwan (Taoyuan)",
+                    "Vietnam (Ph\u00fa Th\u1ecd)"
+                ],
+                "products_manufactured": [
+                    "Laptops/notebooks and accessories across Dell lines"
+                ],
+                "manufacturer_name": "Compal",
+                "notes": "Listed on Dell\u2019s Public Supplier List with multiple sites covering broad Dell laptop portfolio"
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "China (Chengdu, Zhongshan)",
+                    "Taiwan (Hsinchu/Hukou/Zhubei)",
+                    "Vietnam (Ninh Binh)",
+                    "Mexico (Juarez)"
+                ],
+                "products_manufactured": [
+                    "Dell laptops (Inspiron/Latitude/Precision/XPS/Alienware), desktops (Inspiron/OptiPlex), servers (PCBA/servers)"
+                ],
+                "manufacturer_name": "Wistron",
+                "notes": "Multiple facilities for laptops, desktops, and server PCBA"
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "high",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "Mexico (Ciudad Ju\u00e1rez; Tlaquepaque/Jalisco)",
+                    "China (Wuhan; Tianjin)",
+                    "Vietnam (B\u1eafc Giang; Qu\u1ea3ng Ninh)"
+                ],
+                "products_manufactured": [
+                    "OptiPlex, Inspiron, Precision, XPS, Alienware desktops; PowerEdge servers; PowerVault; networking/switches; PCBA"
+                ],
+                "manufacturer_name": "Foxconn (Hon Hai / Ingrasys)",
+                "notes": "US tech firms have pushed Taiwanese manufacturers to make AI servers in Mexico; Foxconn Mexico sites appear in Dell\u2019s supplier list"
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "China (Shanghai)",
+                    "Taiwan (Taoyuan)",
+                    "Thailand (Samut Prakan)"
+                ],
+                "products_manufactured": [
+                    "Servers (Thailand) and components"
+                ],
+                "manufacturer_name": "Inventec",
+                "notes": "Server assembly in Thailand listed"
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "ODM",
+                "production_countries": [
+                    "Taiwan (Taoyuan)"
+                ],
+                "products_manufactured": [
+                    "Latitude Rugged / Dell Pro Rugged"
+                ],
+                "manufacturer_name": "Pegatron",
+                "notes": "Focused on rugged lines"
+            },
+            {
+                "headquarters_country": "Canada",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "both",
+                "production_countries": [
+                    "Laos (Savannakhet)",
+                    "Thailand (Laem Chabang)",
+                    "Mexico (Nuevo Le\u00f3n)"
+                ],
+                "products_manufactured": [
+                    "Networking systems and components"
+                ],
+                "manufacturer_name": "Celestica",
+                "notes": "Multiple regional sites"
+            },
+            {
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "functions": [
+                    "assembly"
+                ],
+                "relationship_type": "EMS",
+                "production_countries": [
+                    "Thailand (Samut Prakan)",
+                    "Taiwan (Taoyuan)"
+                ],
+                "products_manufactured": [
+                    "Networking"
+                ],
+                "manufacturer_name": "Delta Electronics",
+                "notes": "Networking-specific"
+            }
+        ],
+        "critical_suppliers": [
+            {
+                "component_category": "CPU",
+                "headquarters_country": "United States",
+                "dependency_level": "high",
+                "provides": "Client and server CPUs/platform components",
+                "supplier_name": "Intel",
+                "manufacturing_locations": [
+                    "United States",
+                    "Ireland",
+                    "Israel",
+                    "Malaysia",
+                    "Vietnam",
+                    "China",
+                    "Costa Rica"
+                ],
+                "single_source": false,
+                "notes": "Intel operates fabs in US/Ireland/Israel; assembly/test in Malaysia/Vietnam/China/Costa Rica. Dell flags single/limited\u2011source risks and reliance on third\u2011party vendors/CMs"
+            },
+            {
+                "component_category": "CPU",
+                "headquarters_country": "United States",
+                "dependency_level": "high",
+                "provides": "Client/server CPUs and discrete GPUs",
+                "supplier_name": "AMD",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Malaysia"
+                ],
+                "single_source": false,
+                "notes": "AMD relies on TSMC for wafers; final assembly and test in China, Malaysia and Taiwan"
+            },
+            {
+                "component_category": "GPU",
+                "headquarters_country": "United States",
+                "dependency_level": "high",
+                "provides": "Data center and client GPUs",
+                "supplier_name": "NVIDIA",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "Various Asia OSATs"
+                ],
+                "single_source": false,
+                "notes": "Dominant supplier of AI GPUs; Dell 10\u2011K highlights GPU supply constraints"
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "DRAM and NAND; LCD/OLED panels",
+                "supplier_name": "Samsung Electronics",
+                "manufacturing_locations": [
+                    "South Korea",
+                    "China",
+                    "Vietnam",
+                    "Philippines"
+                ],
+                "single_source": false,
+                "notes": "Top\u2011tier memory and display supplier"
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "South Korea",
+                "dependency_level": "high",
+                "provides": "DRAM and NAND",
+                "supplier_name": "SK hynix",
+                "manufacturing_locations": [
+                    "South Korea"
+                ],
+                "single_source": false,
+                "notes": "Key DRAM/NAND supplier"
+            },
+            {
+                "component_category": "memory",
+                "headquarters_country": "United States",
+                "dependency_level": "high",
+                "provides": "DRAM and NAND (incl. SSDs)",
+                "supplier_name": "Micron Technology",
+                "manufacturing_locations": [
+                    "United States",
+                    "Japan",
+                    "Singapore",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Multiple Micron sites in Dell\u2019s supplier list"
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "Ireland",
+                "dependency_level": "medium",
+                "provides": "Hard disk drives",
+                "supplier_name": "Seagate",
+                "manufacturing_locations": [
+                    "Thailand",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "HDD production concentrated in Thailand/China"
+            },
+            {
+                "component_category": "storage",
+                "headquarters_country": "United States",
+                "dependency_level": "medium",
+                "provides": "HDDs/SSDs",
+                "supplier_name": "Western Digital",
+                "manufacturing_locations": [
+                    "Thailand",
+                    "Malaysia"
+                ],
+                "single_source": false,
+                "notes": "HDD/SSD capacity in Thailand/Malaysia listed"
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "China",
+                "dependency_level": "medium",
+                "provides": "LCD panels",
+                "supplier_name": "BOE",
+                "manufacturing_locations": [
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Multiple BOE fabs in Dell list"
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "Taiwan",
+                "dependency_level": "medium",
+                "provides": "LCD panels",
+                "supplier_name": "Innolux",
+                "manufacturing_locations": [
+                    "Taiwan",
+                    "China",
+                    "Vietnam"
+                ],
+                "single_source": false,
+                "notes": "Panel supply across Taiwan/China/Vietnam"
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "China",
+                "dependency_level": "medium",
+                "provides": "LCD panels",
+                "supplier_name": "CSOT",
+                "manufacturing_locations": [
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Multiple China LCD sites"
+            },
+            {
+                "component_category": "display",
+                "headquarters_country": "Japan",
+                "dependency_level": "medium",
+                "provides": "LCD panels/modules",
+                "supplier_name": "Sharp (Display)",
+                "manufacturing_locations": [
+                    "Japan",
+                    "China"
+                ],
+                "single_source": false,
+                "notes": "Listed panel/module sites"
+            }
+        ],
+        "supplier_concentration": {
+            "top_country_percent": null,
+            "concentration_notes": "Dell 10\u2011K discloses significant portions of products are assembled by a limited number of contract manufacturers, primarily in various locations in Asia, often in single locations. Dell\u2011owned factories are in the US, Malaysia, China, Brazil, India, Poland, and Ireland. Components are sourced primarily from those countries plus Japan, South Korea, Mexico, Taiwan, Singapore, Philippines, Thailand, Laos, Germany, Netherlands, Israel, Vietnam, and Indonesia. No precise % by country is disclosed in public filings/ESG; hence numeric concentration by country is not available.",
+            "top_country": "Unavailable",
+            "top_3_countries": [
+                "Unavailable"
+            ]
+        },
+        "supply_corridors": [
+            {
+                "corridor": "Asia (Taiwan/Korea/Japan/Singapore) \u2192 Asia ODM/EMS (China/Vietnam/Malaysia) \u2192 U.S.",
+                "flow_description": "Silicon and memory from Asian fabs to final assembly by contract manufacturers primarily in Asia; shipments into U.S. distribution.",
+                "purpose": [
+                    "assembly",
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "Asia \u2192 Mexico (EMS/ODM integration) \u2192 U.S.",
+                "flow_description": "Use of EMS providers in Mexico (e.g., Jabil, Celestica) and ODMs for product integration feeding U.S. market; part of nearshoring risk mitigation.",
+                "purpose": [
+                    "assembly",
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "Asia \u2192 EMEA",
+                "flow_description": "Contract\u2011manufactured products from Asia shipped to EMEA distribution; Dell highlights international sales ~50% and reliance on non\u2011U.S. vendors.",
+                "purpose": [
+                    "distribution"
+                ]
+            },
+            {
+                "corridor": "India (Make\u2011in\u2011India PLI) \u2192 India/Export",
+                "flow_description": "Participation in India\u2019s PLI program for laptops/servers to localize assembly with potential export flows.",
+                "purpose": [
+                    "assembly"
+                ]
+            }
+        ],
+        "supply_chain_initiatives": [
+            {
+                "target_regions": [
+                    "China (reduced)",
+                    "Vietnam (increased)",
+                    "Other non\u2011China Asia"
+                ],
+                "status": "announced",
+                "purpose": "Reduce geopolitical/sanctions/tariff risk; diversify supply chain",
+                "initiative": "Phase out China-made chips"
+            },
+            {
+                "target_regions": [
+                    "India"
+                ],
+                "status": "announced",
+                "purpose": "Localize manufacturing in India and diversify assembly base",
+                "initiative": "Apply for India PLI for laptops/servers"
+            },
+            {
+                "target_regions": [
+                    "Mexico",
+                    "U.S."
+                ],
+                "status": "announced",
+                "purpose": "Shorten supply lines to U.S.; mitigate tariffs and logistics risk",
+                "initiative": "Nearshoring to Mexico (EMS/ODM integration)"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended January 31, 2025"
+            },
+            {
+                "date": "2024-02-02",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended February 2, 2024"
+            },
+            {
+                "date": "2024-02-29",
+                "type": "earnings_call",
+                "name": "Dell \u2013 Q4 2024 Dell Technologies Inc Earnings Call"
+            },
+            {
+                "date": "2025-10-07",
+                "type": "news",
+                "name": "Dell \u2013 2025 Securities Analyst Meeting (transcript)"
+            },
+            {
+                "date": "2023-11-30",
+                "type": "news",
+                "name": "Autumn Statement 2023 (HTML) \u2013 AI Compute investment"
+            },
+            {
+                "date": "2023-11-23",
+                "type": "news",
+                "name": "Science, Innovation and Technology backed in Chancellor\u2019s 2023 Autumn Statement \u2013 Compute"
+            },
+            {
+                "date": "2024-07-26",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking amends its Work Programme to incorporate the new AI Factory pillar"
+            },
+            {
+                "date": "2024-09-10",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking Launches AI Factories Calls to Boost European Leadership in Trustworthy AI"
+            },
+            {
+                "date": "2024-12-10",
+                "type": "news",
+                "name": "Selection of the First Seven AI Factories to Drive Europe\u2019s Leadership in AI"
+            },
+            {
+                "date": "2024-03-07",
+                "type": "news",
+                "name": "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem (\u20b910,371.92 crore; 10,000+ GPUs)"
+            }
+        ]
+    },
+    "customer_profile": {
+        "segment_mix": {
+            "notes": "B2C computed as FY2024 CSG Consumer revenue ($9.102B) / total net revenue ($88.425B) = ~10.3%. Dell does not disclose a standalone government/public share; we estimate B2G at ~20% of total based on Dell\u2019s dedicated Public/Education focus and disclosure that government contracts are a significant source of business; range 15\u201325%. B2B is residual so the three sum to ~100% and B2B >50%. Period: FY2024.",
+            "b2g_percent": 20.0,
+            "b2b_percent": 69.7,
+            "b2c_percent": 10.3
+        },
+        "customer_concentration": {
+            "concentration_level": "low",
+            "any_customer_over_10_percent": false,
+            "top_customer_percent": 3.2,
+            "disclosure_notes": "Dell\u2019s FY2025 10-K states no single customer accounted for \u226510% of revenue. U.S. federal prime\u2011contract revenue ($3.039\u202fB) is used as a proxy to estimate a large single \u201ccustomer\u201d at ~3.2% of FY2025 revenue; top\u201110 aggregate not disclosed, estimated ~20%.",
+            "top_10_customers_percent": 20.0
+        },
+        "top_customers": [
+            {
+                "notes": "Proxy based on Washington Technology Top\u202f100 (2024) reporting $3.039\u202fB U.S. federal prime\u2011contract revenue. Percentage computed vs. FY2025 total revenue $95.567\u202fB. Federal\u2011only; excludes state/local and international public\u2011sector.",
+                "industry": "Government",
+                "type": "government",
+                "percent_of_revenue": 3.2,
+                "name": "U.S. Federal Government"
+            },
+            {
+                "notes": "Dell cited deals with xAI contributing to ~$9\u202fB AI server backlog (Feb\u202f27\u202f2025). Specific revenue % not disclosed; shown as a conservative illustrative estimate.",
+                "industry": "Technology",
+                "type": "hyperscaler",
+                "percent_of_revenue": 0.05,
+                "name": "xAI"
+            },
+            {
+                "notes": "Dell customer story: \u201cLowe\u2019s Enhances the Retail Experience With AI.\u201d Percent of revenue not disclosed; shown as de\u2011minimis illustrative estimate.",
+                "industry": "Retail",
+                "type": "enterprise",
+                "percent_of_revenue": 0.02,
+                "name": "Lowe\u2019s"
+            }
+        ],
+        "industry_exposure": [
+            {
+                "industry": "Government / Public Sector",
+                "trend": "stable",
+                "percent_of_revenue": 20.0,
+                "notes": "Estimated share; Dell cites government/public institutions (including education, healthcare) as core customer segments and FY2025 10\u2011K notes government contracts are a significant source of business."
+            },
+            {
+                "industry": "Healthcare",
+                "trend": "stable",
+                "percent_of_revenue": 10.0,
+                "notes": "Indicative; Dell explicitly targets healthcare organizations in its go\u2011to\u2011market segmentation."
+            },
+            {
+                "industry": "Financial Services",
+                "trend": "stable",
+                "percent_of_revenue": 10.0,
+                "notes": "Indicative; Dell serves large enterprise verticals including financial services."
+            },
+            {
+                "industry": "Manufacturing / Industrial",
+                "trend": "stable",
+                "percent_of_revenue": 10.0,
+                "notes": "Indicative; part of Dell\u2019s enterprise commercial base."
+            },
+            {
+                "industry": "Technology & Cloud (incl. hyperscalers)",
+                "trend": "growing",
+                "percent_of_revenue": 10.0,
+                "notes": "Indicative; FY2025 commentary highlights AI server momentum and named deal with xAI."
+            },
+            {
+                "industry": "Education",
+                "trend": "stable",
+                "percent_of_revenue": 5.0,
+                "notes": "Indicative; education is a key public sector component. Overlaps with Public Sector; do not sum categories."
+            }
+        ],
+        "customer_characteristics": {
+            "geographic_notes": "FY2024 net revenue: United States $43.986B; foreign countries $44.439B. No single foreign country contributed \u226510% of revenue. About 50% of revenue was through indirect channels (partners/resellers).",
+            "typical_contract_length": "Dell states its consumption/as\u2011a\u2011Service, subscription, utility, and lease/loan offerings typically result in multiyear agreements. Based on disclosures and industry practice: support/maintenance and many subscriptions commonly 1\u20133 years; DFS leases/loans often 3\u20135 years (lease payment schedules extend through FY2029+).",
+            "recurring_vs_transactional": "Dell defines recurring revenue as largely hardware/software maintenance plus operating leases, subscriptions, as\u2011a\u2011Service and usage\u2011based offerings. FY2024 services were 27.2% of revenue ($24.1B). As of Q3 FY2024, recurring revenue was $5.6B for the quarter (up 4% YoY), remaining performance obligations were ~$39B, and deferred revenue ~$29.1B. Overall mix remains more transactional (product sales) but with a substantial and growing recurring base driven by services and consumption models."
+        },
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended January 31, 2025"
+            },
+            {
+                "date": "2024-02-02",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended February 2, 2024"
+            },
+            {
+                "date": "2024-02-29",
+                "type": "earnings_call",
+                "name": "Dell \u2013 Q4 2024 Dell Technologies Inc Earnings Call"
+            },
+            {
+                "date": "2025-10-07",
+                "type": "news",
+                "name": "Dell \u2013 2025 Securities Analyst Meeting (transcript)"
+            },
+            {
+                "date": "2023-11-30",
+                "type": "news",
+                "name": "Autumn Statement 2023 (HTML) \u2013 AI Compute investment"
+            },
+            {
+                "date": "2023-11-23",
+                "type": "news",
+                "name": "Science, Innovation and Technology backed in Chancellor\u2019s 2023 Autumn Statement \u2013 Compute"
+            },
+            {
+                "date": "2024-07-26",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking amends its Work Programme to incorporate the new AI Factory pillar"
+            },
+            {
+                "date": "2024-09-10",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking Launches AI Factories Calls to Boost European Leadership in Trustworthy AI"
+            },
+            {
+                "date": "2024-12-10",
+                "type": "news",
+                "name": "Selection of the First Seven AI Factories to Drive Europe\u2019s Leadership in AI"
+            },
+            {
+                "date": "2024-03-07",
+                "type": "news",
+                "name": "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem (\u20b910,371.92 crore; 10,000+ GPUs)"
+            }
+        ]
+    },
+    "regulatory_footprint": {
+        "policy_constraints": [
+            {
+                "policy_description": "US BIS interim final rule imposing export controls on certain advanced computing ICs and computers containing such ICs; supercomputer end-use controls; expanded Entity List and U.S. persons restrictions related to PRC",
+                "effective_date": "2022-10-07",
+                "issuing_authority": "US Department of Commerce, Bureau of Industry and Security (BIS)",
+                "source_ref": "R1",
+                "policy_type": "Interim Final Rule",
+                "status": "active",
+                "jurisdiction": "United States (EAR) with extraterritorial application; PRC and Macau destinations/end-uses",
+                "affected_product_categories": [
+                    "Advanced computing integrated circuits",
+                    "computers/electronic assemblies containing such ICs",
+                    "supercomputer-related items",
+                    "specified semiconductor manufacturing equipment",
+                    "certain U.S. person support activities"
+                ],
+                "affected_regions": [
+                    "China",
+                    "Macau"
+                ]
+            },
+            {
+                "policy_description": "BIS updates and corrections to advanced computing/supercomputer controls, revising/clarifying October 7, 2022 controls",
+                "effective_date": "2023-11-17",
+                "issuing_authority": "US Department of Commerce, BIS",
+                "source_ref": "R2",
+                "policy_type": "Interim Final Rule (updates/corrections)",
+                "status": "active",
+                "jurisdiction": "United States (EAR); PRC and Macau destinations/end-uses",
+                "affected_product_categories": [
+                    "Advanced computing items",
+                    "computers containing such ICs",
+                    "supercomputer end-use",
+                    "related EAR provisions"
+                ],
+                "affected_regions": [
+                    "China",
+                    "Macau"
+                ]
+            },
+            {
+                "policy_description": "BIS interim final rule revising export controls on semiconductor manufacturing equipment (SME) tied to PRC advanced-node production risks",
+                "effective_date": "2023-11-17",
+                "issuing_authority": "US Department of Commerce, BIS",
+                "source_ref": "R3",
+                "policy_type": "Interim Final Rule",
+                "status": "active",
+                "jurisdiction": "United States (EAR); PRC-related end-use and destinations",
+                "affected_product_categories": [
+                    "Semiconductor manufacturing equipment and related items"
+                ],
+                "affected_regions": [
+                    "China",
+                    "Macau"
+                ]
+            },
+            {
+                "policy_description": "USTR Section 301 four-year review modifications increasing tariff rates in strategic sectors; semiconductors to 50% in 2025; additional changes and effective dates",
+                "effective_date": "2024-09-27",
+                "issuing_authority": "Office of the United States Trade Representative (USTR)",
+                "source_ref": "R4",
+                "policy_type": "Section 301 tariff modification determination",
+                "status": "active",
+                "jurisdiction": "United States (imports of products of China)",
+                "affected_product_categories": [
+                    "Semiconductors (16 HTSUS subheadings to 50% in 2025)",
+                    "solar cells (50% in 2024)",
+                    "steel/aluminum (25% in 2024)",
+                    "EVs (100% in 2024)",
+                    "critical minerals/permanent magnets (timed increases)",
+                    "others as specified"
+                ],
+                "affected_regions": [
+                    "China"
+                ]
+            }
+        ],
+        "regional_demand_signals": [
+            {
+                "amount_usd": 630000000.0,
+                "timeframe": "Next two UK financial years following announcement (FY 2024\u20112025 and FY 2025\u20112026)",
+                "description": "UK AI compute investment to expand the AI Research Resource and provide access to compute for researchers/startups",
+                "observed_date": "2023-11-30",
+                "region": "United Kingdom",
+                "signal_type": "Government AI compute investment",
+                "initiator": "HM Treasury / Department for Science, Innovation and Technology (DSIT)",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 880000000.0,
+                "timeframe": "2024\u20112027 (EU budget commitment window)",
+                "description": "EU funding for acquiring new or upgraded AI EuroHPC supercomputers under AI Factories pillar (max \u20ac200m per system; up to \u20ac800m total)",
+                "observed_date": "2024-07-26",
+                "region": "European Union",
+                "signal_type": "AI supercomputing infrastructure funding (EuroHPC JU)",
+                "initiator": "EuroHPC Joint Undertaking / European Commission",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": 195000000.0,
+                "timeframe": "Up to 3 years per AI Factory grant",
+                "description": "EU funding for establishment/operation of AI Factories and experimental AI\u2011optimised platforms (up to \u20ac180m total; up to \u20ac15m per factory for up to 3 years)",
+                "observed_date": "2024-07-26",
+                "region": "European Union",
+                "signal_type": "AI factory operations and services funding (EuroHPC JU)",
+                "initiator": "EuroHPC Joint Undertaking / European Commission",
+                "public_amount_disclosed": true
+            },
+            {
+                "amount_usd": null,
+                "timeframe": "Deployments planned in 2025 per EuroHPC schedule",
+                "description": "Selection of first seven EuroHPC AI Factories to be deployed in Finland, Germany, Greece, Italy, Luxembourg, Spain and Sweden",
+                "observed_date": "2024-12-10",
+                "region": "European Union (multi-country)",
+                "signal_type": "Site selection and deployment signal for sovereign AI compute hubs",
+                "initiator": "EuroHPC Joint Undertaking",
+                "public_amount_disclosed": false
+            },
+            {
+                "amount_usd": 1250000000.0,
+                "timeframe": "Five years from cabinet approval",
+                "description": "IndiaAI Mission approved with budget outlay \u20b910,371.92 crore, including public AI compute infrastructure of 10,000+ GPUs, datasets platform, and other components",
+                "observed_date": "2024-03-07",
+                "region": "India",
+                "signal_type": "National AI mission and public AI compute infrastructure program",
+                "initiator": "Government of India (Union Cabinet; MeitY; Digital India Corporation)",
+                "public_amount_disclosed": true
+            }
+        ],
+        "competitor_factual_moves": [
+            {
+                "date_announced": "2023-11-01",
+                "regions_affected": [
+                    "United Kingdom"
+                ],
+                "description": "Delivered the Isambard-AI supercomputer in Bristol as part of the UK AI Research Resource (AIRR) initiative, funded by the UK government.",
+                "move_type": "Government HPC contract win",
+                "competitor": "HPE"
+            },
+            {
+                "date_announced": "2020",
+                "regions_affected": [
+                    "Europe",
+                    "Hungary"
+                ],
+                "description": "Opened its first European in\u2011house manufacturing facility in \u00dcll\u0151, Hungary to serve customers across Europe.",
+                "move_type": "Manufacturing expansion",
+                "competitor": "Lenovo"
+            },
+            {
+                "date_announced": "2023-07-18",
+                "regions_affected": [
+                    "Malaysia",
+                    "APAC"
+                ],
+                "description": "Expanded global manufacturing with new facilities in Penang, Malaysia to increase server production capacity.",
+                "move_type": "Facility expansion",
+                "competitor": "Supermicro"
+            }
+        ],
+        "factual_actions": [
+            {
+                "public_statement": true,
+                "date_announced": "2023-11-01",
+                "regions_affected": [
+                    "United Kingdom"
+                ],
+                "description": "Partnered with Dell and StackHPC to deliver the \"Dawn\" AI supercomputer in Cambridge as part of the UK AI Research Resource (AIRR).",
+                "action_type": "Partnership supporting sovereign AI infrastructure"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2023-05-01",
+                "regions_affected": [
+                    "Global"
+                ],
+                "description": "Collaborated with NVIDIA on Project Helix to provide validated on\u2011prem reference architectures for enterprise generative AI deployments.",
+                "action_type": "Partnership"
+            },
+            {
+                "public_statement": true,
+                "date_announced": "2026-01-14",
+                "regions_affected": [
+                    "Global"
+                ],
+                "description": "Disclosed adjustments to manufacturing, supply chain, and distribution networks to mitigate risks from increased tariffs, trade barriers, and export controls.",
+                "action_type": "Supply chain adjustments (disclosed approach)"
+            }
+        ],
+        "sources": [
+            {
+                "date": "2025-01-31",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended January 31, 2025"
+            },
+            {
+                "date": "2024-02-02",
+                "type": "10-K",
+                "name": "Dell Technologies Inc. Form 10-K for fiscal year ended February 2, 2024"
+            },
+            {
+                "date": "2024-02-29",
+                "type": "earnings_call",
+                "name": "Dell \u2013 Q4 2024 Dell Technologies Inc Earnings Call"
+            },
+            {
+                "date": "2025-10-07",
+                "type": "news",
+                "name": "Dell \u2013 2025 Securities Analyst Meeting (transcript)"
+            },
+            {
+                "date": "2023-11-30",
+                "type": "news",
+                "name": "Autumn Statement 2023 (HTML) \u2013 AI Compute investment"
+            },
+            {
+                "date": "2023-11-23",
+                "type": "news",
+                "name": "Science, Innovation and Technology backed in Chancellor\u2019s 2023 Autumn Statement \u2013 Compute"
+            },
+            {
+                "date": "2024-07-26",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking amends its Work Programme to incorporate the new AI Factory pillar"
+            },
+            {
+                "date": "2024-09-10",
+                "type": "news",
+                "name": "The EuroHPC Joint Undertaking Launches AI Factories Calls to Boost European Leadership in Trustworthy AI"
+            },
+            {
+                "date": "2024-12-10",
+                "type": "news",
+                "name": "Selection of the First Seven AI Factories to Drive Europe\u2019s Leadership in AI"
+            },
+            {
+                "date": "2024-03-07",
+                "type": "news",
+                "name": "Cabinet Approves Ambitious IndiaAI Mission to Strengthen the AI Innovation Ecosystem (\u20b910,371.92 crore; 10,000+ GPUs)"
+            }
+        ]
+    },
+    "data_quality": {
+        "source_summary": {
+            "tier_1_count": 2,
+            "tier_2_count": 0,
+            "tier_3_count": 1,
+            "tier_4_count": 7
+        },
+        "data_gaps": [],
+        "stale_data_warnings": []
+    }
+}

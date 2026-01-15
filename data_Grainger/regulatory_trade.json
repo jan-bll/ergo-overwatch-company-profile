@@ -1,0 +1,215 @@
+{
+    "competitor_factual_moves": [
+        {
+            "date_announced": "2024-04-16",
+            "regions_affected": [
+                "India"
+            ],
+            "description": "HPE announced \u201cMade in India\u201d servers with partner VVDN and plans to manufacture approximately $1 billion worth of high\u2011volume servers in the first five years; servers are being deployed at scale for Indian customers.",
+            "move_type": "manufacturing_localization",
+            "competitor": "Hewlett Packard Enterprise (HPE)"
+        },
+        {
+            "date_announced": "2023-11-01",
+            "regions_affected": [
+                "United Kingdom"
+            ],
+            "description": "UK Government confirmed AI Research Resource investment increased to \u00a3300 million; Bristol\u2019s Isambard\u2011AI supercomputer built by HPE with 5,000 Nvidia chips.",
+            "move_type": "contract_award/infrastructure_build",
+            "competitor": "Hewlett Packard Enterprise (HPE)"
+        },
+        {
+            "date_announced": "2022-06-14",
+            "regions_affected": [
+                "Hungary"
+            ],
+            "description": "Lenovo officially opened its first in\u2011house European manufacturing facility in Ullo, Hungary, producing server infrastructure, storage systems, and high\u2011end workstations for EMEA.",
+            "move_type": "manufacturing_expansion",
+            "competitor": "Lenovo"
+        }
+    ],
+    "factual_actions": [
+        {
+            "public_statement": true,
+            "date_announced": "2024",
+            "regions_affected": [
+                "United States",
+                "Canada",
+                "Mexico"
+            ],
+            "description": "Grainger requires suppliers and sub\u2011suppliers to comply with its Supplier Code of Ethics covering human rights, environment, sanctions, trade, bribery, corruption, and privacy as a condition of doing business.",
+            "action_type": "supplier_standards/trade_compliance"
+        }
+    ],
+    "regional_demand_signals": [
+        {
+            "amount_usd": 785000000.0,
+            "timeframe": "FY 2025-2026 award cycle",
+            "description": "USDOT awards under the Rural Surface Transportation Grant Program (part of MPDG) to fund 24 rural projects",
+            "observed_date": "2025-01-10",
+            "region": "United States",
+            "signal_type": "Federal infrastructure grant awards (IIJA/BIL)",
+            "initiator": "U.S. Department of Transportation (USDOT)",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": 332000000.0,
+            "timeframe": "FY 2025 AIG tranche",
+            "description": "FAA Airport Infrastructure Grants for 171 grants across 32 states to modernize airports",
+            "observed_date": "2025-01-08",
+            "region": "United States",
+            "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+            "initiator": "Federal Aviation Administration (FAA)",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": 566400000.0,
+            "timeframe": "2024 awards",
+            "description": "FAA awards 296 grants in 47 states to modernize airports (AIG)",
+            "observed_date": "2024-08-13",
+            "region": "United States",
+            "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+            "initiator": "FAA",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": 427000000.0,
+            "timeframe": "2024 awards",
+            "description": "FAA awards to 245 airport-related infrastructure grants",
+            "observed_date": "2024-07-30",
+            "region": "United States",
+            "signal_type": "Federal infrastructure grant awards (IIJA/BIL Airport Infrastructure Grants)",
+            "initiator": "FAA",
+            "public_amount_disclosed": true
+        },
+        {
+            "amount_usd": 3600000000.0,
+            "timeframe": "FY 2025 allocations announced (part of SRF)",
+            "description": "EPA announces $3.6B BIL funding for water infrastructure (combined with $2.6B earlier in month = $6.2B for FY 2025)",
+            "observed_date": "2024-10-23",
+            "region": "United States",
+            "signal_type": "Federal infrastructure funding allocations (EPA SRF under IIJA/BIL)",
+            "initiator": "U.S. Environmental Protection Agency (EPA)",
+            "public_amount_disclosed": true
+        }
+    ],
+    "policy_constraints": [
+        {
+            "policy_description": "U.S. Section 301 four-year review modifications imposing increased/additional duties on select China-origin products across strategic sectors.",
+            "effective_date": "2024-09-27",
+            "issuing_authority": "Office of the United States Trade Representative (USTR)",
+            "source_ref": "USTR_FR_2024-09-18",
+            "policy_type": "Tariff action (Section 301)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "steel/aluminum products",
+                "EVs/batteries",
+                "solar cells/modules",
+                "ship-to-shore cranes",
+                "critical minerals"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "Additional Section 301 tariff increases on tungsten products (25%) and polysilicon/solar wafers (50%).",
+            "effective_date": "2025-01-01",
+            "issuing_authority": "USTR",
+            "source_ref": "USTR_PR_2024-12-11",
+            "policy_type": "Tariff action (Section 301)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "tungsten (HTS 8101.94.00, 8101.99.10, 8101.99.80)",
+                "polysilicon (HTS 2804.61.00)",
+                "solar wafers (HTS 3818.00.00)"
+            ],
+            "affected_regions": [
+                "China"
+            ]
+        },
+        {
+            "policy_description": "BIS Interim Final Rule updating advanced computing and semiconductor end-use controls (ECCN 3A090/4A090) expanding scope to counter diversion.",
+            "effective_date": "2023-11-17",
+            "issuing_authority": "U.S. Department of Commerce, Bureau of Industry and Security (BIS)",
+            "source_ref": "BIS_FR_2023-10-25_AC",
+            "policy_type": "Export control (EAR)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "Advanced computing ICs",
+                "computers containing such ICs",
+                "certain semiconductor/end-use items"
+            ],
+            "affected_regions": [
+                "China",
+                "Macau",
+                "other Restricted/Prohibited Countries"
+            ]
+        },
+        {
+            "policy_description": "Section 232 tariffs on steel and aluminum with increased rates and scope clarifications.",
+            "effective_date": "2025-06-04",
+            "issuing_authority": "The White House (Presidential Proclamations) and U.S. Customs and Border Protection (CBP)",
+            "source_ref": "WH_2025-06-03",
+            "policy_type": "Tariff action (Section 232)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "steel and aluminum articles and derivatives"
+            ],
+            "affected_regions": [
+                "Global"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2024-02-01",
+            "type": "news",
+            "name": "Grainger Announces Plans for New Distribution Center Near Houston (Hockley, TX)"
+        },
+        {
+            "date": "2024-10-02",
+            "type": "news",
+            "name": "Construction begins on massive Grainger distribution center (Hockley, TX)"
+        },
+        {
+            "date": "2024-02-01",
+            "type": "10-K",
+            "name": "W.W. Grainger 2024 Annual Report (Form 10-K)"
+        },
+        {
+            "date": "2025-01-01",
+            "type": "investor_presentation",
+            "name": "Grainger Impact Report 2025 (Supply Chain Transparency, Supplier Code of Ethics)"
+        },
+        {
+            "date": "2024-01-01",
+            "type": "investor_presentation",
+            "name": "Grainger ESG Report 2024 (Supply Chain Transparency enhancements)"
+        },
+        {
+            "date": "2023-11-09",
+            "type": "news",
+            "name": "Supermicro expands global manufacturing footprint (capacity to 5,000 racks/month)"
+        },
+        {
+            "date": "2025-02-28",
+            "type": "news",
+            "name": "Supermicro expands US manufacturing capacity with third Silicon Valley campus"
+        },
+        {
+            "date": "2024-06-04",
+            "type": "news",
+            "name": "Lenovo boosts sustainability at European manufacturing facility with expanded solar power capacity (Budapest)"
+        },
+        {
+            "date": "2024-05-01",
+            "type": "investor_presentation",
+            "name": "Lenovo regional HQ and AI-powered manufacturing plant in Saudi Arabia (with partner Alat)"
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+{
+    "policy_constraints": [
+        {
+            "policy_description": "U.S. BIS expanded export controls on advanced computing items and semiconductor manufacturing equipment, including foreign-produced direct product rule (FDPR) components and new end-use controls restricting exports to the People\u2019s Republic of China (PRC) for advanced computing and SME.",
+            "effective_date": "2023-10-25",
+            "issuing_authority": "U.S. Department of Commerce, Bureau of Industry and Security (BIS)",
+            "source_ref": "https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+            "policy_type": "export control / EAR amendments (FDPR and end-use based controls)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "advanced computing integrated circuits (AI datacenter chips)",
+                "supercomputers",
+                "semiconductor manufacturing equipment (SME)",
+                "related parts/components"
+            ],
+            "affected_regions": [
+                "PRC / China",
+                "Country Groups D:1",
+                "D:4",
+                "D:5"
+            ]
+        },
+        {
+            "policy_description": "BIS published corrections and clarifications to the October 2023 rules (fixes, clarifications to scope and license conditions).",
+            "effective_date": "2024-04-04",
+            "issuing_authority": "U.S. Department of Commerce, BIS",
+            "source_ref": "https://www.federalregister.gov/documents/2024/04/04/2024-07004/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+            "policy_type": "corrections/clarifications to prior export-control IFRs",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "advanced computing",
+                "supercomputing",
+                "SME"
+            ],
+            "affected_regions": [
+                "PRC / China"
+            ]
+        },
+        {
+            "policy_description": "BIS and related Federal Register actions added and revised Entity List entries (examples: additions noted in 2025 Federal Register notices).",
+            "effective_date": "2025-03-28",
+            "issuing_authority": "U.S. Department of Commerce, BIS",
+            "source_ref": "https://www.federalregister.gov/documents/2025/03/28/2025-05427/additions-to-the-entity-list",
+            "policy_type": "Entity List (export license requirements to specific named entities)",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "items subject to EAR"
+            ],
+            "affected_regions": [
+                "specific entities (often PRC-based entities)"
+            ]
+        },
+        {
+            "policy_description": "BIS press release and guidance clarifying scope of sector-based controls and pre-export notification requirements for computers incorporating controlled integrated circuits; BIS guidance emphasized preexport notification and licensing for parts/components for SEM destined for PRC SME.",
+            "effective_date": "2024-12-05",
+            "issuing_authority": "U.S. Department of Commerce, BIS",
+            "source_ref": "https://www.bis.doc.gov/press-release/commerce-releases-clarifications-export-control-rules-restrict-prcs-access-advanced-computing",
+            "policy_type": "agency guidance / clarifying press release",
+            "status": "active",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "computers with controlled ICs",
+                "parts/components for semiconductor manufacturing"
+            ],
+            "affected_regions": [
+                "PRC / China"
+            ]
+        },
+        {
+            "policy_description": "Tariffs and trade measures referenced in Apple filings: Apple's 10-K (2025) discloses new U.S. tariffs announced in Q2 2025 including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and EU and notes an initiation of a Section 232 investigation by DoC into semiconductors and semiconductor manufacturing equipment.",
+            "effective_date": "2025-04-01",
+            "issuing_authority": "U.S. Government / Department of Commerce (Section 232) and U.S. tariff authorities",
+            "source_ref": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+            "policy_type": "tariffs / trade investigations (Section 232)",
+            "status": "proposed",
+            "jurisdiction": "United States",
+            "affected_product_categories": [
+                "semiconductors",
+                "semiconductor manufacturing equipment",
+                "other tariffed goods"
+            ],
+            "affected_regions": [
+                "China",
+                "India",
+                "Japan",
+                "South Korea",
+                "Taiwan",
+                "Vietnam",
+                "EU"
+            ]
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-09-27",
+            "type": "10-K",
+            "name": "Apple Inc. 2025 Form 10-K"
+        },
+        {
+            "date": "2023-10-25",
+            "type": "news",
+            "name": "Federal Register AC/S IFR"
+        },
+        {
+            "date": "2024-04-04",
+            "type": "news",
+            "name": "Federal Register corrections & clarifications"
+        },
+        {
+            "date": "2024-12-05",
+            "type": "news",
+            "name": "Federal Register FDPR additions and refinements"
+        },
+        {
+            "date": "2024-12-05",
+            "type": "news",
+            "name": "BIS press release clarifying scope"
+        },
+        {
+            "date": "2025-03-28",
+            "type": "news",
+            "name": "Federal Register Entity List additions"
+        },
+        {
+            "date": "2025-09-16",
+            "type": "news",
+            "name": "Federal Register Entity List additions/revisions"
+        },
+        {
+            "date": "2024-10-30",
+            "type": "news",
+            "name": "Reuters"
+        },
+        {
+            "date": "2025-04-25",
+            "type": "news",
+            "name": "Reuters"
+        },
+        {
+            "date": "2025-01-30",
+            "type": "earnings_call",
+            "name": "Apple Q1 2025 earnings call transcript"
+        },
+        {
+            "date": "2023",
+            "type": "news",
+            "name": "EUR-Lex"
+        }
+    ],
+    "factual_actions": [
+        {
+            "public_statement": true,
+            "date_announced": "2025-09-27",
+            "regions_affected": [
+                "Global",
+                "Greater China",
+                "India",
+                "Mexico",
+                "U.S.",
+                "Europe"
+            ],
+            "description": "Apple's 2025 Form 10-K discloses new U.S. Tariffs announced in Q2 2025, including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and EU, and notes an initiation of a Section 232 investigation by the Department of Commerce into semiconductors and semiconductor manufacturing equipment.",
+            "action_type": "Disclosure / risk-factor reporting"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2025-01-30",
+            "regions_affected": [
+                "India",
+                "global supply chain"
+            ],
+            "description": "CEO Tim Cook stated during the Q1 2025 earnings call that Apple's manufacturing in India serves both the domestic market and export.",
+            "action_type": "Public statement on manufacturing footprint and exports"
+        },
+        {
+            "public_statement": false,
+            "date_announced": "2024-10-30",
+            "regions_affected": [
+                "India"
+            ],
+            "description": "Reuters reported on October 30, 2024, that Apple was expanding iPhone assembly in India and increasing supplier activity.",
+            "action_type": "Reported company supply-chain/manufacturing moves (sourcing/assembly shifts)"
+        },
+        {
+            "public_statement": false,
+            "date_announced": "2025-04-25",
+            "regions_affected": [
+                "India",
+                "U.S."
+            ],
+            "description": "Reuters reported on April 25, 2025, that Apple reportedly aims to source all U.S. iPhones from India.",
+            "action_type": "Reported company supply-chain/manufacturing moves (sourcing/assembly shifts)"
+        },
+        {
+            "public_statement": true,
+            "date_announced": "2024-09-28",
+            "regions_affected": [
+                "India",
+                "Mexico"
+            ],
+            "description": "Apple's 10-K filings list subsidiaries such as Apple Operations Mexico S.A. de C.V. and Apple India Private Limited, demonstrating operational presence in these regions.",
+            "action_type": "Disclosure of operational presence"
+        }
+    ],
+    "competitor_factual_moves": [],
+    "regional_demand_signals": [
+        {
+            "amount_usd": null,
+            "timeframe": "2024-10-30 to 2025-04-25",
+            "description": "Government PLI (production-linked incentive) programs and other incentives for electronics/mobile manufacturing in India have been cited as drivers for increased assembly/manufacturing, with Apple expanding contract manufacturer activity and supplier presence.",
+            "observed_date": "2024-10-30",
+            "region": "India",
+            "signal_type": "manufacturing incentive / industrial policy / supply-chain onshoring and export orientation",
+            "initiator": "Government of India",
+            "public_amount_disclosed": false
+        },
+        {
+            "amount_usd": null,
+            "timeframe": "2023",
+            "description": "Government AI and sovereign infrastructure initiatives, such as the EU AI Act, indicate regional demand for digital infrastructure. Specific budget line items were not found in the collected documents.",
+            "observed_date": "2023-12-01",
+            "region": "EU / UK / other",
+            "signal_type": "government AI / sovereign infrastructure initiatives",
+            "initiator": "EU",
+            "public_amount_disclosed": false
+        }
+    ]
+}

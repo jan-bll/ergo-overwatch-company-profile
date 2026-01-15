@@ -1,0 +1,97 @@
+{
+    "customer_concentration": {
+        "concentration_level": "low",
+        "any_customer_over_10_percent": false,
+        "top_customer_percent": 0.0,
+        "disclosure_notes": "Diversified, atomized customer base (226\u202fM passengers in 2024). 10\u2011K discloses large loyalty partners (Citi/Barclays) but does not attribute \u226510\u202f% of total revenue to any single customer.",
+        "top_10_customers_percent": 8.0
+    },
+    "top_customers": [
+        {
+            "notes": "Largest co\u2011brand partner; Dec\u202f2024 announcement of 10\u2011year exclusive U.S. issuer agreement starting 2026; estimate reflects share of loyalty marketing services revenue.",
+            "industry": "Financial Services",
+            "type": "enterprise",
+            "percent_of_revenue": 3.6,
+            "name": "Citibank N.A."
+        },
+        {
+            "notes": "Co\u2011brand partner through 2025; smaller share than Citi.",
+            "industry": "Financial Services",
+            "type": "enterprise",
+            "percent_of_revenue": 1.8,
+            "name": "Barclays US"
+        },
+        {
+            "notes": "Low single\u2011digit share typical for gov\u2019t travel/military/mail.",
+            "industry": "Government",
+            "type": "government",
+            "percent_of_revenue": 3.0,
+            "name": "U.S. Government (City Pair / DoD / mail & charters)"
+        }
+    ],
+    "segment_mix": {
+        "notes": "B2B includes loyalty marketing services, cargo, and estimated managed corporate/SMB passenger revenue; B2G is a small estimated share; B2C is the residual consumer/leisure passenger revenue.",
+        "b2g_percent": 3.0,
+        "b2b_percent": 25.8,
+        "b2c_percent": 71.2
+    },
+    "customer_characteristics": {
+        "geographic_notes": "2024 passenger revenue by region: Domestic $35,336\u202fm (~71% of passenger revenue), Latin America $6,560\u202fm, Atlantic $6,445\u202fm, Pacific $1,245\u202fm.",
+        "typical_contract_length": "Co\u2011brand credit card: 10\u2011year agreement announced 2024\u201112\u201105 (effective 2026). Mileage\u2011credit partner contracts: remaining terms generally 1\u201110 years as of 2024\u201112\u201131. Corporate/TMC agreements: multi\u2011year, specific terms not disclosed.",
+        "recurring_vs_transactional": "Recurring: Loyalty marketing services under multi\u2011year partner and co\u2011brand agreements; Transactional: Passenger tickets and cargo revenue recognized when transportation is provided."
+    },
+    "industry_exposure": [
+        {
+            "industry": "Technology",
+            "trend": "growing",
+            "percent_of_revenue": 6.0,
+            "notes": "Estimated exposure based on recovered managed business and premium travel demand."
+        },
+        {
+            "industry": "Financial services",
+            "trend": "stable",
+            "percent_of_revenue": 5.0,
+            "notes": "Exposure driven by co\u2011branded credit card partnerships and loyalty program revenue."
+        },
+        {
+            "industry": "Healthcare/pharmaceuticals",
+            "trend": "stable",
+            "percent_of_revenue": 3.0,
+            "notes": "Typical enterprise travel vertical for network carriers; no specific disclosure."
+        },
+        {
+            "industry": "Government/military",
+            "trend": "stable",
+            "percent_of_revenue": 3.0,
+            "notes": "Aligned with the B2G estimate; includes federal travel and charters."
+        },
+        {
+            "industry": "Energy/industrial",
+            "trend": "stable",
+            "percent_of_revenue": 2.0,
+            "notes": "Estimated based on broader business travel normalization."
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025-02-19",
+            "type": "10-K",
+            "name": "American Airlines Group Inc. 2024 Form 10-K"
+        },
+        {
+            "date": "2025-01-01",
+            "type": "news",
+            "name": "American Airlines reports fourth\u2011quarter and full\u2011year 2024 financial results"
+        },
+        {
+            "date": "2023-05-02",
+            "type": "earnings_call",
+            "name": "American Airlines Group Inc. (AAL) Q1 2023 Earnings Call Transcript (Vasu Raja commentary on business mix)"
+        },
+        {
+            "date": "2025-07-24",
+            "type": "news",
+            "name": "American\u2019s Q2: Travel agency sales rebound is continuing (corporate up 10%; indirect share recovering)"
+        }
+    ]
+}

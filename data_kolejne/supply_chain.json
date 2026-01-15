@@ -1,0 +1,596 @@
+{
+    "supply_chain_initiatives": [
+        {
+            "target_regions": [
+                "global"
+            ],
+            "status": "in_progress",
+            "purpose": "increase visibility, identify single-site and geographic concentration blind spots, and preemptively protect critical supply nodes",
+            "initiative": "Dell Global Operations (GO) Supply Chain Resilience program"
+        },
+        {
+            "target_regions": [
+                "global"
+            ],
+            "status": "in_progress",
+            "purpose": "reduce reliance on single sources, secure capacity, and mitigate risks",
+            "initiative": "Multi-sourcing and qualifying alternative suppliers"
+        },
+        {
+            "target_regions": [
+                "global"
+            ],
+            "status": "completed",
+            "purpose": "transparency and supplier mapping",
+            "initiative": "Public Supplier List transparency"
+        }
+    ],
+    "company_owned_facilities": [
+        {
+            "region_served": "Americas",
+            "products": "DSS, PowerProtect Data Domain/IDPA, PowerScale/PowerStore products",
+            "roles": [
+                "assembly",
+                "config"
+            ],
+            "source": "Dell Public Supplier List / 10-K",
+            "city": "Apex",
+            "country": "United States"
+        },
+        {
+            "region_served": "Americas",
+            "products": "Connectrix, PowerFlex, PowerMax, VxBlock",
+            "roles": [
+                "assembly",
+                "testing"
+            ],
+            "source": "Dell Public Supplier List / 10-K",
+            "city": "Franklin",
+            "country": "United States"
+        },
+        {
+            "region_served": "APJ",
+            "products": "desktop/server assembly and distribution for multiple PC and server lines",
+            "roles": [
+                "assembly",
+                "L12"
+            ],
+            "source": "Dell Public Supplier List",
+            "city": "Xiamen",
+            "country": "China"
+        },
+        {
+            "region_served": "APJ",
+            "products": "other",
+            "roles": [
+                "assembly"
+            ],
+            "source": "Dell 10-K",
+            "city": "null",
+            "country": "Malaysia"
+        },
+        {
+            "region_served": "Americas",
+            "products": "other",
+            "roles": [
+                "assembly"
+            ],
+            "source": "Dell 10-K",
+            "city": "null",
+            "country": "Brazil"
+        },
+        {
+            "region_served": "APJ",
+            "products": "other",
+            "roles": [
+                "assembly"
+            ],
+            "source": "Dell 10-K",
+            "city": "null",
+            "country": "India"
+        },
+        {
+            "region_served": "EMEA",
+            "products": "other",
+            "roles": [
+                "assembly"
+            ],
+            "source": "Dell 10-K",
+            "city": "null",
+            "country": "Poland"
+        },
+        {
+            "region_served": "EMEA",
+            "products": "other",
+            "roles": [
+                "assembly"
+            ],
+            "source": "Dell 10-K",
+            "city": "null",
+            "country": "Ireland"
+        }
+    ],
+    "supplier_concentration": {
+        "top_country_percent": null,
+        "concentration_notes": "Dell acknowledges a significant share of its components and outsourced manufacturing are supplied by vendors outside the United States, with substantial outsourced manufacturing in Asia. The 10-K warns that a significant concentration of outsourced manufacturing is performed by only a few contract manufacturers, often in single locations. The Public Supplier List shows many major suppliers and assembly sites in China, Taiwan, Vietnam, Mexico, and Malaysia, indicating Asia (China/Taiwan/Vietnam) as the top region for supplier sites by count and spend.",
+        "top_country": "China",
+        "top_3_countries": [
+            "China",
+            "Taiwan",
+            "Vietnam"
+        ]
+    },
+    "supply_corridors": [
+        {
+            "corridor": "Taiwan \u2192 Americas",
+            "flow_description": "advanced logic (GPUs/CPUs from TSMC/TSMC-contracted fabs) shipped to US/Mexico assembly or directly to OEM customers",
+            "purpose": [
+                "component_sourcing"
+            ]
+        },
+        {
+            "corridor": "Asia (China/Taiwan/Korea) \u2192 Mexico \u2192 US",
+            "flow_description": "component flow (PCB, displays, assemblies) supporting final assembly in Mexico for regional markets",
+            "purpose": [
+                "regional_finishing"
+            ]
+        },
+        {
+            "corridor": "China \u2192 EMEA",
+            "flow_description": "components and finished products shipped from Asian contract manufacturers to EMEA distribution centers",
+            "purpose": [
+                "distribution"
+            ]
+        }
+    ],
+    "contract_manufacturers": [
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "high",
+            "functions": [
+                "assembly",
+                "PCB",
+                "sub-assembly",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Mexico",
+                "Vietnam",
+                "India"
+            ],
+            "products_manufactured": [
+                "PCs (XPS/Inspiron)",
+                "servers (PowerEdge)",
+                "storage"
+            ],
+            "manufacturer_name": "Foxconn",
+            "notes": "Major CM partner; multiple Dell product lines."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "high",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam"
+            ],
+            "products_manufactured": [
+                "Inspiron Notebooks",
+                "Latitude Notebooks",
+                "Precision Notebooks",
+                "Vostro Notebooks",
+                "XPS Notebooks",
+                "Alienware Notebooks"
+            ],
+            "manufacturer_name": "Compal",
+            "notes": "High for notebook lines."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "high",
+            "functions": [
+                "assembly",
+                "PCB",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "Taiwan",
+                "China",
+                "Vietnam",
+                "Mexico"
+            ],
+            "products_manufactured": [
+                "notebook and desktop assembly",
+                "servers",
+                "PCBA"
+            ],
+            "manufacturer_name": "Wistron",
+            "notes": "Multiple product families."
+        },
+        {
+            "headquarters_country": "Taiwan",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "Taiwan"
+            ],
+            "products_manufactured": [
+                "Rugged/Pro Rugged lines (notebook assembly)"
+            ],
+            "manufacturer_name": "Pegatron",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Inventec",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Quanta",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Luxshare",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Celestica",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Jabil",
+            "notes": "N/A"
+        },
+        {
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "functions": [
+                "assembly",
+                "components",
+                "other"
+            ],
+            "relationship_type": "both",
+            "production_countries": [
+                "China",
+                "Vietnam",
+                "Thailand",
+                "Mexico",
+                "Malaysia",
+                "Poland",
+                "Brazil"
+            ],
+            "products_manufactured": [
+                "parts/components",
+                "final assembly"
+            ],
+            "manufacturer_name": "Flex",
+            "notes": "N/A"
+        }
+    ],
+    "critical_suppliers": [
+        {
+            "component_category": "CPU",
+            "headquarters_country": "US",
+            "dependency_level": "high",
+            "provides": "x86 server and client CPUs",
+            "supplier_name": "Intel",
+            "manufacturing_locations": [
+                "U.S.",
+                "Ireland",
+                "Israel",
+                "Malaysia",
+                "China",
+                "Taiwan"
+            ],
+            "single_source": false,
+            "notes": "Dell cites Intel as a supplier in its public supplier list."
+        },
+        {
+            "component_category": "CPU",
+            "headquarters_country": "US",
+            "dependency_level": "high",
+            "provides": "CPUs/EPYC server processors",
+            "supplier_name": "AMD",
+            "manufacturing_locations": [
+                "Taiwan",
+                "U.S.",
+                "Japan"
+            ],
+            "single_source": false,
+            "notes": "Fabless design, manufactured by TSMC."
+        },
+        {
+            "component_category": "GPU",
+            "headquarters_country": "US",
+            "dependency_level": "critical",
+            "provides": "datacenter AI GPUs (e.g., A100/H100 families)",
+            "supplier_name": "NVIDIA",
+            "manufacturing_locations": [
+                "Taiwan",
+                "U.S.",
+                "Japan",
+                "South Korea"
+            ],
+            "single_source": true,
+            "notes": "Fabless, produced by TSMC and Samsung. Dell's 10-K explicitly notes elevated backlog for AI-optimized servers tied to GPU supply constraints."
+        },
+        {
+            "component_category": "memory",
+            "headquarters_country": "South Korea",
+            "dependency_level": "high",
+            "provides": "DRAM and NAND",
+            "supplier_name": "Samsung Electronics",
+            "manufacturing_locations": [
+                "South Korea",
+                "China",
+                "United States"
+            ],
+            "single_source": false,
+            "notes": "Major DRAM and NAND manufacturer."
+        },
+        {
+            "component_category": "memory",
+            "headquarters_country": "South Korea",
+            "dependency_level": "high",
+            "provides": "DRAM/NAND",
+            "supplier_name": "SK Hynix",
+            "manufacturing_locations": [
+                "South Korea",
+                "China"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "memory",
+            "headquarters_country": "US",
+            "dependency_level": "high",
+            "provides": "DRAM/NAND",
+            "supplier_name": "Micron",
+            "manufacturing_locations": [
+                "U.S.",
+                "Japan",
+                "Taiwan",
+                "Singapore"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "storage",
+            "headquarters_country": "US",
+            "dependency_level": "high",
+            "provides": "Storage (HDD / SSD)",
+            "supplier_name": "Western Digital",
+            "manufacturing_locations": [
+                "Japan",
+                "Thailand",
+                "China",
+                "Malaysia",
+                "U.S.",
+                "UK"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "storage",
+            "headquarters_country": "Japan",
+            "dependency_level": "high",
+            "provides": "Storage (HDD / SSD)",
+            "supplier_name": "Kioxia",
+            "manufacturing_locations": [
+                "Japan",
+                "Thailand",
+                "China",
+                "Malaysia",
+                "U.S.",
+                "UK"
+            ],
+            "single_source": false,
+            "notes": "Toshiba spinouts/JVs."
+        },
+        {
+            "component_category": "storage",
+            "headquarters_country": "US",
+            "dependency_level": "high",
+            "provides": "Storage (HDD / SSD)",
+            "supplier_name": "Seagate",
+            "manufacturing_locations": [
+                "Japan",
+                "Thailand",
+                "China",
+                "Malaysia",
+                "U.S.",
+                "UK"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "provides": "power supplies",
+            "supplier_name": "Delta Electronics",
+            "manufacturing_locations": [
+                "Taiwan",
+                "China",
+                "Vietnam",
+                "Mexico"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "other",
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "provides": "fans",
+            "supplier_name": "Nidec",
+            "manufacturing_locations": [
+                "Taiwan",
+                "China",
+                "Vietnam",
+                "Mexico"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        },
+        {
+            "component_category": "display",
+            "headquarters_country": "null",
+            "dependency_level": "medium",
+            "provides": "displays",
+            "supplier_name": "Innolux",
+            "manufacturing_locations": [
+                "Taiwan",
+                "China",
+                "Vietnam",
+                "Mexico"
+            ],
+            "single_source": false,
+            "notes": "N/A"
+        }
+    ],
+    "sources": [
+        {
+            "date": "2025",
+            "type": "10-K",
+            "name": "Dell Technologies Form 10-K"
+        },
+        {
+            "date": "2025",
+            "type": "company_statement",
+            "name": "Dell Global Operations Supply Chain Resilience brief"
+        },
+        {
+            "date": "2025-12",
+            "type": "company_statement",
+            "name": "Dell Public Supplier List"
+        },
+        {
+            "date": "2025",
+            "type": "company_statement",
+            "name": "Samsung Semiconductor locations page"
+        },
+        {
+            "date": "2025",
+            "type": "industry_report",
+            "name": "List of semiconductor fabrication plants (Wikipedia)"
+        }
+    ]
+}
