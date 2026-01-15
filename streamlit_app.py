@@ -17,99 +17,99 @@ st.set_page_config(
 
 # ============================================================================
 # SESSION STATE INITIALIZATION
-# ============================================================================
-if 'ticker' not in st.session_state:
-    st.session_state.ticker = None
-if 'loading' not in st.session_state:
-    st.session_state.loading = False
+# # ============================================================================
+# if 'ticker' not in st.session_state:
+#     st.session_state.ticker = None
+# if 'loading' not in st.session_state:
+#     st.session_state.loading = False
 
-# ============================================================================
-# LANDING PAGE - Company Input Form
-# ============================================================================
-if not st.session_state.ticker and not st.session_state.loading:
-    st.markdown("## Company Profile Deep Research")
-    st.markdown("Enter a company name to generate a comprehensive profile")
+# # ============================================================================
+# # LANDING PAGE - Company Input Form
+# # ============================================================================
+# if not st.session_state.ticker and not st.session_state.loading:
+#     st.markdown("## Company Profile Deep Research")
+#     st.markdown("Enter a company name to generate a comprehensive profile")
 
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
-        company_name = st.text_input(
-            "Company Name",
-            placeholder="e.g., DELL, Apple, Microsoft...",
-            label_visibility="collapsed"
-        )
+#     col1, col2, col3 = st.columns([1, 2, 1])
+#     with col2:
+#         company_name = st.text_input(
+#             "Company Name",
+#             placeholder="e.g., DELL, Apple, Microsoft...",
+#             label_visibility="collapsed"
+#         )
 
-        if st.button("Generate Profile", type="primary", use_container_width=True):
-            if company_name.strip():
-                st.session_state.loading = True
-                st.session_state.company_name_input = company_name.strip()
-                st.rerun()
-            else:
-                st.error("Please enter a company name.")
+#         if st.button("Generate Profile", type="primary", use_container_width=True):
+#             if company_name.strip():
+#                 st.session_state.loading = True
+#                 st.session_state.company_name_input = company_name.strip()
+#                 st.rerun()
+#             else:
+#                 st.error("Please enter a company name.")
 
-    st.stop()
+#     st.stop()
 
-# ============================================================================
-# LOADING STATE - Data Fetching
-# ============================================================================
-if st.session_state.loading:
-    from merge_sectors_data import pull_data_for_company
+# # ============================================================================
+# # LOADING STATE - Data Fetching
+# # ============================================================================
+# if st.session_state.loading:
+#     from merge_sectors_data import pull_data_for_company
 
-    st.markdown(f"### Generating profile for {st.session_state.company_name_input}...")
-    st.markdown("Our AI agents are researching financial data, supply chain, customers, and regulatory information.")
-    st.markdown("**This typically takes 5-10 minutes.**")
+#     st.markdown(f"### Generating profile for {st.session_state.company_name_input}...")
+#     st.markdown("Our AI agents are researching financial data, supply chain, customers, and regulatory information.")
+#     st.markdown("**This typically takes 5-10 minutes.**")
 
-    progress_bar = st.progress(0)
-    status_text = st.empty()
+#     progress_bar = st.progress(0)
+#     status_text = st.empty()
 
-    stages = [
-        ("Initializing research agents...", 0.05),
-        ("Analyzing financial data...", 0.25),
-        ("Mapping supply chain...", 0.45),
-        ("Profiling customer segments...", 0.65),
-        ("Reviewing regulatory footprint...", 0.85),
-        ("Compiling final report...", 0.95),
-    ]
+#     stages = [
+#         ("Initializing research agents...", 0.05),
+#         ("Analyzing financial data...", 0.25),
+#         ("Mapping supply chain...", 0.45),
+#         ("Profiling customer segments...", 0.65),
+#         ("Reviewing regulatory footprint...", 0.85),
+#         ("Compiling final report...", 0.95),
+#     ]
 
-    status_text.text(stages[0][0])
-    progress_bar.progress(stages[0][1])
+#     status_text.text(stages[0][0])
+#     progress_bar.progress(stages[0][1])
 
-    try:
-        print(st.session_state.company_name_input)
-        print("tutaj tutaj")
-        _, ticker = pull_data_for_company(st.session_state.company_name_input)
+#     try:
+#         print(st.session_state.company_name_input)
+#         print("tutaj tutaj")
+#         _, ticker = pull_data_for_company(st.session_state.company_name_input)
 
-        if ticker:
-            for stage_text, stage_progress in stages[1:]:
-                status_text.text(stage_text)
-                progress_bar.progress(stage_progress)
-                time.sleep(0.2)
+#         if ticker:
+#             for stage_text, stage_progress in stages[1:]:
+#                 status_text.text(stage_text)
+#                 progress_bar.progress(stage_progress)
+#                 time.sleep(0.2)
 
-            progress_bar.progress(1.0)
-            status_text.text("Profile ready!")
+#             progress_bar.progress(1.0)
+#             status_text.text("Profile ready!")
 
-            st.session_state.ticker = ticker
-            st.session_state.loading = False
-            time.sleep(0.5)
-            st.rerun()
-        else:
-            st.error("Failed to retrieve data for the company. Please try again.")
-            st.session_state.loading = False
-            if st.button("Try Again"):
-                st.rerun()
-    except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
-        st.session_state.loading = False
-        if st.button("Try Again"):
-            st.rerun()
+#             st.session_state.ticker = ticker
+#             st.session_state.loading = False
+#             time.sleep(0.5)
+#             st.rerun()
+#         else:
+#             st.error("Failed to retrieve data for the company. Please try again.")
+#             st.session_state.loading = False
+#             if st.button("Try Again"):
+#                 st.rerun()
+#     except Exception as e:
+#         st.error(f"An error occurred: {str(e)}")
+#         st.session_state.loading = False
+#         if st.button("Try Again"):
+#             st.rerun()
 
-    st.stop()
+    # st.stop()
 
 # ============================================================================
 # LOAD DATA FROM JSON FILE
 # ============================================================================
-COMPANY_TICKER = st.session_state.ticker
+# COMPANY_TICKER = st.session_state.ticker
 
-# COMPANY_TICKER='DELL'
+COMPANY_TICKER='DELL'
 
 with open(f"./data/{COMPANY_TICKER}_profile.json", 'r') as f:
     data = json.load(f)
