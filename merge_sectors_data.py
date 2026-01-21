@@ -164,9 +164,27 @@ async def run_all_agents(client: Parallel, company: str):
     async def get_and_save_result(name: str, task_run, save_func) -> bool:
         try:
             print(f"[{name}] Waiting for result (run_id: {task_run.run_id})...")
-            result = await asyncio.to_thread(client.task_run.result, task_run.run_id)
-            print(f"[{name}] Result received!")
-            return save_func(result)
+
+            # Poll with timeout to keep Streamlit alive
+            max_wait_time = 1800  # 10 minutes
+            poll_interval = 5  # Check every 5 seconds
+            elapsed = 0
+
+            while elapsed < max_wait_time:
+                try:
+                    # Try to get result with short timeout
+                    result = await asyncio.wait_for(
+                        asyncio.to_thread(client.task_run.result, task_run.run_id),
+                        timeout=poll_interval
+                    )
+                    print(f"[{name}] Result received!")
+                    return save_func(result)
+                except asyncio.TimeoutError:
+                    # Still waiting, keep Streamlit alive
+                    elapsed += poll_interval
+                    print(f"[{name}] Still waiting... ({elapsed}s elapsed)")
+                    await asyncio.sleep(0.1)  # Brief pause
+
         except Exception as e:
             print(f"[{name}] Error: {e}")
             return False

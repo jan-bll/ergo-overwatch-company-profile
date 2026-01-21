@@ -134,7 +134,49 @@ if st.session_state.loading:
 
     try:
         print(f"DEBUG: About to call pull_data_for_company with: '{st.session_state.company_name_input}'")
-        _, ticker = pull_data_for_company(st.session_state.company_name_input)
+
+        # Animate progress bar while waiting to keep Streamlit alive
+        import threading
+        import queue
+
+        result_queue = queue.Queue()
+
+        def run_pull_data():
+            try:
+                result = pull_data_for_company(st.session_state.company_name_input)
+                result_queue.put(('success', result))
+            except Exception as e:
+                result_queue.put(('error', e))
+
+        # Start data pulling in background thread
+        thread = threading.Thread(target=run_pull_data, daemon=True)
+        thread.start()
+
+        # Animate progress while waiting
+        current_progress = 0.05
+        progress_increment = 0.01
+        stage_index = 0
+
+        while thread.is_alive():
+            try:
+                # Check if result is ready (non-blocking)
+                result_type, result_data = result_queue.get_nowait()
+                if result_type == 'success':
+                    _, ticker = result_data
+                    break
+                elif result_type == 'error':
+                    raise result_data
+            except queue.Empty:
+                # Still waiting, update UI
+                time.sleep(0.5)
+                current_progress = min(current_progress + progress_increment, 0.90)
+                progress_bar.progress(current_progress)
+
+                # Cycle through stages
+                if current_progress > stages[min(stage_index + 1, len(stages) - 1)][1]:
+                    stage_index = min(stage_index + 1, len(stages) - 1)
+                    status_text.text(stages[stage_index][0])
+
         print(f"DEBUG: pull_data_for_company returned ticker: {ticker}")
 
         if ticker:
