@@ -48,28 +48,33 @@ if not st.session_state.ticker and not st.session_state.loading:
         company_name = st.text_input(
             "Company Name",
             placeholder="e.g., DELL, Apple, Microsoft...",
-            label_visibility="collapsed"
+            label_visibility="collapsed",
+            key="company_name_input_field"
         )
 
-        if st.button("Generate Profile", type="primary", use_container_width=True):
+        def on_generate_click():
             import sys
-            print(f"DEBUG: Button clicked with company_name: '{company_name}'", file=sys.stderr)
-            print(f"DEBUG: Button clicked with company_name: '{company_name}'")
+            company = st.session_state.company_name_input_field
+            print(f"DEBUG: Callback - Button clicked with company_name: '{company}'", file=sys.stderr)
+            print(f"DEBUG: Callback - Button clicked with company_name: '{company}'")
             sys.stderr.flush()
-            if company_name.strip():
-                print(f"DEBUG: Setting loading=True, company_name_input='{company_name.strip()}'", file=sys.stderr)
-                print(f"DEBUG: Setting loading=True, company_name_input='{company_name.strip()}'")
+            if company and company.strip():
+                print(f"DEBUG: Callback - Setting loading=True, company_name_input='{company.strip()}'", file=sys.stderr)
+                print(f"DEBUG: Callback - Setting loading=True, company_name_input='{company.strip()}'")
                 st.session_state.loading = True
-                st.session_state.company_name_input = company_name.strip()
-                print(f"DEBUG: Session state after setting - loading: {st.session_state.loading}, company_name_input: {st.session_state.company_name_input}", file=sys.stderr)
-                print(f"DEBUG: Session state after setting - loading: {st.session_state.loading}, company_name_input: {st.session_state.company_name_input}")
-                print("DEBUG: Calling st.rerun()", file=sys.stderr)
-                print("DEBUG: Calling st.rerun()")
+                st.session_state.company_name_input = company.strip()
+                print(f"DEBUG: Callback - Session state after setting - loading: {st.session_state.loading}, company_name_input: {st.session_state.company_name_input}", file=sys.stderr)
+                print(f"DEBUG: Callback - Session state after setting - loading: {st.session_state.loading}, company_name_input: {st.session_state.company_name_input}")
                 sys.stderr.flush()
-                st.rerun()
             else:
-                print("DEBUG: Company name is empty, showing error")
-                st.error("Please enter a company name.")
+                print("DEBUG: Callback - Company name is empty", file=sys.stderr)
+                sys.stderr.flush()
+
+        st.button("Generate Profile", type="primary", use_container_width=True, on_click=on_generate_click)
+
+        # Show error if name was empty
+        if company_name == "" and "company_name_input" not in st.session_state:
+            st.error("Please enter a company name.")
 
     print("DEBUG: Calling st.stop() to end LANDING PAGE section")
     st.stop()
