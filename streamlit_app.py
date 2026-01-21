@@ -163,6 +163,7 @@ if st.session_state.loading:
         current_progress = 0.05
         progress_increment = 0.01
         stage_index = 0
+        ticker = None
 
         while thread.is_alive():
             try:
@@ -183,6 +184,17 @@ if st.session_state.loading:
                 if current_progress > stages[min(stage_index + 1, len(stages) - 1)][1]:
                     stage_index = min(stage_index + 1, len(stages) - 1)
                     status_text.text(stages[stage_index][0])
+
+        # After thread finishes, get result from queue if not already retrieved
+        if ticker is None:
+            try:
+                result_type, result_data = result_queue.get(timeout=1)
+                if result_type == 'success':
+                    _, ticker = result_data
+                elif result_type == 'error':
+                    raise result_data
+            except queue.Empty:
+                print("DEBUG: Thread finished but no result in queue")
 
         print(f"DEBUG: pull_data_for_company returned ticker: {ticker}")
 
