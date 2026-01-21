@@ -27,8 +27,6 @@ if 'session_initialized' not in st.session_state:
     # Reset state for fresh session
     st.session_state.ticker = None
     st.session_state.loading = False
-    if 'company_name_input' in st.session_state:
-        del st.session_state.company_name_input
 
 # DEBUG: Print session state at the start
 print("=" * 50)
@@ -78,10 +76,6 @@ if not st.session_state.ticker and not st.session_state.loading:
                 sys.stderr.flush()
 
         st.button("Generate Profile", type="primary", use_container_width=True, on_click=on_generate_click)
-
-        # Show error if name was empty
-        if company_name == "" and "company_name_input" not in st.session_state:
-            st.error("Please enter a company name.")
 
     print("DEBUG: Calling st.stop() to end LANDING PAGE section")
     st.stop()
@@ -148,9 +142,12 @@ if st.session_state.loading:
 
         result_queue = queue.Queue()
 
+        # Store company name in local variable to avoid session state issues in thread
+        company_to_search = st.session_state.company_name_input
+
         def run_pull_data():
             try:
-                result = pull_data_for_company(st.session_state.company_name_input)
+                result = pull_data_for_company(company_to_search)
                 result_queue.put(('success', result))
             except Exception as e:
                 result_queue.put(('error', e))
@@ -247,8 +244,6 @@ if not COMPANY_TICKER:
     print("DEBUG: No ticker in session state, resetting to landing page")
     st.session_state.ticker = None
     st.session_state.loading = False
-    if 'company_name_input' in st.session_state:
-        del st.session_state.company_name_input
     st.rerun()
 
 print(f"DEBUG: About to load JSON file: ./data/{COMPANY_TICKER}_profile.json")
@@ -262,8 +257,6 @@ except FileNotFoundError:
     if st.button("Start New Search"):
         st.session_state.ticker = None
         st.session_state.loading = False
-        if 'company_name_input' in st.session_state:
-            del st.session_state.company_name_input
         st.rerun()
     st.stop()
 except Exception as e:
@@ -272,8 +265,6 @@ except Exception as e:
     if st.button("Start New Search"):
         st.session_state.ticker = None
         st.session_state.loading = False
-        if 'company_name_input' in st.session_state:
-            del st.session_state.company_name_input
         st.rerun()
     st.stop()
 
@@ -474,8 +465,6 @@ with st.sidebar:
     if st.button("📊 New Research", use_container_width=True):
         st.session_state.ticker = None
         st.session_state.loading = False
-        if 'company_name_input' in st.session_state:
-            del st.session_state.company_name_input
         st.rerun()
 
     st.markdown("---")
@@ -717,7 +706,10 @@ with geo_tabs[0]:
                 """, unsafe_allow_html=True)
                 st.progress(row['Percentage'] / 100)
     else:
-        geo_notes = data_customer_profile.get('customer_characteristics', {}).get('geographic_notes', '')
+        customer_chars = data_customer_profile.get('customer_characteristics', {})
+        if isinstance(customer_chars, list):
+            customer_chars = {}
+        geo_notes = customer_chars.get('geographic_notes', '')
         if geo_notes:
             st.info(f"📍 **Geographic Distribution:** {geo_notes}")
 
@@ -775,6 +767,8 @@ with cust_tabs[0]:
     st.markdown("**Customer Segment Mix**")
 
     segment_mix = data_customer_profile.get('segment_mix', {})
+    if isinstance(segment_mix, list):
+        segment_mix = {}
     if segment_mix:
         col1, col2 = st.columns([1, 1])
 
@@ -913,6 +907,8 @@ with cust_tabs[3]:
     st.markdown("**Customer Characteristics**")
 
     chars = data_customer_profile.get('customer_characteristics', {})
+    if isinstance(chars, list):
+        chars = {}
     if chars:
         col1, col2 = st.columns(2)
 
