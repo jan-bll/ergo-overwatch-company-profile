@@ -22,6 +22,13 @@ if 'ticker' not in st.session_state:
     st.session_state.ticker = None
 if 'loading' not in st.session_state:
     st.session_state.loading = False
+if 'session_initialized' not in st.session_state:
+    st.session_state.session_initialized = True
+    # Reset state for fresh session
+    st.session_state.ticker = None
+    st.session_state.loading = False
+    if 'company_name_input' in st.session_state:
+        del st.session_state.company_name_input
 
 # DEBUG: Print session state at the start
 print("=" * 50)
@@ -223,14 +230,39 @@ COMPANY_TICKER = st.session_state.ticker
 
 # COMPANY_TICKER='DELL'
 
+# Validate that ticker exists and file is available
+if not COMPANY_TICKER:
+    print("DEBUG: No ticker in session state, resetting to landing page")
+    st.session_state.ticker = None
+    st.session_state.loading = False
+    if 'company_name_input' in st.session_state:
+        del st.session_state.company_name_input
+    st.rerun()
+
 print(f"DEBUG: About to load JSON file: ./data/{COMPANY_TICKER}_profile.json")
 try:
     with open(f"./data/{COMPANY_TICKER}_profile.json", 'r') as f:
         data = json.load(f)
     print(f"DEBUG: Successfully loaded JSON file")
+except FileNotFoundError:
+    print(f"DEBUG: JSON file not found for ticker {COMPANY_TICKER}")
+    st.error(f"Profile data not found for {COMPANY_TICKER}. Please generate a new profile.")
+    if st.button("Start New Search"):
+        st.session_state.ticker = None
+        st.session_state.loading = False
+        if 'company_name_input' in st.session_state:
+            del st.session_state.company_name_input
+        st.rerun()
+    st.stop()
 except Exception as e:
     print(f"DEBUG: Failed to load JSON file: {str(e)}")
     st.error(f"Failed to load profile data: {str(e)}")
+    if st.button("Start New Search"):
+        st.session_state.ticker = None
+        st.session_state.loading = False
+        if 'company_name_input' in st.session_state:
+            del st.session_state.company_name_input
+        st.rerun()
     st.stop()
 
 # ============================================================================
@@ -428,7 +460,11 @@ with st.sidebar:
 
     # New Research Button
     if st.button("📊 New Research", use_container_width=True):
-        st.session_state.show_modal = True
+        st.session_state.ticker = None
+        st.session_state.loading = False
+        if 'company_name_input' in st.session_state:
+            del st.session_state.company_name_input
+        st.rerun()
 
     st.markdown("---")
 
