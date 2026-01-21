@@ -23,10 +23,18 @@ if 'ticker' not in st.session_state:
 if 'loading' not in st.session_state:
     st.session_state.loading = False
 
+# DEBUG: Print session state at the start
+print("=" * 50)
+print("DEBUG: Session state at start:")
+print(f"  ticker: {st.session_state.ticker}")
+print(f"  loading: {st.session_state.loading}")
+print("=" * 50)
+
 # ============================================================================
 # LANDING PAGE - Company Input Form
 # ============================================================================
 if not st.session_state.ticker and not st.session_state.loading:
+    print("DEBUG: Entering LANDING PAGE section")
     st.markdown("## Company Profile Deep Research")
     st.markdown("Enter a company name to generate a comprehensive profile")
 
@@ -39,21 +47,55 @@ if not st.session_state.ticker and not st.session_state.loading:
         )
 
         if st.button("Generate Profile", type="primary", use_container_width=True):
+            print(f"DEBUG: Button clicked with company_name: '{company_name}'")
             if company_name.strip():
+                print(f"DEBUG: Setting loading=True, company_name_input='{company_name.strip()}'")
                 st.session_state.loading = True
                 st.session_state.company_name_input = company_name.strip()
+                print(f"DEBUG: Session state after setting - loading: {st.session_state.loading}, company_name_input: {st.session_state.company_name_input}")
+                print("DEBUG: Calling st.rerun()")
                 st.rerun()
             else:
+                print("DEBUG: Company name is empty, showing error")
                 st.error("Please enter a company name.")
 
+    print("DEBUG: Calling st.stop() to end LANDING PAGE section")
     st.stop()
 
 # ============================================================================
 # LOADING STATE - Data Fetching
 # ============================================================================
+print(f"DEBUG: Checking LOADING STATE condition - loading: {st.session_state.loading}")
 if st.session_state.loading:
-    from merge_sectors_data import pull_data_for_company
+    print("DEBUG: Entering LOADING STATE section")
+    print("DEBUG: About to import merge_sectors_data.pull_data_for_company")
 
+    try:
+        from merge_sectors_data import pull_data_for_company
+        print("DEBUG: Successfully imported pull_data_for_company")
+    except ImportError as ie:
+        print(f"DEBUG: IMPORT ERROR: {str(ie)}")
+        import traceback
+        print(f"DEBUG: Import traceback: {traceback.format_exc()}")
+        st.error(f"Failed to import required module: {str(ie)}")
+        st.session_state.loading = False
+        st.stop()
+    except Exception as e:
+        print(f"DEBUG: UNEXPECTED ERROR during import: {str(e)}")
+        import traceback
+        print(f"DEBUG: Import traceback: {traceback.format_exc()}")
+        st.error(f"Unexpected error during import: {str(e)}")
+        st.session_state.loading = False
+        st.stop()
+
+    # Check if company_name_input exists in session state
+    if 'company_name_input' not in st.session_state:
+        print("DEBUG: ERROR - company_name_input NOT in session state!")
+        st.error("Error: Company name not found in session state")
+        st.session_state.loading = False
+        st.stop()
+
+    print(f"DEBUG: About to display loading UI for company: {st.session_state.company_name_input}")
     st.markdown(f"### Generating profile for {st.session_state.company_name_input}...")
     st.markdown("Our AI agents are researching financial data, supply chain, customers, and regulatory information.")
     st.markdown("**This typically takes 5-10 minutes.**")
@@ -74,11 +116,12 @@ if st.session_state.loading:
     progress_bar.progress(stages[0][1])
 
     try:
-        print(st.session_state.company_name_input)
-        print("tutaj tutaj")
+        print(f"DEBUG: About to call pull_data_for_company with: '{st.session_state.company_name_input}'")
         _, ticker = pull_data_for_company(st.session_state.company_name_input)
+        print(f"DEBUG: pull_data_for_company returned ticker: {ticker}")
 
         if ticker:
+            print(f"DEBUG: Ticker found: {ticker}, showing progress")
             for stage_text, stage_progress in stages[1:]:
                 status_text.text(stage_text)
                 progress_bar.progress(stage_progress)
@@ -87,32 +130,49 @@ if st.session_state.loading:
             progress_bar.progress(1.0)
             status_text.text("Profile ready!")
 
+            print(f"DEBUG: Setting ticker={ticker} and loading=False")
             st.session_state.ticker = ticker
             st.session_state.loading = False
+            print(f"DEBUG: Session state after setting - ticker: {st.session_state.ticker}, loading: {st.session_state.loading}")
             time.sleep(0.5)
+            print("DEBUG: Calling st.rerun() from success path")
             st.rerun()
         else:
+            print("DEBUG: No ticker returned, showing error")
             st.error("Failed to retrieve data for the company. Please try again.")
             st.session_state.loading = False
             if st.button("Try Again"):
                 st.rerun()
     except Exception as e:
+        print(f"DEBUG: Exception occurred: {str(e)}")
+        import traceback
+        print(f"DEBUG: Traceback: {traceback.format_exc()}")
         st.error(f"An error occurred: {str(e)}")
         st.session_state.loading = False
         if st.button("Try Again"):
             st.rerun()
 
+    print("DEBUG: Calling st.stop() to end LOADING STATE section")
     st.stop()
 
 # ============================================================================
 # LOAD DATA FROM JSON FILE
 # ============================================================================
+print("DEBUG: Reached MAIN REPORT section")
+print(f"DEBUG: ticker from session state: {st.session_state.ticker}")
 COMPANY_TICKER = st.session_state.ticker
 
 # COMPANY_TICKER='DELL'
 
-with open(f"./data/{COMPANY_TICKER}_profile.json", 'r') as f:
-    data = json.load(f)
+print(f"DEBUG: About to load JSON file: ./data/{COMPANY_TICKER}_profile.json")
+try:
+    with open(f"./data/{COMPANY_TICKER}_profile.json", 'r') as f:
+        data = json.load(f)
+    print(f"DEBUG: Successfully loaded JSON file")
+except Exception as e:
+    print(f"DEBUG: Failed to load JSON file: {str(e)}")
+    st.error(f"Failed to load profile data: {str(e)}")
+    st.stop()
 
 # ============================================================================
 # HELPER FUNCTIONS
